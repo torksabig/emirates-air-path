@@ -1,0 +1,1891 @@
+{
+  "flight_id": "EK201",
+  "origin_icao": "OMDB",
+  "dest_icao": "KMIA",
+  "origin": {
+    "lat": 25.2532,
+    "lon": 55.3657
+  },
+  "dest": {
+    "lat": 25.7959,
+    "lon": -80.287
+  },
+  "aircraft_type": "A388",
+  "departure_utc": "2026-08-26T05:50:00Z",
+  "waypoints": [
+    {
+      "seq": 0,
+      "lat": 25.2532,
+      "lon": 55.36569999999995,
+      "fl": 350.0,
+      "eta_utc": "2026-08-26T05:50:00Z"
+    },
+    {
+      "seq": 1,
+      "lat": 36.39383654773745,
+      "lon": 41.62308138323965,
+      "fl": 350.0,
+      "eta_utc": "2026-08-26T05:50:00Z"
+    },
+    {
+      "seq": 2,
+      "lat": 45.47559208432147,
+      "lon": 23.780180274157033,
+      "fl": 350.0,
+      "eta_utc": "2026-08-26T05:50:00Z"
+    },
+    {
+      "seq": 3,
+      "lat": 50.89427615945243,
+      "lon": 0.7613692759236983,
+      "fl": 350.0,
+      "eta_utc": "2026-08-26T05:50:00Z"
+    },
+    {
+      "seq": 4,
+      "lat": 51.02533898079819,
+      "lon": -25.08391435416695,
+      "fl": 350.0,
+      "eta_utc": "2026-08-26T05:50:00Z"
+    },
+    {
+      "seq": 5,
+      "lat": 45.820487331271025,
+      "lon": -48.322440720687325,
+      "fl": 350.0,
+      "eta_utc": "2026-08-26T05:50:00Z"
+    },
+    {
+      "seq": 6,
+      "lat": 36.868006730260454,
+      "lon": -66.3939347767274,
+      "fl": 350.0,
+      "eta_utc": "2026-08-26T05:50:00Z"
+    },
+    {
+      "seq": 7,
+      "lat": 25.795899999999996,
+      "lon": -80.28700000000003,
+      "fl": 350.0,
+      "eta_utc": "2026-08-26T05:50:00Z"
+    }
+  ],
+  "observations": [
+    {
+      "waypoint_seq": 0,
+      "source": "metar",
+      "variable": "temp_c",
+      "value": 39.0,
+      "issued_at_utc": "2026-08-26T05:30:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "OMDB",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "metar",
+      "variable": "wind_kt",
+      "value": 9.0,
+      "issued_at_utc": "2026-08-26T05:30:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "OMDB",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "metar",
+      "variable": "wind_from_deg",
+      "value": 180.0,
+      "issued_at_utc": "2026-08-26T05:30:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "OMDB",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "metar",
+      "variable": "temp_c",
+      "value": 38.0,
+      "issued_at_utc": "2026-08-26T05:00:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "OMDB",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "metar",
+      "variable": "wind_kt",
+      "value": 10.0,
+      "issued_at_utc": "2026-08-26T05:00:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "OMDB",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "metar",
+      "variable": "wind_from_deg",
+      "value": 190.0,
+      "issued_at_utc": "2026-08-26T05:00:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "OMDB",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 7,
+      "source": "metar",
+      "variable": "temp_c",
+      "value": 28.9,
+      "issued_at_utc": "2026-08-26T04:53:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "KMIA",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 7,
+      "source": "metar",
+      "variable": "wind_kt",
+      "value": 6.0,
+      "issued_at_utc": "2026-08-26T04:53:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "KMIA",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 7,
+      "source": "metar",
+      "variable": "wind_from_deg",
+      "value": 110.0,
+      "issued_at_utc": "2026-08-26T04:53:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "KMIA",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "metar",
+      "variable": "temp_c",
+      "value": 38.0,
+      "issued_at_utc": "2026-08-26T04:30:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "OMDB",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "metar",
+      "variable": "wind_kt",
+      "value": 9.0,
+      "issued_at_utc": "2026-08-26T04:30:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "OMDB",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "metar",
+      "variable": "wind_from_deg",
+      "value": 170.0,
+      "issued_at_utc": "2026-08-26T04:30:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "OMDB",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "metar",
+      "variable": "temp_c",
+      "value": 36.0,
+      "issued_at_utc": "2026-08-26T04:00:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "OMDB",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "metar",
+      "variable": "wind_kt",
+      "value": 8.0,
+      "issued_at_utc": "2026-08-26T04:00:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "OMDB",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "metar",
+      "variable": "wind_from_deg",
+      "value": 180.0,
+      "issued_at_utc": "2026-08-26T04:00:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "OMDB",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 7,
+      "source": "metar",
+      "variable": "temp_c",
+      "value": 28.9,
+      "issued_at_utc": "2026-08-26T03:53:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "KMIA",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 7,
+      "source": "metar",
+      "variable": "wind_kt",
+      "value": 6.0,
+      "issued_at_utc": "2026-08-26T03:53:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "KMIA",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 7,
+      "source": "metar",
+      "variable": "wind_from_deg",
+      "value": 110.0,
+      "issued_at_utc": "2026-08-26T03:53:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "KMIA",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "metar",
+      "variable": "temp_c",
+      "value": 35.0,
+      "issued_at_utc": "2026-08-26T03:30:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "OMDB",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "metar",
+      "variable": "wind_kt",
+      "value": 6.0,
+      "issued_at_utc": "2026-08-26T03:30:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "OMDB",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "metar",
+      "variable": "wind_from_deg",
+      "value": 190.0,
+      "issued_at_utc": "2026-08-26T03:30:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "OMDB",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "metar",
+      "variable": "temp_c",
+      "value": 35.0,
+      "issued_at_utc": "2026-08-26T03:00:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "OMDB",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "metar",
+      "variable": "wind_kt",
+      "value": 7.0,
+      "issued_at_utc": "2026-08-26T03:00:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "OMDB",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "metar",
+      "variable": "wind_from_deg",
+      "value": 150.0,
+      "issued_at_utc": "2026-08-26T03:00:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "OMDB",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 7,
+      "source": "metar",
+      "variable": "temp_c",
+      "value": 29.4,
+      "issued_at_utc": "2026-08-26T02:53:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "KMIA",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 7,
+      "source": "metar",
+      "variable": "wind_kt",
+      "value": 6.0,
+      "issued_at_utc": "2026-08-26T02:53:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "KMIA",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 7,
+      "source": "metar",
+      "variable": "wind_from_deg",
+      "value": 110.0,
+      "issued_at_utc": "2026-08-26T02:53:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "KMIA",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "metar",
+      "variable": "temp_c",
+      "value": 35.0,
+      "issued_at_utc": "2026-08-26T02:30:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "OMDB",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "metar",
+      "variable": "wind_kt",
+      "value": 3.0,
+      "issued_at_utc": "2026-08-26T02:30:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "OMDB",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "metar",
+      "variable": "wind_from_deg",
+      "value": 120.0,
+      "issued_at_utc": "2026-08-26T02:30:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "OMDB",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "metar",
+      "variable": "temp_c",
+      "value": 36.0,
+      "issued_at_utc": "2026-08-26T02:00:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "OMDB",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "metar",
+      "variable": "wind_kt",
+      "value": 5.0,
+      "issued_at_utc": "2026-08-26T02:00:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "OMDB",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "metar",
+      "variable": "wind_from_deg",
+      "value": 130.0,
+      "issued_at_utc": "2026-08-26T02:00:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "OMDB",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 7,
+      "source": "metar",
+      "variable": "temp_c",
+      "value": 28.9,
+      "issued_at_utc": "2026-08-26T01:53:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "KMIA",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 7,
+      "source": "metar",
+      "variable": "wind_kt",
+      "value": 5.0,
+      "issued_at_utc": "2026-08-26T01:53:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "KMIA",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 7,
+      "source": "metar",
+      "variable": "wind_from_deg",
+      "value": 140.0,
+      "issued_at_utc": "2026-08-26T01:53:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "KMIA",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "metar",
+      "variable": "temp_c",
+      "value": 36.0,
+      "issued_at_utc": "2026-08-26T01:30:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "OMDB",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "metar",
+      "variable": "wind_kt",
+      "value": 5.0,
+      "issued_at_utc": "2026-08-26T01:30:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "OMDB",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "metar",
+      "variable": "wind_from_deg",
+      "value": 100.0,
+      "issued_at_utc": "2026-08-26T01:30:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "OMDB",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "metar",
+      "variable": "temp_c",
+      "value": 36.0,
+      "issued_at_utc": "2026-08-26T01:00:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "OMDB",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "metar",
+      "variable": "wind_kt",
+      "value": 6.0,
+      "issued_at_utc": "2026-08-26T01:00:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "OMDB",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "metar",
+      "variable": "wind_from_deg",
+      "value": 90.0,
+      "issued_at_utc": "2026-08-26T01:00:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "OMDB",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 7,
+      "source": "metar",
+      "variable": "temp_c",
+      "value": 29.4,
+      "issued_at_utc": "2026-08-26T00:53:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "KMIA",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 7,
+      "source": "metar",
+      "variable": "wind_kt",
+      "value": 6.0,
+      "issued_at_utc": "2026-08-26T00:53:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "KMIA",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 7,
+      "source": "metar",
+      "variable": "wind_from_deg",
+      "value": 130.0,
+      "issued_at_utc": "2026-08-26T00:53:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "KMIA",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "metar",
+      "variable": "temp_c",
+      "value": 36.0,
+      "issued_at_utc": "2026-08-26T00:30:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "OMDB",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "metar",
+      "variable": "wind_kt",
+      "value": 5.0,
+      "issued_at_utc": "2026-08-26T00:30:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "OMDB",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "metar",
+      "variable": "wind_from_deg",
+      "value": 90.0,
+      "issued_at_utc": "2026-08-26T00:30:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "OMDB",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "metar",
+      "variable": "temp_c",
+      "value": 36.0,
+      "issued_at_utc": "2026-08-26T00:00:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "OMDB",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "metar",
+      "variable": "wind_kt",
+      "value": 6.0,
+      "issued_at_utc": "2026-08-26T00:00:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "OMDB",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "metar",
+      "variable": "wind_from_deg",
+      "value": 80.0,
+      "issued_at_utc": "2026-08-26T00:00:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "OMDB",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 7,
+      "source": "metar",
+      "variable": "temp_c",
+      "value": 30.0,
+      "issued_at_utc": "2026-08-25T23:53:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "KMIA",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 7,
+      "source": "metar",
+      "variable": "wind_kt",
+      "value": 4.0,
+      "issued_at_utc": "2026-08-25T23:53:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "KMIA",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 7,
+      "source": "metar",
+      "variable": "wind_from_deg",
+      "value": 140.0,
+      "issued_at_utc": "2026-08-25T23:53:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "metar",
+        "station": "KMIA",
+        "fl": 0.0
+      }
+    },
+    {
+      "waypoint_seq": 4,
+      "source": "pirep",
+      "variable": "temp_c",
+      "value": -47.0,
+      "issued_at_utc": "2026-08-26T05:47:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "pirep",
+        "fl": 350.0,
+        "raw": "ARP QTR87Q 5017N02548W 0547 F350 4900N02000W 0613 4800N01500W MS47 342/137 KT A7ANL QXT EUA 260547 J31A "
+      }
+    },
+    {
+      "waypoint_seq": 4,
+      "source": "pirep",
+      "variable": "wind_kt",
+      "value": 137.0,
+      "issued_at_utc": "2026-08-26T05:47:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "pirep",
+        "fl": 350.0,
+        "raw": "ARP QTR87Q 5017N02548W 0547 F350 4900N02000W 0613 4800N01500W MS47 342/137 KT A7ANL QXT EUA 260547 J31A "
+      }
+    },
+    {
+      "waypoint_seq": 4,
+      "source": "pirep",
+      "variable": "wind_from_deg",
+      "value": 342.0,
+      "issued_at_utc": "2026-08-26T05:47:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "pirep",
+        "fl": 350.0,
+        "raw": "ARP QTR87Q 5017N02548W 0547 F350 4900N02000W 0613 4800N01500W MS47 342/137 KT A7ANL QXT EUA 260547 J31A "
+      }
+    },
+    {
+      "waypoint_seq": 4,
+      "source": "pirep",
+      "variable": "temp_c",
+      "value": -42.0,
+      "issued_at_utc": "2026-08-26T05:45:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "pirep",
+        "fl": 340.0,
+        "raw": "ARP EIN9LT 5042N02339W 0545 F340 5058N02000W 0603 DINIM MS42 351/61 KT EILRC DDL IG1 260546 J33A "
+      }
+    },
+    {
+      "waypoint_seq": 4,
+      "source": "pirep",
+      "variable": "wind_kt",
+      "value": 61.0,
+      "issued_at_utc": "2026-08-26T05:45:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "pirep",
+        "fl": 340.0,
+        "raw": "ARP EIN9LT 5042N02339W 0545 F340 5058N02000W 0603 DINIM MS42 351/61 KT EILRC DDL IG1 260546 J33A "
+      }
+    },
+    {
+      "waypoint_seq": 4,
+      "source": "pirep",
+      "variable": "wind_from_deg",
+      "value": 351.0,
+      "issued_at_utc": "2026-08-26T05:45:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "pirep",
+        "fl": 340.0,
+        "raw": "ARP EIN9LT 5042N02339W 0545 F340 5058N02000W 0603 DINIM MS42 351/61 KT EILRC DDL IG1 260546 J33A "
+      }
+    },
+    {
+      "waypoint_seq": 5,
+      "source": "pirep",
+      "variable": "temp_c",
+      "value": -55.0,
+      "issued_at_utc": "2026-08-26T05:42:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "pirep",
+        "fl": 390.0,
+        "raw": "ARP DAL124 4604N04919W 0542 F390 4658N04000W 0627 4558N03001W MS55 238/65 KT N439DX DDL YYT 260542 J58A"
+      }
+    },
+    {
+      "waypoint_seq": 5,
+      "source": "pirep",
+      "variable": "wind_kt",
+      "value": 65.0,
+      "issued_at_utc": "2026-08-26T05:42:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "pirep",
+        "fl": 390.0,
+        "raw": "ARP DAL124 4604N04919W 0542 F390 4658N04000W 0627 4558N03001W MS55 238/65 KT N439DX DDL YYT 260542 J58A"
+      }
+    },
+    {
+      "waypoint_seq": 5,
+      "source": "pirep",
+      "variable": "wind_from_deg",
+      "value": 238.0,
+      "issued_at_utc": "2026-08-26T05:42:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "pirep",
+        "fl": 390.0,
+        "raw": "ARP DAL124 4604N04919W 0542 F390 4658N04000W 0627 4558N03001W MS55 238/65 KT N439DX DDL YYT 260542 J58A"
+      }
+    },
+    {
+      "waypoint_seq": 4,
+      "source": "pirep",
+      "variable": "temp_c",
+      "value": -47.0,
+      "issued_at_utc": "2026-08-26T05:35:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "pirep",
+        "fl": 360.0,
+        "raw": "ARP AFR33J 5127N02620W 0535 F360 5159N02000W 0604 5159N01500W MS47 340/133 KT FGSQG QXT EUA 260535 F51A "
+      }
+    },
+    {
+      "waypoint_seq": 4,
+      "source": "pirep",
+      "variable": "wind_kt",
+      "value": 133.0,
+      "issued_at_utc": "2026-08-26T05:35:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "pirep",
+        "fl": 360.0,
+        "raw": "ARP AFR33J 5127N02620W 0535 F360 5159N02000W 0604 5159N01500W MS47 340/133 KT FGSQG QXT EUA 260535 F51A "
+      }
+    },
+    {
+      "waypoint_seq": 4,
+      "source": "pirep",
+      "variable": "wind_from_deg",
+      "value": 340.0,
+      "issued_at_utc": "2026-08-26T05:35:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "pirep",
+        "fl": 360.0,
+        "raw": "ARP AFR33J 5127N02620W 0535 F360 5159N02000W 0604 5159N01500W MS47 340/133 KT FGSQG QXT EUA 260535 F51A "
+      }
+    },
+    {
+      "waypoint_seq": 4,
+      "source": "pirep",
+      "variable": "temp_c",
+      "value": -47.0,
+      "issued_at_utc": "2026-08-26T05:33:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "pirep",
+        "fl": 350.0,
+        "raw": "ARP WJA62 5130N02601W 0533 F350 5200N02000W 0603 LIMRI MS47 344/137 KT CGWJN QXT IGW 260533 F71A "
+      }
+    },
+    {
+      "waypoint_seq": 4,
+      "source": "pirep",
+      "variable": "wind_kt",
+      "value": 137.0,
+      "issued_at_utc": "2026-08-26T05:33:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "pirep",
+        "fl": 350.0,
+        "raw": "ARP WJA62 5130N02601W 0533 F350 5200N02000W 0603 LIMRI MS47 344/137 KT CGWJN QXT IGW 260533 F71A "
+      }
+    },
+    {
+      "waypoint_seq": 4,
+      "source": "pirep",
+      "variable": "wind_from_deg",
+      "value": 344.0,
+      "issued_at_utc": "2026-08-26T05:33:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "pirep",
+        "fl": 350.0,
+        "raw": "ARP WJA62 5130N02601W 0533 F350 5200N02000W 0603 LIMRI MS47 344/137 KT CGWJN QXT IGW 260533 F71A "
+      }
+    },
+    {
+      "waypoint_seq": 5,
+      "source": "pirep",
+      "variable": "temp_c",
+      "value": -49.0,
+      "issued_at_utc": "2026-08-26T05:32:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "pirep",
+        "fl": 370.0,
+        "raw": "ARP DAL114 4611N04845W 0532 F370 4700N04000W 0615 4600N03000W MS49 238/57 KT N179DN QXS YYT 260532 F09A"
+      }
+    },
+    {
+      "waypoint_seq": 5,
+      "source": "pirep",
+      "variable": "wind_kt",
+      "value": 57.0,
+      "issued_at_utc": "2026-08-26T05:32:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "pirep",
+        "fl": 370.0,
+        "raw": "ARP DAL114 4611N04845W 0532 F370 4700N04000W 0615 4600N03000W MS49 238/57 KT N179DN QXS YYT 260532 F09A"
+      }
+    },
+    {
+      "waypoint_seq": 5,
+      "source": "pirep",
+      "variable": "wind_from_deg",
+      "value": 238.0,
+      "issued_at_utc": "2026-08-26T05:32:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "pirep",
+        "fl": 370.0,
+        "raw": "ARP DAL114 4611N04845W 0532 F370 4700N04000W 0615 4600N03000W MS49 238/57 KT N179DN QXS YYT 260532 F09A"
+      }
+    },
+    {
+      "waypoint_seq": 4,
+      "source": "pirep",
+      "variable": "temp_c",
+      "value": -51.0,
+      "issued_at_utc": "2026-08-26T05:31:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "pirep",
+        "fl": 370.0,
+        "raw": "ARP ITY6KC 5128N02625W 0531 F370 5200N02000W 0601 LIMRI MS51 339/134 KT EIHJP QXT AME 260531 J47A "
+      }
+    },
+    {
+      "waypoint_seq": 4,
+      "source": "pirep",
+      "variable": "wind_kt",
+      "value": 134.0,
+      "issued_at_utc": "2026-08-26T05:31:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "pirep",
+        "fl": 370.0,
+        "raw": "ARP ITY6KC 5128N02625W 0531 F370 5200N02000W 0601 LIMRI MS51 339/134 KT EIHJP QXT AME 260531 J47A "
+      }
+    },
+    {
+      "waypoint_seq": 4,
+      "source": "pirep",
+      "variable": "wind_from_deg",
+      "value": 339.0,
+      "issued_at_utc": "2026-08-26T05:31:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "pirep",
+        "fl": 370.0,
+        "raw": "ARP ITY6KC 5128N02625W 0531 F370 5200N02000W 0601 LIMRI MS51 339/134 KT EIHJP QXT AME 260531 J47A "
+      }
+    },
+    {
+      "waypoint_seq": 4,
+      "source": "pirep",
+      "variable": "temp_c",
+      "value": -43.0,
+      "issued_at_utc": "2026-08-26T05:31:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "pirep",
+        "fl": 370.0,
+        "raw": "ARP EIN106 5044N02348W 0531 F370 5100N02000W 0549 DINIM MS43 349/61 KT EIEIL DDL XXF 260531 J86A "
+      }
+    },
+    {
+      "waypoint_seq": 4,
+      "source": "pirep",
+      "variable": "wind_kt",
+      "value": 61.0,
+      "issued_at_utc": "2026-08-26T05:31:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "pirep",
+        "fl": 370.0,
+        "raw": "ARP EIN106 5044N02348W 0531 F370 5100N02000W 0549 DINIM MS43 349/61 KT EIEIL DDL XXF 260531 J86A "
+      }
+    },
+    {
+      "waypoint_seq": 4,
+      "source": "pirep",
+      "variable": "wind_from_deg",
+      "value": 349.0,
+      "issued_at_utc": "2026-08-26T05:31:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "pirep",
+        "fl": 370.0,
+        "raw": "ARP EIN106 5044N02348W 0531 F370 5100N02000W 0549 DINIM MS43 349/61 KT EIEIL DDL XXF 260531 J86A "
+      }
+    },
+    {
+      "waypoint_seq": 5,
+      "source": "pirep",
+      "variable": "temp_c",
+      "value": -41.0,
+      "issued_at_utc": "2026-08-26T05:30:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "pirep",
+        "fl": 340.0,
+        "raw": "ARP GTI4326 4618N04847W 0530 F340 4800N04000W 0613 4800N03000W MS41 238/51 KT N747BC DDL YYT 260530 F54A"
+      }
+    },
+    {
+      "waypoint_seq": 5,
+      "source": "pirep",
+      "variable": "wind_kt",
+      "value": 51.0,
+      "issued_at_utc": "2026-08-26T05:30:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "pirep",
+        "fl": 340.0,
+        "raw": "ARP GTI4326 4618N04847W 0530 F340 4800N04000W 0613 4800N03000W MS41 238/51 KT N747BC DDL YYT 260530 F54A"
+      }
+    },
+    {
+      "waypoint_seq": 5,
+      "source": "pirep",
+      "variable": "wind_from_deg",
+      "value": 238.0,
+      "issued_at_utc": "2026-08-26T05:30:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "pirep",
+        "fl": 340.0,
+        "raw": "ARP GTI4326 4618N04847W 0530 F340 4800N04000W 0613 4800N03000W MS41 238/51 KT N747BC DDL YYT 260530 F54A"
+      }
+    },
+    {
+      "waypoint_seq": 4,
+      "source": "pirep",
+      "variable": "temp_c",
+      "value": -44.0,
+      "issued_at_utc": "2026-08-26T05:29:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "pirep",
+        "fl": 390.0,
+        "raw": "ARP EIN1AW 5042N02344W 0529 F390 5058N02000W 0547 5058N01500W MS44 346/52 KT EIEIK DDL XXF 260530 J07A "
+      }
+    },
+    {
+      "waypoint_seq": 4,
+      "source": "pirep",
+      "variable": "wind_kt",
+      "value": 52.0,
+      "issued_at_utc": "2026-08-26T05:29:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "pirep",
+        "fl": 390.0,
+        "raw": "ARP EIN1AW 5042N02344W 0529 F390 5058N02000W 0547 5058N01500W MS44 346/52 KT EIEIK DDL XXF 260530 J07A "
+      }
+    },
+    {
+      "waypoint_seq": 4,
+      "source": "pirep",
+      "variable": "wind_from_deg",
+      "value": 346.0,
+      "issued_at_utc": "2026-08-26T05:29:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "awc",
+        "product": "pirep",
+        "fl": 390.0,
+        "raw": "ARP EIN1AW 5042N02344W 0529 F390 5058N02000W 0547 5058N01500W MS44 346/52 KT EIEIK DDL XXF 260530 J07A "
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "era5",
+      "variable": "temp_c",
+      "value": 40.5,
+      "issued_at_utc": "2026-08-26T06:00:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "era5",
+        "fl": 350.0,
+        "alt_ft": 35000.0,
+        "level_hpa": 250,
+        "valid_time": "2026-08-26T06:00:00Z",
+        "isa_dev_k": 94.84199999999998
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "era5",
+      "variable": "wind_kt",
+      "value": 5.1,
+      "issued_at_utc": "2026-08-26T06:00:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "era5",
+        "fl": 350.0,
+        "alt_ft": 35000.0,
+        "level_hpa": 250,
+        "valid_time": "2026-08-26T06:00:00Z",
+        "isa_dev_k": 94.84199999999998
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "era5",
+      "variable": "wind_from_deg",
+      "value": 191.0,
+      "issued_at_utc": "2026-08-26T06:00:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "era5",
+        "fl": 350.0,
+        "alt_ft": 35000.0,
+        "level_hpa": 250,
+        "valid_time": "2026-08-26T06:00:00Z",
+        "isa_dev_k": 94.84199999999998
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "era5",
+      "variable": "isa_dev_k",
+      "value": 94.84199999999998,
+      "issued_at_utc": "2026-08-26T06:00:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "era5",
+        "fl": 350.0,
+        "alt_ft": 35000.0,
+        "level_hpa": 250,
+        "valid_time": "2026-08-26T06:00:00Z",
+        "isa_dev_k": 94.84199999999998
+      }
+    },
+    {
+      "waypoint_seq": 7,
+      "source": "era5",
+      "variable": "temp_c",
+      "value": 27.3,
+      "issued_at_utc": "2026-08-26T06:00:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "era5",
+        "fl": 350.0,
+        "alt_ft": 35000.0,
+        "level_hpa": 250,
+        "valid_time": "2026-08-26T06:00:00Z",
+        "isa_dev_k": 81.642
+      }
+    },
+    {
+      "waypoint_seq": 7,
+      "source": "era5",
+      "variable": "wind_kt",
+      "value": 4.9,
+      "issued_at_utc": "2026-08-26T06:00:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "era5",
+        "fl": 350.0,
+        "alt_ft": 35000.0,
+        "level_hpa": 250,
+        "valid_time": "2026-08-26T06:00:00Z",
+        "isa_dev_k": 81.642
+      }
+    },
+    {
+      "waypoint_seq": 7,
+      "source": "era5",
+      "variable": "wind_from_deg",
+      "value": 113.0,
+      "issued_at_utc": "2026-08-26T06:00:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "era5",
+        "fl": 350.0,
+        "alt_ft": 35000.0,
+        "level_hpa": 250,
+        "valid_time": "2026-08-26T06:00:00Z",
+        "isa_dev_k": 81.642
+      }
+    },
+    {
+      "waypoint_seq": 7,
+      "source": "era5",
+      "variable": "isa_dev_k",
+      "value": 81.642,
+      "issued_at_utc": "2026-08-26T06:00:00Z",
+      "is_forecast": false,
+      "meta": {
+        "provider": "era5",
+        "fl": 350.0,
+        "alt_ft": 35000.0,
+        "level_hpa": 250,
+        "valid_time": "2026-08-26T06:00:00Z",
+        "isa_dev_k": 81.642
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "gfs",
+      "variable": "temp_c",
+      "value": -35.0,
+      "issued_at_utc": "2026-08-26T06:00:00Z",
+      "is_forecast": true,
+      "meta": {
+        "provider": "gfs",
+        "fl": 350.0,
+        "alt_ft": 35000.0,
+        "level_hpa": 250,
+        "valid_time": "2026-08-26T06:00:00Z",
+        "isa_dev_k": 19.341999999999985
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "gfs",
+      "variable": "wind_kt",
+      "value": 11.5,
+      "issued_at_utc": "2026-08-26T06:00:00Z",
+      "is_forecast": true,
+      "meta": {
+        "provider": "gfs",
+        "fl": 350.0,
+        "alt_ft": 35000.0,
+        "level_hpa": 250,
+        "valid_time": "2026-08-26T06:00:00Z",
+        "isa_dev_k": 19.341999999999985
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "gfs",
+      "variable": "wind_from_deg",
+      "value": 218.0,
+      "issued_at_utc": "2026-08-26T06:00:00Z",
+      "is_forecast": true,
+      "meta": {
+        "provider": "gfs",
+        "fl": 350.0,
+        "alt_ft": 35000.0,
+        "level_hpa": 250,
+        "valid_time": "2026-08-26T06:00:00Z",
+        "isa_dev_k": 19.341999999999985
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "gfs",
+      "variable": "isa_dev_k",
+      "value": 19.341999999999985,
+      "issued_at_utc": "2026-08-26T06:00:00Z",
+      "is_forecast": true,
+      "meta": {
+        "provider": "gfs",
+        "fl": 350.0,
+        "alt_ft": 35000.0,
+        "level_hpa": 250,
+        "valid_time": "2026-08-26T06:00:00Z",
+        "isa_dev_k": 19.341999999999985
+      }
+    },
+    {
+      "waypoint_seq": 1,
+      "source": "gfs",
+      "variable": "temp_c",
+      "value": -36.5,
+      "issued_at_utc": "2026-08-26T06:00:00Z",
+      "is_forecast": true,
+      "meta": {
+        "provider": "gfs",
+        "fl": 350.0,
+        "alt_ft": 35000.0,
+        "level_hpa": 250,
+        "valid_time": "2026-08-26T06:00:00Z",
+        "isa_dev_k": 17.841999999999985
+      }
+    },
+    {
+      "waypoint_seq": 1,
+      "source": "gfs",
+      "variable": "wind_kt",
+      "value": 46.8,
+      "issued_at_utc": "2026-08-26T06:00:00Z",
+      "is_forecast": true,
+      "meta": {
+        "provider": "gfs",
+        "fl": 350.0,
+        "alt_ft": 35000.0,
+        "level_hpa": 250,
+        "valid_time": "2026-08-26T06:00:00Z",
+        "isa_dev_k": 17.841999999999985
+      }
+    },
+    {
+      "waypoint_seq": 1,
+      "source": "gfs",
+      "variable": "wind_from_deg",
+      "value": 248.0,
+      "issued_at_utc": "2026-08-26T06:00:00Z",
+      "is_forecast": true,
+      "meta": {
+        "provider": "gfs",
+        "fl": 350.0,
+        "alt_ft": 35000.0,
+        "level_hpa": 250,
+        "valid_time": "2026-08-26T06:00:00Z",
+        "isa_dev_k": 17.841999999999985
+      }
+    },
+    {
+      "waypoint_seq": 1,
+      "source": "gfs",
+      "variable": "isa_dev_k",
+      "value": 17.841999999999985,
+      "issued_at_utc": "2026-08-26T06:00:00Z",
+      "is_forecast": true,
+      "meta": {
+        "provider": "gfs",
+        "fl": 350.0,
+        "alt_ft": 35000.0,
+        "level_hpa": 250,
+        "valid_time": "2026-08-26T06:00:00Z",
+        "isa_dev_k": 17.841999999999985
+      }
+    },
+    {
+      "waypoint_seq": 2,
+      "source": "gfs",
+      "variable": "temp_c",
+      "value": -47.0,
+      "issued_at_utc": "2026-08-26T06:00:00Z",
+      "is_forecast": true,
+      "meta": {
+        "provider": "gfs",
+        "fl": 350.0,
+        "alt_ft": 35000.0,
+        "level_hpa": 250,
+        "valid_time": "2026-08-26T06:00:00Z",
+        "isa_dev_k": 7.3419999999999845
+      }
+    },
+    {
+      "waypoint_seq": 2,
+      "source": "gfs",
+      "variable": "wind_kt",
+      "value": 32.4,
+      "issued_at_utc": "2026-08-26T06:00:00Z",
+      "is_forecast": true,
+      "meta": {
+        "provider": "gfs",
+        "fl": 350.0,
+        "alt_ft": 35000.0,
+        "level_hpa": 250,
+        "valid_time": "2026-08-26T06:00:00Z",
+        "isa_dev_k": 7.3419999999999845
+      }
+    },
+    {
+      "waypoint_seq": 2,
+      "source": "gfs",
+      "variable": "wind_from_deg",
+      "value": 286.0,
+      "issued_at_utc": "2026-08-26T06:00:00Z",
+      "is_forecast": true,
+      "meta": {
+        "provider": "gfs",
+        "fl": 350.0,
+        "alt_ft": 35000.0,
+        "level_hpa": 250,
+        "valid_time": "2026-08-26T06:00:00Z",
+        "isa_dev_k": 7.3419999999999845
+      }
+    },
+    {
+      "waypoint_seq": 2,
+      "source": "gfs",
+      "variable": "isa_dev_k",
+      "value": 7.3419999999999845,
+      "issued_at_utc": "2026-08-26T06:00:00Z",
+      "is_forecast": true,
+      "meta": {
+        "provider": "gfs",
+        "fl": 350.0,
+        "alt_ft": 35000.0,
+        "level_hpa": 250,
+        "valid_time": "2026-08-26T06:00:00Z",
+        "isa_dev_k": 7.3419999999999845
+      }
+    },
+    {
+      "waypoint_seq": 3,
+      "source": "gfs",
+      "variable": "temp_c",
+      "value": -52.5,
+      "issued_at_utc": "2026-08-26T06:00:00Z",
+      "is_forecast": true,
+      "meta": {
+        "provider": "gfs",
+        "fl": 350.0,
+        "alt_ft": 35000.0,
+        "level_hpa": 250,
+        "valid_time": "2026-08-26T06:00:00Z",
+        "isa_dev_k": 1.8419999999999845
+      }
+    },
+    {
+      "waypoint_seq": 3,
+      "source": "gfs",
+      "variable": "wind_kt",
+      "value": 30.7,
+      "issued_at_utc": "2026-08-26T06:00:00Z",
+      "is_forecast": true,
+      "meta": {
+        "provider": "gfs",
+        "fl": 350.0,
+        "alt_ft": 35000.0,
+        "level_hpa": 250,
+        "valid_time": "2026-08-26T06:00:00Z",
+        "isa_dev_k": 1.8419999999999845
+      }
+    },
+    {
+      "waypoint_seq": 3,
+      "source": "gfs",
+      "variable": "wind_from_deg",
+      "value": 235.0,
+      "issued_at_utc": "2026-08-26T06:00:00Z",
+      "is_forecast": true,
+      "meta": {
+        "provider": "gfs",
+        "fl": 350.0,
+        "alt_ft": 35000.0,
+        "level_hpa": 250,
+        "valid_time": "2026-08-26T06:00:00Z",
+        "isa_dev_k": 1.8419999999999845
+      }
+    },
+    {
+      "waypoint_seq": 3,
+      "source": "gfs",
+      "variable": "isa_dev_k",
+      "value": 1.8419999999999845,
+      "issued_at_utc": "2026-08-26T06:00:00Z",
+      "is_forecast": true,
+      "meta": {
+        "provider": "gfs",
+        "fl": 350.0,
+        "alt_ft": 35000.0,
+        "level_hpa": 250,
+        "valid_time": "2026-08-26T06:00:00Z",
+        "isa_dev_k": 1.8419999999999845
+      }
+    },
+    {
+      "waypoint_seq": 4,
+      "source": "gfs",
+      "variable": "temp_c",
+      "value": -46.0,
+      "issued_at_utc": "2026-08-26T06:00:00Z",
+      "is_forecast": true,
+      "meta": {
+        "provider": "gfs",
+        "fl": 350.0,
+        "alt_ft": 35000.0,
+        "level_hpa": 250,
+        "valid_time": "2026-08-26T06:00:00Z",
+        "isa_dev_k": 8.341999999999985
+      }
+    },
+    {
+      "waypoint_seq": 4,
+      "source": "gfs",
+      "variable": "wind_kt",
+      "value": 148.5,
+      "issued_at_utc": "2026-08-26T06:00:00Z",
+      "is_forecast": true,
+      "meta": {
+        "provider": "gfs",
+        "fl": 350.0,
+        "alt_ft": 35000.0,
+        "level_hpa": 250,
+        "valid_time": "2026-08-26T06:00:00Z",
+        "isa_dev_k": 8.341999999999985
+      }
+    },
+    {
+      "waypoint_seq": 4,
+      "source": "gfs",
+      "variable": "wind_from_deg",
+      "value": 349.0,
+      "issued_at_utc": "2026-08-26T06:00:00Z",
+      "is_forecast": true,
+      "meta": {
+        "provider": "gfs",
+        "fl": 350.0,
+        "alt_ft": 35000.0,
+        "level_hpa": 250,
+        "valid_time": "2026-08-26T06:00:00Z",
+        "isa_dev_k": 8.341999999999985
+      }
+    },
+    {
+      "waypoint_seq": 4,
+      "source": "gfs",
+      "variable": "isa_dev_k",
+      "value": 8.341999999999985,
+      "issued_at_utc": "2026-08-26T06:00:00Z",
+      "is_forecast": true,
+      "meta": {
+        "provider": "gfs",
+        "fl": 350.0,
+        "alt_ft": 35000.0,
+        "level_hpa": 250,
+        "valid_time": "2026-08-26T06:00:00Z",
+        "isa_dev_k": 8.341999999999985
+      }
+    },
+    {
+      "waypoint_seq": 5,
+      "source": "gfs",
+      "variable": "temp_c",
+      "value": -41.5,
+      "issued_at_utc": "2026-08-26T06:00:00Z",
+      "is_forecast": true,
+      "meta": {
+        "provider": "gfs",
+        "fl": 350.0,
+        "alt_ft": 35000.0,
+        "level_hpa": 250,
+        "valid_time": "2026-08-26T06:00:00Z",
+        "isa_dev_k": 12.841999999999985
+      }
+    },
+    {
+      "waypoint_seq": 5,
+      "source": "gfs",
+      "variable": "wind_kt",
+      "value": 39.0,
+      "issued_at_utc": "2026-08-26T06:00:00Z",
+      "is_forecast": true,
+      "meta": {
+        "provider": "gfs",
+        "fl": 350.0,
+        "alt_ft": 35000.0,
+        "level_hpa": 250,
+        "valid_time": "2026-08-26T06:00:00Z",
+        "isa_dev_k": 12.841999999999985
+      }
+    },
+    {
+      "waypoint_seq": 5,
+      "source": "gfs",
+      "variable": "wind_from_deg",
+      "value": 249.0,
+      "issued_at_utc": "2026-08-26T06:00:00Z",
+      "is_forecast": true,
+      "meta": {
+        "provider": "gfs",
+        "fl": 350.0,
+        "alt_ft": 35000.0,
+        "level_hpa": 250,
+        "valid_time": "2026-08-26T06:00:00Z",
+        "isa_dev_k": 12.841999999999985
+      }
+    },
+    {
+      "waypoint_seq": 5,
+      "source": "gfs",
+      "variable": "isa_dev_k",
+      "value": 12.841999999999985,
+      "issued_at_utc": "2026-08-26T06:00:00Z",
+      "is_forecast": true,
+      "meta": {
+        "provider": "gfs",
+        "fl": 350.0,
+        "alt_ft": 35000.0,
+        "level_hpa": 250,
+        "valid_time": "2026-08-26T06:00:00Z",
+        "isa_dev_k": 12.841999999999985
+      }
+    },
+    {
+      "waypoint_seq": 6,
+      "source": "gfs",
+      "variable": "temp_c",
+      "value": -44.0,
+      "issued_at_utc": "2026-08-26T06:00:00Z",
+      "is_forecast": true,
+      "meta": {
+        "provider": "gfs",
+        "fl": 350.0,
+        "alt_ft": 35000.0,
+        "level_hpa": 250,
+        "valid_time": "2026-08-26T06:00:00Z",
+        "isa_dev_k": 10.341999999999985
+      }
+    },
+    {
+      "waypoint_seq": 6,
+      "source": "gfs",
+      "variable": "wind_kt",
+      "value": 40.6,
+      "issued_at_utc": "2026-08-26T06:00:00Z",
+      "is_forecast": true,
+      "meta": {
+        "provider": "gfs",
+        "fl": 350.0,
+        "alt_ft": 35000.0,
+        "level_hpa": 250,
+        "valid_time": "2026-08-26T06:00:00Z",
+        "isa_dev_k": 10.341999999999985
+      }
+    },
+    {
+      "waypoint_seq": 6,
+      "source": "gfs",
+      "variable": "wind_from_deg",
+      "value": 231.0,
+      "issued_at_utc": "2026-08-26T06:00:00Z",
+      "is_forecast": true,
+      "meta": {
+        "provider": "gfs",
+        "fl": 350.0,
+        "alt_ft": 35000.0,
+        "level_hpa": 250,
+        "valid_time": "2026-08-26T06:00:00Z",
+        "isa_dev_k": 10.341999999999985
+      }
+    },
+    {
+      "waypoint_seq": 6,
+      "source": "gfs",
+      "variable": "isa_dev_k",
+      "value": 10.341999999999985,
+      "issued_at_utc": "2026-08-26T06:00:00Z",
+      "is_forecast": true,
+      "meta": {
+        "provider": "gfs",
+        "fl": 350.0,
+        "alt_ft": 35000.0,
+        "level_hpa": 250,
+        "valid_time": "2026-08-26T06:00:00Z",
+        "isa_dev_k": 10.341999999999985
+      }
+    },
+    {
+      "waypoint_seq": 7,
+      "source": "gfs",
+      "variable": "temp_c",
+      "value": -42.5,
+      "issued_at_utc": "2026-08-26T06:00:00Z",
+      "is_forecast": true,
+      "meta": {
+        "provider": "gfs",
+        "fl": 350.0,
+        "alt_ft": 35000.0,
+        "level_hpa": 250,
+        "valid_time": "2026-08-26T06:00:00Z",
+        "isa_dev_k": 11.841999999999985
+      }
+    },
+    {
+      "waypoint_seq": 7,
+      "source": "gfs",
+      "variable": "wind_kt",
+      "value": 3.3,
+      "issued_at_utc": "2026-08-26T06:00:00Z",
+      "is_forecast": true,
+      "meta": {
+        "provider": "gfs",
+        "fl": 350.0,
+        "alt_ft": 35000.0,
+        "level_hpa": 250,
+        "valid_time": "2026-08-26T06:00:00Z",
+        "isa_dev_k": 11.841999999999985
+      }
+    },
+    {
+      "waypoint_seq": 7,
+      "source": "gfs",
+      "variable": "wind_from_deg",
+      "value": 169.0,
+      "issued_at_utc": "2026-08-26T06:00:00Z",
+      "is_forecast": true,
+      "meta": {
+        "provider": "gfs",
+        "fl": 350.0,
+        "alt_ft": 35000.0,
+        "level_hpa": 250,
+        "valid_time": "2026-08-26T06:00:00Z",
+        "isa_dev_k": 11.841999999999985
+      }
+    },
+    {
+      "waypoint_seq": 7,
+      "source": "gfs",
+      "variable": "isa_dev_k",
+      "value": 11.841999999999985,
+      "issued_at_utc": "2026-08-26T06:00:00Z",
+      "is_forecast": true,
+      "meta": {
+        "provider": "gfs",
+        "fl": 350.0,
+        "alt_ft": 35000.0,
+        "level_hpa": 250,
+        "valid_time": "2026-08-26T06:00:00Z",
+        "isa_dev_k": 11.841999999999985
+      }
+    }
+  ]
+}

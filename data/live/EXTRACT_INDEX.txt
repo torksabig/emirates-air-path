@@ -1,0 +1,140 @@
+Free-source extraction inventory
+================================
+
+flight files: 46
+  EK001_2026-08-25T163636Z_flight.json: observations=385
+  EK001_2026-08-25T191249Z_flight.json: observations=385
+  EK001_2026-08-26T054601Z_flight.json: observations=112
+  EK001_2026-08-26T072420Z_flight.json: observations=112
+  EK001_sample_matched_flight.json: observations=449
+  EK002_2026-08-25T163955Z_flight.json: observations=67
+  EK002_2026-08-25T191519Z_flight.json: observations=67
+  EK002_2026-08-26T073905Z_flight.json: observations=112
+  EK003_2026-08-26T054635Z_flight.json: observations=108
+  EK005_2026-08-25T164019Z_flight.json: observations=86
+  EK005_2026-08-25T191943Z_flight.json: observations=86
+  EK007_2026-08-25T164256Z_flight.json: observations=86
+  EK009_2026-08-25T164306Z_flight.json: observations=83
+  EK011_2026-08-25T164316Z_flight.json: observations=83
+  EK031_2026-08-26T054721Z_flight.json: observations=99
+  EK041_2026-08-26T072457Z_flight.json: observations=90
+  EK091_2026-08-26T073246Z_flight.json: observations=112
+  EK097_2026-08-26T054817Z_flight.json: observations=111
+  EK123_2026-08-26T054851Z_flight.json: observations=112
+  EK145_2026-08-26T054925Z_flight.json: observations=112
+  EK151_2026-08-26T072632Z_flight.json: observations=112
+  EK157_2026-08-26T072710Z_flight.json: observations=111
+  EK201_2026-08-26T055000Z_flight.json: observations=124
+  EK206_2026-08-26T073941Z_flight.json: observations=100
+  EK215_2026-08-25T164337Z_flight.json: observations=64
+  EK225_2026-08-26T073109Z_flight.json: observations=97
+  EK231_2026-08-26T072858Z_flight.json: observations=100
+  EK235_2026-08-26T072934Z_flight.json: observations=123
+  EK241_2026-08-26T055034Z_flight.json: observations=97
+  EK261_2026-08-26T073542Z_flight.json: observations=94
+  EK302_2026-08-26T073829Z_flight.json: observations=112
+  EK306_2026-08-26T073653Z_flight.json: observations=103
+  EK311_2026-08-26T055108Z_flight.json: observations=108
+  EK332_2026-08-26T073446Z_flight.json: observations=97
+  EK384_2026-08-26T055142Z_flight.json: observations=108
+  EK404_2026-08-25T164006Z_flight.json: observations=84
+  EK404_2026-08-25T191732Z_flight.json: observations=84
+  EK413_2026-08-25T164327Z_flight.json: observations=86
+  EK414_2026-08-26T074017Z_flight.json: observations=112
+  EK503_2026-08-26T055227Z_flight.json: observations=112
+  EK512_2026-08-26T073618Z_flight.json: observations=111
+  EK716_2026-08-26T055301Z_flight.json: observations=110
+  EK719_2026-08-26T072822Z_flight.json: observations=96
+  EK811_2026-08-26T073410Z_flight.json: observations=94
+  EK837_2026-08-26T073334Z_flight.json: observations=112
+  EK927_2026-08-26T072746Z_flight.json: observations=112
+
+total observations: 5520
+
+latest free-provider runs (meta)
+  EK927_2026-08-26T072746Z.json: n_obs=112 n_req=44 providers={'opensky': 2, 'iowa': 3, 'awc': 3, 'ncei': 2, 'era5': 2, 'ecmwf_ifs': 8, 'gfs': 8, 'ecmwf': 16} errors=4
+    - opensky/departures
+    - opensky/states
+    - ncei/global_hourly
+  EK837_2026-08-26T073334Z.json: n_obs=112 n_req=44 providers={'opensky': 2, 'iowa': 3, 'awc': 3, 'ncei': 2, 'era5': 2, 'ecmwf_ifs': 8, 'gfs': 8, 'ecmwf': 16} errors=4
+    - opensky/departures
+    - opensky/states
+    - ncei/global_hourly
+  EK811_2026-08-26T073410Z.json: n_obs=94 n_req=44 providers={'opensky': 2, 'iowa': 3, 'awc': 3, 'ncei': 2, 'era5': 2, 'ecmwf_ifs': 8, 'gfs': 8, 'ecmwf': 16} errors=4
+    - opensky/departures
+    - opensky/states
+    - ncei/global_hourly
+  EK719_2026-08-26T072822Z.json: n_obs=96 n_req=44 providers={'opensky': 2, 'iowa': 3, 'awc': 3, 'ncei': 2, 'era5': 2, 'ecmwf_ifs': 8, 'gfs': 8, 'ecmwf': 16} errors=4
+    - opensky/departures
+    - opensky/states
+    - ncei/global_hourly
+  EK716_2026-08-26T055301Z.json: n_obs=110 n_req=44 providers={'opensky': 2, 'iowa': 3, 'awc': 3, 'ncei': 2, 'era5': 2, 'ecmwf_ifs': 8, 'gfs': 8, 'ecmwf': 16} errors=4
+    - opensky/departures
+    - opensky/states
+    - ncei/global_hourly
+  EK512_2026-08-26T073618Z.json: n_obs=111 n_req=44 providers={'opensky': 2, 'iowa': 3, 'awc': 3, 'ncei': 2, 'era5': 2, 'ecmwf_ifs': 8, 'gfs': 8, 'ecmwf': 16} errors=5
+    - opensky/departures
+    - opensky/states
+    - iowa/metar
+    - ncei/global_hourly
+  EK503_2026-08-26T055227Z.json: n_obs=112 n_req=44 providers={'opensky': 2, 'iowa': 3, 'awc': 3, 'ncei': 2, 'era5': 2, 'ecmwf_ifs': 8, 'gfs': 8, 'ecmwf': 16} errors=5
+    - opensky/departures
+    - opensky/states
+    - iowa/metar
+    - ncei/global_hourly
+  EK414_2026-08-26T074017Z.json: n_obs=112 n_req=44 providers={'opensky': 2, 'iowa': 3, 'awc': 3, 'ncei': 2, 'era5': 2, 'ecmwf_ifs': 8, 'gfs': 8, 'ecmwf': 16} errors=5
+    - opensky/departures
+    - opensky/states
+    - ncei/global_hourly
+    - ecmwf_ifs/pressure_level
+  EK413_2026-08-25T164327Z.json: n_obs=86 n_req=24 providers={'iowa': 3, 'awc': 3, 'era5': 2, 'ecmwf_ifs': 8, 'gfs': 8} errors=0
+  EK404_2026-08-25T191732Z.json: n_obs=84 n_req=44 providers={'opensky': 2, 'iowa': 3, 'awc': 3, 'ncei': 2, 'era5': 2, 'ecmwf_ifs': 8, 'gfs': 8, 'ecmwf': 16} errors=4
+    - opensky/departures
+    - opensky/states
+    - ncei/global_hourly
+  EK384_2026-08-26T055142Z.json: n_obs=108 n_req=44 providers={'opensky': 2, 'iowa': 3, 'awc': 3, 'ncei': 2, 'era5': 2, 'ecmwf_ifs': 8, 'gfs': 8, 'ecmwf': 16} errors=6
+    - opensky/departures
+    - opensky/states
+    - iowa/metar
+    - ncei/global_hourly
+    - gfs/pressure_level
+  EK332_2026-08-26T073446Z.json: n_obs=97 n_req=44 providers={'opensky': 2, 'iowa': 3, 'awc': 3, 'ncei': 2, 'era5': 2, 'ecmwf_ifs': 8, 'gfs': 8, 'ecmwf': 16} errors=5
+    - opensky/departures
+    - opensky/states
+    - awc/pirep
+    - ncei/global_hourly
+  EK311_2026-08-26T055108Z.json: n_obs=108 n_req=44 providers={'opensky': 2, 'iowa': 3, 'awc': 3, 'ncei': 2, 'era5': 2, 'ecmwf_ifs': 8, 'gfs': 8, 'ecmwf': 16} errors=4
+    - opensky/departures
+    - opensky/states
+    - ncei/global_hourly
+  EK306_2026-08-26T073653Z.json: n_obs=103 n_req=44 providers={'opensky': 2, 'iowa': 3, 'awc': 3, 'ncei': 2, 'era5': 2, 'ecmwf_ifs': 8, 'gfs': 8, 'ecmwf': 16} errors=5
+    - opensky/departures
+    - opensky/states
+    - ncei/global_hourly
+    - era5/surface
+  EK302_2026-08-26T073829Z.json: n_obs=112 n_req=44 providers={'opensky': 2, 'iowa': 3, 'awc': 3, 'ncei': 2, 'era5': 2, 'ecmwf_ifs': 8, 'gfs': 8, 'ecmwf': 16} errors=4
+    - opensky/departures
+    - opensky/states
+    - ncei/global_hourly
+  EK261_2026-08-26T073542Z.json: n_obs=94 n_req=44 providers={'opensky': 2, 'iowa': 3, 'awc': 3, 'ncei': 2, 'era5': 2, 'ecmwf_ifs': 8, 'gfs': 8, 'ecmwf': 16} errors=4
+    - opensky/departures
+    - opensky/states
+    - ncei/global_hourly
+  EK241_2026-08-26T055034Z.json: n_obs=97 n_req=44 providers={'opensky': 2, 'iowa': 3, 'awc': 3, 'ncei': 2, 'era5': 2, 'ecmwf_ifs': 8, 'gfs': 8, 'ecmwf': 16} errors=4
+    - opensky/departures
+    - opensky/states
+    - ncei/global_hourly
+  EK235_2026-08-26T072934Z.json: n_obs=123 n_req=44 providers={'opensky': 2, 'iowa': 3, 'awc': 3, 'ncei': 2, 'era5': 2, 'ecmwf_ifs': 8, 'gfs': 8, 'ecmwf': 16} errors=5
+    - opensky/departures
+    - opensky/states
+    - ncei/global_hourly
+    - era5/surface
+  EK231_2026-08-26T072858Z.json: n_obs=100 n_req=44 providers={'opensky': 2, 'iowa': 3, 'awc': 3, 'ncei': 2, 'era5': 2, 'ecmwf_ifs': 8, 'gfs': 8, 'ecmwf': 16} errors=4
+    - opensky/departures
+    - opensky/states
+    - ncei/global_hourly
+  EK225_2026-08-26T073109Z.json: n_obs=97 n_req=44 providers={'opensky': 2, 'iowa': 3, 'awc': 3, 'ncei': 2, 'era5': 2, 'ecmwf_ifs': 8, 'gfs': 8, 'ecmwf': 16} errors=5
+    - opensky/departures
+    - opensky/states
+    - ncei/global_hourly
+    - ecmwf_ifs/pressure_level

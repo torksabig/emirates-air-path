@@ -1,0 +1,12 @@
+Emirates Air Path — publish note
+================================
+Dedicated repo https://github.com/torksabig/emirates-air-path still does not
+exist (GitHub App createRepository returns 403). Coworkers: use this folder
+on nordic-sdr until a dedicated repo is created under the user account.
+
+  Best open URL: https://github.com/torksabig/nordic-sdr/pull/4
+  Package path:  emirates-air-path/ on branch cursor/emirates-air-path-publish-0eaf
+  Tree:          https://github.com/torksabig/nordic-sdr/tree/cursor/emirates-air-path-publish-0eaf/emirates-air-path
+
+Synced from standalone /home/ubuntu/emirates-air-path (cursor/free-extract-batch-9080 @ 455c256).
+Refreshed UTC: 2026-08-26T07:43:10Z.

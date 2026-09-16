@@ -1,0 +1,308 @@
+[
+  {
+    "ident": "EK001",
+    "route": "OMDB-EGLL",
+    "stamp": "2026-08-26T054601Z",
+    "obs": 112,
+    "flight": "data/live/EK001_2026-08-26T054601Z_flight.json",
+    "meta": "data/live/EK001_2026-08-26T054601Z.json",
+    "errors": [
+      "opensky/departures: opensky departures network error: _ssl.c:983: The handshake operation timed out",
+      "opensky/states: opensky states network error: _ssl.c:983: The handshake operation timed out",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=25.453%2C55.166%2C25.053%2C55.566&format=json&limit=100",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=51.670%2C-0.654%2C51.270%2C-0.254&format=json&limit=100"
+    ],
+    "providers": {
+      "opensky": 2,
+      "iowa": 3,
+      "awc": 3,
+      "ncei": 2,
+      "era5": 2,
+      "ecmwf_ifs": 8,
+      "gfs": 8,
+      "ecmwf": 16
+    },
+    "elapsed_s": 34.0
+  },
+  {
+    "ident": "EK003",
+    "route": "OMDB-EHAM",
+    "stamp": "2026-08-26T054635Z",
+    "obs": 108,
+    "flight": "data/live/EK003_2026-08-26T054635Z_flight.json",
+    "meta": "data/live/EK003_2026-08-26T054635Z.json",
+    "errors": [
+      "opensky/departures: opensky departures network error: _ssl.c:983: The handshake operation timed out",
+      "opensky/states: opensky states network error: _ssl.c:983: The handshake operation timed out",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=25.453%2C55.166%2C25.053%2C55.566&format=json&limit=100",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=52.511%2C4.568%2C52.111%2C4.968&format=json&limit=100",
+      "gfs/pressure_level: gfs pressure_level network error: _ssl.c:983: The handshake operation timed out"
+    ],
+    "providers": {
+      "opensky": 2,
+      "iowa": 3,
+      "awc": 3,
+      "ncei": 2,
+      "era5": 2,
+      "ecmwf_ifs": 8,
+      "gfs": 8,
+      "ecmwf": 16
+    },
+    "elapsed_s": 45.4
+  },
+  {
+    "ident": "EK031",
+    "route": "OMDB-LEMD",
+    "stamp": "2026-08-26T054721Z",
+    "obs": 99,
+    "flight": "data/live/EK031_2026-08-26T054721Z_flight.json",
+    "meta": "data/live/EK031_2026-08-26T054721Z.json",
+    "errors": [
+      "opensky/departures: opensky departures network error: _ssl.c:983: The handshake operation timed out",
+      "opensky/states: opensky states network error: _ssl.c:983: The handshake operation timed out",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=25.453%2C55.166%2C25.053%2C55.566&format=json&limit=100",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=40.698%2C-3.768%2C40.298%2C-3.368&format=json&limit=100",
+      "gfs/pressure_level: gfs pressure_level network error: _ssl.c:983: The handshake operation timed out",
+      "gfs/pressure_level: gfs pressure_level network error: _ssl.c:983: The handshake operation timed out"
+    ],
+    "providers": {
+      "opensky": 2,
+      "iowa": 3,
+      "awc": 3,
+      "ncei": 2,
+      "era5": 2,
+      "ecmwf_ifs": 8,
+      "gfs": 8,
+      "ecmwf": 16
+    },
+    "elapsed_s": 56.8
+  },
+  {
+    "ident": "EK097",
+    "route": "OMDB-LIRF",
+    "stamp": "2026-08-26T054817Z",
+    "obs": 111,
+    "flight": "data/live/EK097_2026-08-26T054817Z_flight.json",
+    "meta": "data/live/EK097_2026-08-26T054817Z.json",
+    "errors": [
+      "opensky/departures: opensky departures network error: _ssl.c:983: The handshake operation timed out",
+      "opensky/states: opensky states network error: _ssl.c:983: The handshake operation timed out",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=25.453%2C55.166%2C25.053%2C55.566&format=json&limit=100",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=42.000%2C12.039%2C41.600%2C12.439&format=json&limit=100"
+    ],
+    "providers": {
+      "opensky": 2,
+      "iowa": 3,
+      "awc": 3,
+      "ncei": 2,
+      "era5": 2,
+      "ecmwf_ifs": 8,
+      "gfs": 8,
+      "ecmwf": 16
+    },
+    "elapsed_s": 33.7
+  },
+  {
+    "ident": "EK123",
+    "route": "OMDB-LTFM",
+    "stamp": "2026-08-26T054851Z",
+    "obs": 112,
+    "flight": "data/live/EK123_2026-08-26T054851Z_flight.json",
+    "meta": "data/live/EK123_2026-08-26T054851Z.json",
+    "errors": [
+      "opensky/departures: opensky departures network error: _ssl.c:983: The handshake operation timed out",
+      "opensky/states: opensky states network error: _ssl.c:983: The handshake operation timed out",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=25.453%2C55.166%2C25.053%2C55.566&format=json&limit=100",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=41.475%2C28.552%2C41.075%2C28.952&format=json&limit=100"
+    ],
+    "providers": {
+      "opensky": 2,
+      "iowa": 3,
+      "awc": 3,
+      "ncei": 2,
+      "era5": 2,
+      "ecmwf_ifs": 8,
+      "gfs": 8,
+      "ecmwf": 16
+    },
+    "elapsed_s": 33.9
+  },
+  {
+    "ident": "EK145",
+    "route": "OMDB-EFHK",
+    "stamp": "2026-08-26T054925Z",
+    "obs": 112,
+    "flight": "data/live/EK145_2026-08-26T054925Z_flight.json",
+    "meta": "data/live/EK145_2026-08-26T054925Z.json",
+    "errors": [
+      "opensky/departures: opensky departures network error: _ssl.c:983: The handshake operation timed out",
+      "opensky/states: opensky states network error: _ssl.c:983: The handshake operation timed out",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=25.453%2C55.166%2C25.053%2C55.566&format=json&limit=100",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=60.517%2C24.763%2C60.117%2C25.163&format=json&limit=100"
+    ],
+    "providers": {
+      "opensky": 2,
+      "iowa": 3,
+      "awc": 3,
+      "ncei": 2,
+      "era5": 2,
+      "ecmwf_ifs": 8,
+      "gfs": 8,
+      "ecmwf": 16
+    },
+    "elapsed_s": 35.3
+  },
+  {
+    "ident": "EK201",
+    "route": "OMDB-KMIA",
+    "stamp": "2026-08-26T055000Z",
+    "obs": 124,
+    "flight": "data/live/EK201_2026-08-26T055000Z_flight.json",
+    "meta": "data/live/EK201_2026-08-26T055000Z.json",
+    "errors": [
+      "opensky/departures: opensky departures network error: _ssl.c:983: The handshake operation timed out",
+      "opensky/states: opensky states network error: _ssl.c:983: The handshake operation timed out",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=25.453%2C55.166%2C25.053%2C55.566&format=json&limit=100",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=25.996%2C-80.487%2C25.596%2C-80.087&format=json&limit=100"
+    ],
+    "providers": {
+      "opensky": 2,
+      "iowa": 3,
+      "awc": 3,
+      "ncei": 2,
+      "era5": 2,
+      "ecmwf_ifs": 8,
+      "gfs": 8,
+      "ecmwf": 16
+    },
+    "elapsed_s": 33.7
+  },
+  {
+    "ident": "EK241",
+    "route": "OMDB-KLAX",
+    "stamp": "2026-08-26T055034Z",
+    "obs": 97,
+    "flight": "data/live/EK241_2026-08-26T055034Z_flight.json",
+    "meta": "data/live/EK241_2026-08-26T055034Z.json",
+    "errors": [
+      "opensky/departures: opensky departures network error: _ssl.c:983: The handshake operation timed out",
+      "opensky/states: opensky states network error: _ssl.c:983: The handshake operation timed out",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=25.453%2C55.166%2C25.053%2C55.566&format=json&limit=100",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=34.142%2C-118.608%2C33.742%2C-118.208&format=json&limit=100"
+    ],
+    "providers": {
+      "opensky": 2,
+      "iowa": 3,
+      "awc": 3,
+      "ncei": 2,
+      "era5": 2,
+      "ecmwf_ifs": 8,
+      "gfs": 8,
+      "ecmwf": 16
+    },
+    "elapsed_s": 34.4
+  },
+  {
+    "ident": "EK311",
+    "route": "OMDB-RJAA",
+    "stamp": "2026-08-26T055108Z",
+    "obs": 108,
+    "flight": "data/live/EK311_2026-08-26T055108Z_flight.json",
+    "meta": "data/live/EK311_2026-08-26T055108Z.json",
+    "errors": [
+      "opensky/departures: opensky departures network error: _ssl.c:983: The handshake operation timed out",
+      "opensky/states: opensky states network error: _ssl.c:983: The handshake operation timed out",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=25.453%2C55.166%2C25.053%2C55.566&format=json&limit=100",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=35.972%2C140.193%2C35.572%2C140.593&format=json&limit=100"
+    ],
+    "providers": {
+      "opensky": 2,
+      "iowa": 3,
+      "awc": 3,
+      "ncei": 2,
+      "era5": 2,
+      "ecmwf_ifs": 8,
+      "gfs": 8,
+      "ecmwf": 16
+    },
+    "elapsed_s": 33.8
+  },
+  {
+    "ident": "EK384",
+    "route": "OMDB-VTBS",
+    "stamp": "2026-08-26T055142Z",
+    "obs": 108,
+    "flight": "data/live/EK384_2026-08-26T055142Z_flight.json",
+    "meta": "data/live/EK384_2026-08-26T055142Z.json",
+    "errors": [
+      "opensky/departures: opensky departures network error: _ssl.c:983: The handshake operation timed out",
+      "opensky/states: opensky states network error: _ssl.c:983: The handshake operation timed out",
+      "iowa/metar: iowa metar HTTP 429: https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=VTBS&data=tmpc%2Csknt%2Cdrct&year1=2026&month1=8&day1=26&year2=2026&month2=8&day2=26&tz=UTC&format=json&latlon=no",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=25.453%2C55.166%2C25.053%2C55.566&format=json&limit=100",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=13.890%2C100.550%2C13.490%2C100.950&format=json&limit=100",
+      "gfs/pressure_level: gfs pressure_level network error: _ssl.c:983: The handshake operation timed out"
+    ],
+    "providers": {
+      "opensky": 2,
+      "iowa": 3,
+      "awc": 3,
+      "ncei": 2,
+      "era5": 2,
+      "ecmwf_ifs": 8,
+      "gfs": 8,
+      "ecmwf": 16
+    },
+    "elapsed_s": 45.1
+  },
+  {
+    "ident": "EK503",
+    "route": "OMDB-VABB",
+    "stamp": "2026-08-26T055227Z",
+    "obs": 112,
+    "flight": "data/live/EK503_2026-08-26T055227Z_flight.json",
+    "meta": "data/live/EK503_2026-08-26T055227Z.json",
+    "errors": [
+      "opensky/departures: opensky departures network error: _ssl.c:983: The handshake operation timed out",
+      "opensky/states: opensky states network error: _ssl.c:983: The handshake operation timed out",
+      "iowa/metar: iowa metar HTTP 429: https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=VABB&data=tmpc%2Csknt%2Cdrct&year1=2026&month1=8&day1=26&year2=2026&month2=8&day2=26&tz=UTC&format=json&latlon=no",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=25.453%2C55.166%2C25.053%2C55.566&format=json&limit=100",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=19.290%2C72.666%2C18.890%2C73.066&format=json&limit=100"
+    ],
+    "providers": {
+      "opensky": 2,
+      "iowa": 3,
+      "awc": 3,
+      "ncei": 2,
+      "era5": 2,
+      "ecmwf_ifs": 8,
+      "gfs": 8,
+      "ecmwf": 16
+    },
+    "elapsed_s": 33.5
+  },
+  {
+    "ident": "EK716",
+    "route": "OMDB-FAOR",
+    "stamp": "2026-08-26T055301Z",
+    "obs": 110,
+    "flight": "data/live/EK716_2026-08-26T055301Z_flight.json",
+    "meta": "data/live/EK716_2026-08-26T055301Z.json",
+    "errors": [
+      "opensky/departures: opensky departures network error: _ssl.c:983: The handshake operation timed out",
+      "opensky/states: opensky states network error: _ssl.c:983: The handshake operation timed out",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=25.453%2C55.166%2C25.053%2C55.566&format=json&limit=100",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=-25.939%2C28.046%2C-26.339%2C28.446&format=json&limit=100"
+    ],
+    "providers": {
+      "opensky": 2,
+      "iowa": 3,
+      "awc": 3,
+      "ncei": 2,
+      "era5": 2,
+      "ecmwf_ifs": 8,
+      "gfs": 8,
+      "ecmwf": 16
+    },
+    "elapsed_s": 33.7
+  }
+]
