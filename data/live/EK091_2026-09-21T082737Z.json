@@ -1,0 +1,893 @@
+{
+  "kind": "airpath_live",
+  "stamp_utc": "2026-09-21T082737Z",
+  "flight_id": "EK091",
+  "dry_run": false,
+  "providers_default": [
+    "opensky",
+    "iowa",
+    "awc",
+    "ncei",
+    "era5",
+    "ecmwf_ifs",
+    "gfs",
+    "ecmwf"
+  ],
+  "out_flight": "data/live/EK091_2026-09-21T082737Z_flight.json",
+  "match": {
+    "n_observations": 110,
+    "n_requests": 44,
+    "n_track_points": 0,
+    "n_schedules": 0,
+    "applied_to_flight": false,
+    "skipped": [],
+    "errors": [
+      "opensky/departures: opensky departures HTTP 429: https://opensky-network.org/api/flights/departure?airport=OMDB&begin=1789975657&end=1790018857",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-09-21T00%3A00%3A00&endDate=2026-09-21T23%3A59%3A59&boundingBox=25.453%2C55.166%2C25.053%2C55.566&format=json&limit=100",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-09-21T00%3A00%3A00&endDate=2026-09-21T23%3A59%3A59&boundingBox=45.831%2C8.528%2C45.431%2C8.928&format=json&limit=100"
+    ],
+    "requests": [
+      {
+        "provider": "opensky",
+        "product": "departures",
+        "url": "https://opensky-network.org/api/flights/departure?airport=OMDB&begin=1789975657&end=1790018857",
+        "waypoint_seq": null,
+        "icao": "OMDB",
+        "meta": {
+          "ident": "EK091"
+        }
+      },
+      {
+        "provider": "opensky",
+        "product": "states",
+        "url": "https://opensky-network.org/api/states/all?lamin=23.253&lomin=6.728&lamax=47.631&lomax=57.366",
+        "waypoint_seq": null,
+        "icao": null,
+        "meta": {
+          "ident": "EK091"
+        }
+      },
+      {
+        "provider": "iowa",
+        "product": "metar",
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=OMDB&data=tmpc%2Csknt%2Cdrct&year1=2026&month1=9&day1=21&year2=2026&month2=9&day2=21&tz=UTC&format=json&latlon=no",
+        "waypoint_seq": 0,
+        "icao": "OMDB",
+        "meta": {}
+      },
+      {
+        "provider": "iowa",
+        "product": "metar",
+        "url": "https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=LIMC&data=tmpc%2Csknt%2Cdrct&year1=2026&month1=9&day1=21&year2=2026&month2=9&day2=21&tz=UTC&format=json&latlon=no",
+        "waypoint_seq": 7,
+        "icao": "LIMC",
+        "meta": {}
+      },
+      {
+        "provider": "iowa",
+        "product": "pirep",
+        "url": "https://mesonet.agron.iastate.edu/geojson/pireps.py?hours=24&bbox=6.73%2C23.25%2C57.37%2C47.63",
+        "waypoint_seq": null,
+        "icao": null,
+        "meta": {
+          "bbox": "6.73,23.25,57.37,47.63"
+        }
+      },
+      {
+        "provider": "awc",
+        "product": "metar",
+        "url": "https://aviationweather.gov/api/data/metar?ids=OMDB%2CLIMC&format=json&hours=6&date=2026-09-21T08%3A27%3A37Z",
+        "waypoint_seq": null,
+        "icao": "OMDB,LIMC",
+        "meta": {}
+      },
+      {
+        "provider": "awc",
+        "product": "pirep",
+        "url": "https://aviationweather.gov/api/data/pirep?bbox=23.25%2C6.73%2C47.63%2C57.37&format=json&hours=12&date=2026-09-21T08%3A27%3A37Z",
+        "waypoint_seq": null,
+        "icao": null,
+        "meta": {
+          "bbox": "23.25,6.73,47.63,57.37"
+        }
+      },
+      {
+        "provider": "awc",
+        "product": "windtemp",
+        "url": "https://aviationweather.gov/api/data/windtemp?region=us&level=high&format=json",
+        "waypoint_seq": null,
+        "icao": null,
+        "meta": {
+          "region": "us",
+          "level": "high",
+          "coverage": "conus"
+        }
+      },
+      {
+        "provider": "ncei",
+        "product": "global_hourly",
+        "url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-09-21T00%3A00%3A00&endDate=2026-09-21T23%3A59%3A59&boundingBox=25.453%2C55.166%2C25.053%2C55.566&format=json&limit=100",
+        "waypoint_seq": 0,
+        "icao": "OMDB",
+        "meta": {}
+      },
+      {
+        "provider": "ncei",
+        "product": "global_hourly",
+        "url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-09-21T00%3A00%3A00&endDate=2026-09-21T23%3A59%3A59&boundingBox=45.831%2C8.528%2C45.431%2C8.928&format=json&limit=100",
+        "waypoint_seq": 7,
+        "icao": "LIMC",
+        "meta": {}
+      },
+      {
+        "provider": "era5",
+        "product": "surface",
+        "url": "https://archive-api.open-meteo.com/v1/archive?latitude=25.2532&longitude=55.3657&start_date=2026-09-21&end_date=2026-09-21&hourly=temperature_2m%2Cwind_speed_10m%2Cwind_direction_10m&wind_speed_unit=kn&timezone=UTC",
+        "waypoint_seq": 0,
+        "icao": null,
+        "meta": {
+          "level_hpa": 250,
+          "models": null,
+          "historical": true
+        }
+      },
+      {
+        "provider": "era5",
+        "product": "surface",
+        "url": "https://archive-api.open-meteo.com/v1/archive?latitude=45.6306&longitude=8.7281&start_date=2026-09-21&end_date=2026-09-21&hourly=temperature_2m%2Cwind_speed_10m%2Cwind_direction_10m&wind_speed_unit=kn&timezone=UTC",
+        "waypoint_seq": 7,
+        "icao": null,
+        "meta": {
+          "level_hpa": 250,
+          "models": null,
+          "historical": true
+        }
+      },
+      {
+        "provider": "ecmwf_ifs",
+        "product": "pressure_level",
+        "url": "https://historical-forecast-api.open-meteo.com/v1/forecast?latitude=25.2532&longitude=55.3657&start_date=2026-09-21&end_date=2026-09-21&hourly=temperature_250hPa%2Cwind_speed_250hPa%2Cwind_direction_250hPa&wind_speed_unit=kn&timezone=UTC&models=ecmwf_ifs",
+        "waypoint_seq": 0,
+        "icao": null,
+        "meta": {
+          "level_hpa": 250,
+          "models": "ecmwf_ifs",
+          "historical": true
+        }
+      },
+      {
+        "provider": "ecmwf_ifs",
+        "product": "pressure_level",
+        "url": "https://historical-forecast-api.open-meteo.com/v1/forecast?latitude=29.1266&longitude=50.1418&start_date=2026-09-21&end_date=2026-09-21&hourly=temperature_250hPa%2Cwind_speed_250hPa%2Cwind_direction_250hPa&wind_speed_unit=kn&timezone=UTC&models=ecmwf_ifs",
+        "waypoint_seq": 1,
+        "icao": null,
+        "meta": {
+          "level_hpa": 250,
+          "models": "ecmwf_ifs",
+          "historical": true
+        }
+      },
+      {
+        "provider": "ecmwf_ifs",
+        "product": "pressure_level",
+        "url": "https://historical-forecast-api.open-meteo.com/v1/forecast?latitude=32.7821&longitude=44.5208&start_date=2026-09-21&end_date=2026-09-21&hourly=temperature_250hPa%2Cwind_speed_250hPa%2Cwind_direction_250hPa&wind_speed_unit=kn&timezone=UTC&models=ecmwf_ifs",
+        "waypoint_seq": 2,
+        "icao": null,
+        "meta": {
+          "level_hpa": 250,
+          "models": "ecmwf_ifs",
+          "historical": true
+        }
+      },
+      {
+        "provider": "ecmwf_ifs",
+        "product": "pressure_level",
+        "url": "https://historical-forecast-api.open-meteo.com/v1/forecast?latitude=36.1656&longitude=38.4370&start_date=2026-09-21&end_date=2026-09-21&hourly=temperature_250hPa%2Cwind_speed_250hPa%2Cwind_direction_250hPa&wind_speed_unit=kn&timezone=UTC&models=ecmwf_ifs",
+        "waypoint_seq": 3,
+        "icao": null,
+        "meta": {
+          "level_hpa": 250,
+          "models": "ecmwf_ifs",
+          "historical": true
+        }
+      },
+      {
+        "provider": "ecmwf_ifs",
+        "product": "pressure_level",
+        "url": "https://historical-forecast-api.open-meteo.com/v1/forecast?latitude=39.2148&longitude=31.8332&start_date=2026-09-21&end_date=2026-09-21&hourly=temperature_250hPa%2Cwind_speed_250hPa%2Cwind_direction_250hPa&wind_speed_unit=kn&timezone=UTC&models=ecmwf_ifs",
+        "waypoint_seq": 4,
+        "icao": null,
+        "meta": {
+          "level_hpa": 250,
+          "models": "ecmwf_ifs",
+          "historical": true
+        }
+      },
+      {
+        "provider": "ecmwf_ifs",
+        "product": "pressure_level",
+        "url": "https://historical-forecast-api.open-meteo.com/v1/forecast?latitude=41.8589&longitude=24.6721&start_date=2026-09-21&end_date=2026-09-21&hourly=temperature_250hPa%2Cwind_speed_250hPa%2Cwind_direction_250hPa&wind_speed_unit=kn&timezone=UTC&models=ecmwf_ifs",
+        "waypoint_seq": 5,
+        "icao": null,
+        "meta": {
+          "level_hpa": 250,
+          "models": "ecmwf_ifs",
+          "historical": true
+        }
+      },
+      {
+        "provider": "ecmwf_ifs",
+        "product": "pressure_level",
+        "url": "https://historical-forecast-api.open-meteo.com/v1/forecast?latitude=44.0225&longitude=16.9530&start_date=2026-09-21&end_date=2026-09-21&hourly=temperature_250hPa%2Cwind_speed_250hPa%2Cwind_direction_250hPa&wind_speed_unit=kn&timezone=UTC&models=ecmwf_ifs",
+        "waypoint_seq": 6,
+        "icao": null,
+        "meta": {
+          "level_hpa": 250,
+          "models": "ecmwf_ifs",
+          "historical": true
+        }
+      },
+      {
+        "provider": "ecmwf_ifs",
+        "product": "pressure_level",
+        "url": "https://historical-forecast-api.open-meteo.com/v1/forecast?latitude=45.6306&longitude=8.7281&start_date=2026-09-21&end_date=2026-09-21&hourly=temperature_250hPa%2Cwind_speed_250hPa%2Cwind_direction_250hPa&wind_speed_unit=kn&timezone=UTC&models=ecmwf_ifs",
+        "waypoint_seq": 7,
+        "icao": null,
+        "meta": {
+          "level_hpa": 250,
+          "models": "ecmwf_ifs",
+          "historical": true
+        }
+      },
+      {
+        "provider": "gfs",
+        "product": "pressure_level",
+        "url": "https://api.open-meteo.com/v1/gfs?latitude=25.2532&longitude=55.3657&start_date=2026-09-21&end_date=2026-09-21&hourly=temperature_250hPa%2Cwind_speed_250hPa%2Cwind_direction_250hPa&wind_speed_unit=kn&timezone=UTC&models=gfs_global",
+        "waypoint_seq": 0,
+        "icao": null,
+        "meta": {
+          "level_hpa": 250,
+          "models": "gfs_global",
+          "historical": false
+        }
+      },
+      {
+        "provider": "gfs",
+        "product": "pressure_level",
+        "url": "https://api.open-meteo.com/v1/gfs?latitude=29.1266&longitude=50.1418&start_date=2026-09-21&end_date=2026-09-21&hourly=temperature_250hPa%2Cwind_speed_250hPa%2Cwind_direction_250hPa&wind_speed_unit=kn&timezone=UTC&models=gfs_global",
+        "waypoint_seq": 1,
+        "icao": null,
+        "meta": {
+          "level_hpa": 250,
+          "models": "gfs_global",
+          "historical": false
+        }
+      },
+      {
+        "provider": "gfs",
+        "product": "pressure_level",
+        "url": "https://api.open-meteo.com/v1/gfs?latitude=32.7821&longitude=44.5208&start_date=2026-09-21&end_date=2026-09-21&hourly=temperature_250hPa%2Cwind_speed_250hPa%2Cwind_direction_250hPa&wind_speed_unit=kn&timezone=UTC&models=gfs_global",
+        "waypoint_seq": 2,
+        "icao": null,
+        "meta": {
+          "level_hpa": 250,
+          "models": "gfs_global",
+          "historical": false
+        }
+      },
+      {
+        "provider": "gfs",
+        "product": "pressure_level",
+        "url": "https://api.open-meteo.com/v1/gfs?latitude=36.1656&longitude=38.4370&start_date=2026-09-21&end_date=2026-09-21&hourly=temperature_250hPa%2Cwind_speed_250hPa%2Cwind_direction_250hPa&wind_speed_unit=kn&timezone=UTC&models=gfs_global",
+        "waypoint_seq": 3,
+        "icao": null,
+        "meta": {
+          "level_hpa": 250,
+          "models": "gfs_global",
+          "historical": false
+        }
+      },
+      {
+        "provider": "gfs",
+        "product": "pressure_level",
+        "url": "https://api.open-meteo.com/v1/gfs?latitude=39.2148&longitude=31.8332&start_date=2026-09-21&end_date=2026-09-21&hourly=temperature_250hPa%2Cwind_speed_250hPa%2Cwind_direction_250hPa&wind_speed_unit=kn&timezone=UTC&models=gfs_global",
+        "waypoint_seq": 4,
+        "icao": null,
+        "meta": {
+          "level_hpa": 250,
+          "models": "gfs_global",
+          "historical": false
+        }
+      },
+      {
+        "provider": "gfs",
+        "product": "pressure_level",
+        "url": "https://api.open-meteo.com/v1/gfs?latitude=41.8589&longitude=24.6721&start_date=2026-09-21&end_date=2026-09-21&hourly=temperature_250hPa%2Cwind_speed_250hPa%2Cwind_direction_250hPa&wind_speed_unit=kn&timezone=UTC&models=gfs_global",
+        "waypoint_seq": 5,
+        "icao": null,
+        "meta": {
+          "level_hpa": 250,
+          "models": "gfs_global",
+          "historical": false
+        }
+      },
+      {
+        "provider": "gfs",
+        "product": "pressure_level",
+        "url": "https://api.open-meteo.com/v1/gfs?latitude=44.0225&longitude=16.9530&start_date=2026-09-21&end_date=2026-09-21&hourly=temperature_250hPa%2Cwind_speed_250hPa%2Cwind_direction_250hPa&wind_speed_unit=kn&timezone=UTC&models=gfs_global",
+        "waypoint_seq": 6,
+        "icao": null,
+        "meta": {
+          "level_hpa": 250,
+          "models": "gfs_global",
+          "historical": false
+        }
+      },
+      {
+        "provider": "gfs",
+        "product": "pressure_level",
+        "url": "https://api.open-meteo.com/v1/gfs?latitude=45.6306&longitude=8.7281&start_date=2026-09-21&end_date=2026-09-21&hourly=temperature_250hPa%2Cwind_speed_250hPa%2Cwind_direction_250hPa&wind_speed_unit=kn&timezone=UTC&models=gfs_global",
+        "waypoint_seq": 7,
+        "icao": null,
+        "meta": {
+          "level_hpa": 250,
+          "models": "gfs_global",
+          "historical": false
+        }
+      },
+      {
+        "provider": "ecmwf",
+        "product": "ifs_open",
+        "url": "https://data.ecmwf.int/forecasts/20260921/06z/ifs/0p25/oper/20260921060000-3h-oper-fc.grib2",
+        "waypoint_seq": 0,
+        "icao": null,
+        "meta": {
+          "model": "ifs",
+          "cycle": "2026-09-21T06:00:00Z",
+          "step": 3,
+          "level_hpa": 250,
+          "index_url": "https://data.ecmwf.int/forecasts/20260921/06z/ifs/0p25/oper/20260921060000-3h-oper-fc.index",
+          "mars": {
+            "class": "od",
+            "stream": "oper",
+            "type": "fc",
+            "expver": "1",
+            "levtype": "pl",
+            "levelist": "250",
+            "param": "t/u/v",
+            "date": "20260921",
+            "time": "0600",
+            "step": "3",
+            "grid": "0.25/0.25",
+            "area": "25.50/55.12/25.00/55.62",
+            "model": "ifs"
+          },
+          "attribution": "Contains modified Copernicus Climate Change Service information / ECMWF Open Data CC-BY-4.0 (https://www.ecmwf.int/)",
+          "docs": "https://www.ecmwf.int/en/forecasts/datasets/open-data"
+        }
+      },
+      {
+        "provider": "ecmwf",
+        "product": "ifs_open",
+        "url": "https://data.ecmwf.int/forecasts/20260921/06z/ifs/0p25/oper/20260921060000-3h-oper-fc.grib2",
+        "waypoint_seq": 1,
+        "icao": null,
+        "meta": {
+          "model": "ifs",
+          "cycle": "2026-09-21T06:00:00Z",
+          "step": 3,
+          "level_hpa": 250,
+          "index_url": "https://data.ecmwf.int/forecasts/20260921/06z/ifs/0p25/oper/20260921060000-3h-oper-fc.index",
+          "mars": {
+            "class": "od",
+            "stream": "oper",
+            "type": "fc",
+            "expver": "1",
+            "levtype": "pl",
+            "levelist": "250",
+            "param": "t/u/v",
+            "date": "20260921",
+            "time": "0600",
+            "step": "3",
+            "grid": "0.25/0.25",
+            "area": "29.38/49.89/28.88/50.39",
+            "model": "ifs"
+          },
+          "attribution": "Contains modified Copernicus Climate Change Service information / ECMWF Open Data CC-BY-4.0 (https://www.ecmwf.int/)",
+          "docs": "https://www.ecmwf.int/en/forecasts/datasets/open-data",
+          "duplicate_grib": true
+        }
+      },
+      {
+        "provider": "ecmwf",
+        "product": "ifs_open",
+        "url": "https://data.ecmwf.int/forecasts/20260921/06z/ifs/0p25/oper/20260921060000-3h-oper-fc.grib2",
+        "waypoint_seq": 2,
+        "icao": null,
+        "meta": {
+          "model": "ifs",
+          "cycle": "2026-09-21T06:00:00Z",
+          "step": 3,
+          "level_hpa": 250,
+          "index_url": "https://data.ecmwf.int/forecasts/20260921/06z/ifs/0p25/oper/20260921060000-3h-oper-fc.index",
+          "mars": {
+            "class": "od",
+            "stream": "oper",
+            "type": "fc",
+            "expver": "1",
+            "levtype": "pl",
+            "levelist": "250",
+            "param": "t/u/v",
+            "date": "20260921",
+            "time": "0600",
+            "step": "3",
+            "grid": "0.25/0.25",
+            "area": "33.03/44.27/32.53/44.77",
+            "model": "ifs"
+          },
+          "attribution": "Contains modified Copernicus Climate Change Service information / ECMWF Open Data CC-BY-4.0 (https://www.ecmwf.int/)",
+          "docs": "https://www.ecmwf.int/en/forecasts/datasets/open-data",
+          "duplicate_grib": true
+        }
+      },
+      {
+        "provider": "ecmwf",
+        "product": "ifs_open",
+        "url": "https://data.ecmwf.int/forecasts/20260921/06z/ifs/0p25/oper/20260921060000-3h-oper-fc.grib2",
+        "waypoint_seq": 3,
+        "icao": null,
+        "meta": {
+          "model": "ifs",
+          "cycle": "2026-09-21T06:00:00Z",
+          "step": 3,
+          "level_hpa": 250,
+          "index_url": "https://data.ecmwf.int/forecasts/20260921/06z/ifs/0p25/oper/20260921060000-3h-oper-fc.index",
+          "mars": {
+            "class": "od",
+            "stream": "oper",
+            "type": "fc",
+            "expver": "1",
+            "levtype": "pl",
+            "levelist": "250",
+            "param": "t/u/v",
+            "date": "20260921",
+            "time": "0600",
+            "step": "3",
+            "grid": "0.25/0.25",
+            "area": "36.42/38.19/35.92/38.69",
+            "model": "ifs"
+          },
+          "attribution": "Contains modified Copernicus Climate Change Service information / ECMWF Open Data CC-BY-4.0 (https://www.ecmwf.int/)",
+          "docs": "https://www.ecmwf.int/en/forecasts/datasets/open-data",
+          "duplicate_grib": true
+        }
+      },
+      {
+        "provider": "ecmwf",
+        "product": "ifs_open",
+        "url": "https://data.ecmwf.int/forecasts/20260921/06z/ifs/0p25/oper/20260921060000-3h-oper-fc.grib2",
+        "waypoint_seq": 4,
+        "icao": null,
+        "meta": {
+          "model": "ifs",
+          "cycle": "2026-09-21T06:00:00Z",
+          "step": 3,
+          "level_hpa": 250,
+          "index_url": "https://data.ecmwf.int/forecasts/20260921/06z/ifs/0p25/oper/20260921060000-3h-oper-fc.index",
+          "mars": {
+            "class": "od",
+            "stream": "oper",
+            "type": "fc",
+            "expver": "1",
+            "levtype": "pl",
+            "levelist": "250",
+            "param": "t/u/v",
+            "date": "20260921",
+            "time": "0600",
+            "step": "3",
+            "grid": "0.25/0.25",
+            "area": "39.46/31.58/38.96/32.08",
+            "model": "ifs"
+          },
+          "attribution": "Contains modified Copernicus Climate Change Service information / ECMWF Open Data CC-BY-4.0 (https://www.ecmwf.int/)",
+          "docs": "https://www.ecmwf.int/en/forecasts/datasets/open-data",
+          "duplicate_grib": true
+        }
+      },
+      {
+        "provider": "ecmwf",
+        "product": "ifs_open",
+        "url": "https://data.ecmwf.int/forecasts/20260921/06z/ifs/0p25/oper/20260921060000-3h-oper-fc.grib2",
+        "waypoint_seq": 5,
+        "icao": null,
+        "meta": {
+          "model": "ifs",
+          "cycle": "2026-09-21T06:00:00Z",
+          "step": 3,
+          "level_hpa": 250,
+          "index_url": "https://data.ecmwf.int/forecasts/20260921/06z/ifs/0p25/oper/20260921060000-3h-oper-fc.index",
+          "mars": {
+            "class": "od",
+            "stream": "oper",
+            "type": "fc",
+            "expver": "1",
+            "levtype": "pl",
+            "levelist": "250",
+            "param": "t/u/v",
+            "date": "20260921",
+            "time": "0600",
+            "step": "3",
+            "grid": "0.25/0.25",
+            "area": "42.11/24.42/41.61/24.92",
+            "model": "ifs"
+          },
+          "attribution": "Contains modified Copernicus Climate Change Service information / ECMWF Open Data CC-BY-4.0 (https://www.ecmwf.int/)",
+          "docs": "https://www.ecmwf.int/en/forecasts/datasets/open-data",
+          "duplicate_grib": true
+        }
+      },
+      {
+        "provider": "ecmwf",
+        "product": "ifs_open",
+        "url": "https://data.ecmwf.int/forecasts/20260921/06z/ifs/0p25/oper/20260921060000-3h-oper-fc.grib2",
+        "waypoint_seq": 6,
+        "icao": null,
+        "meta": {
+          "model": "ifs",
+          "cycle": "2026-09-21T06:00:00Z",
+          "step": 3,
+          "level_hpa": 250,
+          "index_url": "https://data.ecmwf.int/forecasts/20260921/06z/ifs/0p25/oper/20260921060000-3h-oper-fc.index",
+          "mars": {
+            "class": "od",
+            "stream": "oper",
+            "type": "fc",
+            "expver": "1",
+            "levtype": "pl",
+            "levelist": "250",
+            "param": "t/u/v",
+            "date": "20260921",
+            "time": "0600",
+            "step": "3",
+            "grid": "0.25/0.25",
+            "area": "44.27/16.70/43.77/17.20",
+            "model": "ifs"
+          },
+          "attribution": "Contains modified Copernicus Climate Change Service information / ECMWF Open Data CC-BY-4.0 (https://www.ecmwf.int/)",
+          "docs": "https://www.ecmwf.int/en/forecasts/datasets/open-data",
+          "duplicate_grib": true
+        }
+      },
+      {
+        "provider": "ecmwf",
+        "product": "ifs_open",
+        "url": "https://data.ecmwf.int/forecasts/20260921/06z/ifs/0p25/oper/20260921060000-3h-oper-fc.grib2",
+        "waypoint_seq": 7,
+        "icao": null,
+        "meta": {
+          "model": "ifs",
+          "cycle": "2026-09-21T06:00:00Z",
+          "step": 3,
+          "level_hpa": 250,
+          "index_url": "https://data.ecmwf.int/forecasts/20260921/06z/ifs/0p25/oper/20260921060000-3h-oper-fc.index",
+          "mars": {
+            "class": "od",
+            "stream": "oper",
+            "type": "fc",
+            "expver": "1",
+            "levtype": "pl",
+            "levelist": "250",
+            "param": "t/u/v",
+            "date": "20260921",
+            "time": "0600",
+            "step": "3",
+            "grid": "0.25/0.25",
+            "area": "45.88/8.48/45.38/8.98",
+            "model": "ifs"
+          },
+          "attribution": "Contains modified Copernicus Climate Change Service information / ECMWF Open Data CC-BY-4.0 (https://www.ecmwf.int/)",
+          "docs": "https://www.ecmwf.int/en/forecasts/datasets/open-data",
+          "duplicate_grib": true
+        }
+      },
+      {
+        "provider": "ecmwf",
+        "product": "era5_cds",
+        "url": "https://cds.climate.copernicus.eu/api/retrieve/v1/processes/reanalysis-era5-pressure-levels",
+        "waypoint_seq": 0,
+        "icao": null,
+        "meta": {
+          "cds_request": {
+            "dataset": "reanalysis-era5-pressure-levels",
+            "product_type": "reanalysis",
+            "variable": [
+              "temperature",
+              "u_component_of_wind",
+              "v_component_of_wind"
+            ],
+            "pressure_level": [
+              "250"
+            ],
+            "year": "2026",
+            "month": "09",
+            "day": "21",
+            "time": [
+              "08:00"
+            ],
+            "area": [
+              25.5032,
+              55.11569999999995,
+              25.0032,
+              55.61569999999995
+            ],
+            "data_format": "netcdf",
+            "download_format": "unarchived"
+          },
+          "attribution": "Contains modified Copernicus Climate Change Service information / ECMWF Open Data CC-BY-4.0 (https://www.ecmwf.int/)",
+          "docs": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-pressure-levels"
+        }
+      },
+      {
+        "provider": "ecmwf",
+        "product": "era5_cds",
+        "url": "https://cds.climate.copernicus.eu/api/retrieve/v1/processes/reanalysis-era5-pressure-levels",
+        "waypoint_seq": 1,
+        "icao": null,
+        "meta": {
+          "cds_request": {
+            "dataset": "reanalysis-era5-pressure-levels",
+            "product_type": "reanalysis",
+            "variable": [
+              "temperature",
+              "u_component_of_wind",
+              "v_component_of_wind"
+            ],
+            "pressure_level": [
+              "250"
+            ],
+            "year": "2026",
+            "month": "09",
+            "day": "21",
+            "time": [
+              "08:00"
+            ],
+            "area": [
+              29.376622636441702,
+              49.89175404500281,
+              28.876622636441702,
+              50.39175404500281
+            ],
+            "data_format": "netcdf",
+            "download_format": "unarchived"
+          },
+          "attribution": "Contains modified Copernicus Climate Change Service information / ECMWF Open Data CC-BY-4.0 (https://www.ecmwf.int/)",
+          "docs": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-pressure-levels"
+        }
+      },
+      {
+        "provider": "ecmwf",
+        "product": "era5_cds",
+        "url": "https://cds.climate.copernicus.eu/api/retrieve/v1/processes/reanalysis-era5-pressure-levels",
+        "waypoint_seq": 2,
+        "icao": null,
+        "meta": {
+          "cds_request": {
+            "dataset": "reanalysis-era5-pressure-levels",
+            "product_type": "reanalysis",
+            "variable": [
+              "temperature",
+              "u_component_of_wind",
+              "v_component_of_wind"
+            ],
+            "pressure_level": [
+              "250"
+            ],
+            "year": "2026",
+            "month": "09",
+            "day": "21",
+            "time": [
+              "08:00"
+            ],
+            "area": [
+              33.032070000398164,
+              44.27080602982426,
+              32.532070000398164,
+              44.77080602982426
+            ],
+            "data_format": "netcdf",
+            "download_format": "unarchived"
+          },
+          "attribution": "Contains modified Copernicus Climate Change Service information / ECMWF Open Data CC-BY-4.0 (https://www.ecmwf.int/)",
+          "docs": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-pressure-levels"
+        }
+      },
+      {
+        "provider": "ecmwf",
+        "product": "era5_cds",
+        "url": "https://cds.climate.copernicus.eu/api/retrieve/v1/processes/reanalysis-era5-pressure-levels",
+        "waypoint_seq": 3,
+        "icao": null,
+        "meta": {
+          "cds_request": {
+            "dataset": "reanalysis-era5-pressure-levels",
+            "product_type": "reanalysis",
+            "variable": [
+              "temperature",
+              "u_component_of_wind",
+              "v_component_of_wind"
+            ],
+            "pressure_level": [
+              "250"
+            ],
+            "year": "2026",
+            "month": "09",
+            "day": "21",
+            "time": [
+              "08:00"
+            ],
+            "area": [
+              36.41564755576485,
+              38.18704259616891,
+              35.91564755576485,
+              38.68704259616891
+            ],
+            "data_format": "netcdf",
+            "download_format": "unarchived"
+          },
+          "attribution": "Contains modified Copernicus Climate Change Service information / ECMWF Open Data CC-BY-4.0 (https://www.ecmwf.int/)",
+          "docs": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-pressure-levels"
+        }
+      },
+      {
+        "provider": "ecmwf",
+        "product": "era5_cds",
+        "url": "https://cds.climate.copernicus.eu/api/retrieve/v1/processes/reanalysis-era5-pressure-levels",
+        "waypoint_seq": 4,
+        "icao": null,
+        "meta": {
+          "cds_request": {
+            "dataset": "reanalysis-era5-pressure-levels",
+            "product_type": "reanalysis",
+            "variable": [
+              "temperature",
+              "u_component_of_wind",
+              "v_component_of_wind"
+            ],
+            "pressure_level": [
+              "250"
+            ],
+            "year": "2026",
+            "month": "09",
+            "day": "21",
+            "time": [
+              "08:00"
+            ],
+            "area": [
+              39.464786284427845,
+              31.583173402626016,
+              38.964786284427845,
+              32.08317340262602
+            ],
+            "data_format": "netcdf",
+            "download_format": "unarchived"
+          },
+          "attribution": "Contains modified Copernicus Climate Change Service information / ECMWF Open Data CC-BY-4.0 (https://www.ecmwf.int/)",
+          "docs": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-pressure-levels"
+        }
+      },
+      {
+        "provider": "ecmwf",
+        "product": "era5_cds",
+        "url": "https://cds.climate.copernicus.eu/api/retrieve/v1/processes/reanalysis-era5-pressure-levels",
+        "waypoint_seq": 5,
+        "icao": null,
+        "meta": {
+          "cds_request": {
+            "dataset": "reanalysis-era5-pressure-levels",
+            "product_type": "reanalysis",
+            "variable": [
+              "temperature",
+              "u_component_of_wind",
+              "v_component_of_wind"
+            ],
+            "pressure_level": [
+              "250"
+            ],
+            "year": "2026",
+            "month": "09",
+            "day": "21",
+            "time": [
+              "08:00"
+            ],
+            "area": [
+              42.10894180309058,
+              24.422125680865634,
+              41.60894180309058,
+              24.922125680865634
+            ],
+            "data_format": "netcdf",
+            "download_format": "unarchived"
+          },
+          "attribution": "Contains modified Copernicus Climate Change Service information / ECMWF Open Data CC-BY-4.0 (https://www.ecmwf.int/)",
+          "docs": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-pressure-levels"
+        }
+      },
+      {
+        "provider": "ecmwf",
+        "product": "era5_cds",
+        "url": "https://cds.climate.copernicus.eu/api/retrieve/v1/processes/reanalysis-era5-pressure-levels",
+        "waypoint_seq": 6,
+        "icao": null,
+        "meta": {
+          "cds_request": {
+            "dataset": "reanalysis-era5-pressure-levels",
+            "product_type": "reanalysis",
+            "variable": [
+              "temperature",
+              "u_component_of_wind",
+              "v_component_of_wind"
+            ],
+            "pressure_level": [
+              "250"
+            ],
+            "year": "2026",
+            "month": "09",
+            "day": "21",
+            "time": [
+              "08:00"
+            ],
+            "area": [
+              44.2724814329966,
+              16.70297391781537,
+              43.7724814329966,
+              17.20297391781537
+            ],
+            "data_format": "netcdf",
+            "download_format": "unarchived"
+          },
+          "attribution": "Contains modified Copernicus Climate Change Service information / ECMWF Open Data CC-BY-4.0 (https://www.ecmwf.int/)",
+          "docs": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-pressure-levels"
+        }
+      },
+      {
+        "provider": "ecmwf",
+        "product": "era5_cds",
+        "url": "https://cds.climate.copernicus.eu/api/retrieve/v1/processes/reanalysis-era5-pressure-levels",
+        "waypoint_seq": 7,
+        "icao": null,
+        "meta": {
+          "cds_request": {
+            "dataset": "reanalysis-era5-pressure-levels",
+            "product_type": "reanalysis",
+            "variable": [
+              "temperature",
+              "u_component_of_wind",
+              "v_component_of_wind"
+            ],
+            "pressure_level": [
+              "250"
+            ],
+            "year": "2026",
+            "month": "09",
+            "day": "21",
+            "time": [
+              "08:00"
+            ],
+            "area": [
+              45.880599999999994,
+              8.47810000000004,
+              45.380599999999994,
+              8.97810000000004
+            ],
+            "data_format": "netcdf",
+            "download_format": "unarchived"
+          },
+          "attribution": "Contains modified Copernicus Climate Change Service information / ECMWF Open Data CC-BY-4.0 (https://www.ecmwf.int/)",
+          "docs": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-pressure-levels"
+        }
+      }
+    ],
+    "track_points": [],
+    "schedules": []
+  }
+}

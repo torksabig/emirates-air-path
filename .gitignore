@@ -9,6 +9,7 @@ venv/
 .env.*
 *.db
 *.csv
+logs/
 !data/live/.gitkeep
 
 # Keep free-source extract snapshots shareable
