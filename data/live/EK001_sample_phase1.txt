@@ -1,0 +1,12 @@
+aircraft_sensor fuel_flow_kg_h n=16 RMSE 220.00→0.00 suit=1.00 eq=corrected = -220.0000 + 1.0000*forecast
+aircraft_sensor temp_c n=16 RMSE 0.80→0.00 suit=1.00 eq=corrected = 0.8000 + 1.0000*forecast
+aircraft_sensor wind_kt n=16 RMSE 4.00→0.00 suit=1.00 eq=corrected = -4.0000 + 1.0000*forecast
+metar temp_c n=4 RMSE 4.33→3.92 suit=0.13 eq=corrected = 4.3000 + 0.8702*forecast
+metar wind_kt n=4 RMSE 24.64→16.52 suit=0.22 eq=corrected = 5.2640 + 0.4416*forecast
+simulation fuel_flow_kg_h n=16 RMSE 138.90→128.19 suit=0.63 eq=corrected = 53.4986 + 1.0000*forecast
+simulation isa_dev_k n=16 RMSE 3.30→2.15 suit=0.49 eq=corrected = 2.5000 + 1.0000*forecast
+weather_model isa_dev_k n=16 RMSE 1.50→0.00 suit=1.00 eq=corrected = 1.5000 + 1.0000*forecast
+weather_model temp_c n=16 RMSE 4.80→0.00 suit=1.00 eq=corrected = 1.4000 + 0.9400*forecast
+weather_model wind_from_deg n=16 RMSE 8.00→0.00 suit=1.00 eq=corrected = -8.0000 + 1.0000*forecast
+weather_model wind_kt n=16 RMSE 1.61→0.00 suit=1.00 eq=corrected = -8.0000 + 1.1200*forecast
+phase1_ready=True

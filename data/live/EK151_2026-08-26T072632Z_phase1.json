@@ -1,0 +1,10 @@
+{
+  "flight_id": "EK151",
+  "phase1": {
+    "phase1_ready": false,
+    "suitable_count": 0,
+    "sources": []
+  },
+  "phase1_ready": false,
+  "verifications": []
+}

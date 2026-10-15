@@ -1,0 +1,510 @@
+[
+  {
+    "ident": "EK001",
+    "route": "OMDB-EGLL",
+    "stamp": "2026-08-26T072420Z",
+    "obs": 112,
+    "flight": "/home/ubuntu/emirates-air-path/data/live/EK001_2026-08-26T072420Z_flight.json",
+    "meta": "/home/ubuntu/emirates-air-path/data/live/EK001_2026-08-26T072420Z.json",
+    "errors": [
+      "opensky/departures: opensky departures network error: _ssl.c:983: The handshake operation timed out",
+      "opensky/states: opensky states network error: _ssl.c:983: The handshake operation timed out",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=25.453%2C55.166%2C25.053%2C55.566&format=json&limit=100",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=51.670%2C-0.654%2C51.270%2C-0.254&format=json&limit=100"
+    ],
+    "providers": {
+      "opensky": 2,
+      "iowa": 3,
+      "awc": 3,
+      "ncei": 2,
+      "era5": 2,
+      "ecmwf_ifs": 8,
+      "gfs": 8,
+      "ecmwf": 16
+    },
+    "elapsed_s": 34.7
+  },
+  {
+    "ident": "EK041",
+    "route": "OMDB-CYYZ",
+    "stamp": "2026-08-26T072457Z",
+    "obs": 90,
+    "flight": "/home/ubuntu/emirates-air-path/data/live/EK041_2026-08-26T072457Z_flight.json",
+    "meta": "/home/ubuntu/emirates-air-path/data/live/EK041_2026-08-26T072457Z.json",
+    "errors": [
+      "opensky/departures: opensky departures network error: _ssl.c:983: The handshake operation timed out",
+      "opensky/states: opensky states network error: _ssl.c:983: The handshake operation timed out",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=25.453%2C55.166%2C25.053%2C55.566&format=json&limit=100",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=43.878%2C-79.825%2C43.478%2C-79.425&format=json&limit=100",
+      "era5/surface: era5 surface network error: _ssl.c:983: The handshake operation timed out"
+    ],
+    "providers": {
+      "opensky": 2,
+      "iowa": 3,
+      "awc": 3,
+      "ncei": 2,
+      "era5": 2,
+      "ecmwf_ifs": 8,
+      "gfs": 8,
+      "ecmwf": 16
+    },
+    "elapsed_s": 93.8
+  },
+  {
+    "ident": "EK151",
+    "route": "OMDB-EKCH",
+    "stamp": "2026-08-26T072632Z",
+    "obs": 112,
+    "flight": "/home/ubuntu/emirates-air-path/data/live/EK151_2026-08-26T072632Z_flight.json",
+    "meta": "/home/ubuntu/emirates-air-path/data/live/EK151_2026-08-26T072632Z.json",
+    "errors": [
+      "opensky/departures: opensky departures network error: _ssl.c:983: The handshake operation timed out",
+      "opensky/states: opensky states network error: _ssl.c:983: The handshake operation timed out",
+      "iowa/metar: iowa metar HTTP 429: https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=EKCH&data=tmpc%2Csknt%2Cdrct&year1=2026&month1=8&day1=26&year2=2026&month2=8&day2=26&tz=UTC&format=json&latlon=no",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=25.453%2C55.166%2C25.053%2C55.566&format=json&limit=100",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=55.818%2C12.451%2C55.418%2C12.851&format=json&limit=100"
+    ],
+    "providers": {
+      "opensky": 2,
+      "iowa": 3,
+      "awc": 3,
+      "ncei": 2,
+      "era5": 2,
+      "ecmwf_ifs": 8,
+      "gfs": 8,
+      "ecmwf": 16
+    },
+    "elapsed_s": 35.8
+  },
+  {
+    "ident": "EK157",
+    "route": "OMDB-ESSA",
+    "stamp": "2026-08-26T072710Z",
+    "obs": 111,
+    "flight": "/home/ubuntu/emirates-air-path/data/live/EK157_2026-08-26T072710Z_flight.json",
+    "meta": "/home/ubuntu/emirates-air-path/data/live/EK157_2026-08-26T072710Z.json",
+    "errors": [
+      "opensky/departures: opensky departures network error: _ssl.c:983: The handshake operation timed out",
+      "opensky/states: opensky states network error: _ssl.c:983: The handshake operation timed out",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=25.453%2C55.166%2C25.053%2C55.566&format=json&limit=100",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=59.852%2C17.719%2C59.452%2C18.119&format=json&limit=100"
+    ],
+    "providers": {
+      "opensky": 2,
+      "iowa": 3,
+      "awc": 3,
+      "ncei": 2,
+      "era5": 2,
+      "ecmwf_ifs": 8,
+      "gfs": 8,
+      "ecmwf": 16
+    },
+    "elapsed_s": 34.2
+  },
+  {
+    "ident": "EK927",
+    "route": "OMDB-HECA",
+    "stamp": "2026-08-26T072746Z",
+    "obs": 112,
+    "flight": "/home/ubuntu/emirates-air-path/data/live/EK927_2026-08-26T072746Z_flight.json",
+    "meta": "/home/ubuntu/emirates-air-path/data/live/EK927_2026-08-26T072746Z.json",
+    "errors": [
+      "opensky/departures: opensky departures network error: _ssl.c:983: The handshake operation timed out",
+      "opensky/states: opensky states network error: _ssl.c:983: The handshake operation timed out",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=25.453%2C55.166%2C25.053%2C55.566&format=json&limit=100",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=30.322%2C31.206%2C29.922%2C31.606&format=json&limit=100"
+    ],
+    "providers": {
+      "opensky": 2,
+      "iowa": 3,
+      "awc": 3,
+      "ncei": 2,
+      "era5": 2,
+      "ecmwf_ifs": 8,
+      "gfs": 8,
+      "ecmwf": 16
+    },
+    "elapsed_s": 33.9
+  },
+  {
+    "ident": "EK719",
+    "route": "OMDB-HKJK",
+    "stamp": "2026-08-26T072822Z",
+    "obs": 96,
+    "flight": "/home/ubuntu/emirates-air-path/data/live/EK719_2026-08-26T072822Z_flight.json",
+    "meta": "/home/ubuntu/emirates-air-path/data/live/EK719_2026-08-26T072822Z.json",
+    "errors": [
+      "opensky/departures: opensky departures network error: _ssl.c:983: The handshake operation timed out",
+      "opensky/states: opensky states network error: _ssl.c:983: The handshake operation timed out",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=25.453%2C55.166%2C25.053%2C55.566&format=json&limit=100",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=-1.119%2C36.728%2C-1.519%2C37.128&format=json&limit=100"
+    ],
+    "providers": {
+      "opensky": 2,
+      "iowa": 3,
+      "awc": 3,
+      "ncei": 2,
+      "era5": 2,
+      "ecmwf_ifs": 8,
+      "gfs": 8,
+      "ecmwf": 16
+    },
+    "elapsed_s": 33.6
+  },
+  {
+    "ident": "EK231",
+    "route": "OMDB-KIAD",
+    "stamp": "2026-08-26T072858Z",
+    "obs": 100,
+    "flight": "/home/ubuntu/emirates-air-path/data/live/EK231_2026-08-26T072858Z_flight.json",
+    "meta": "/home/ubuntu/emirates-air-path/data/live/EK231_2026-08-26T072858Z.json",
+    "errors": [
+      "opensky/departures: opensky departures network error: _ssl.c:983: The handshake operation timed out",
+      "opensky/states: opensky states network error: _ssl.c:983: The handshake operation timed out",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=25.453%2C55.166%2C25.053%2C55.566&format=json&limit=100",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=39.153%2C-77.657%2C38.753%2C-77.257&format=json&limit=100"
+    ],
+    "providers": {
+      "opensky": 2,
+      "iowa": 3,
+      "awc": 3,
+      "ncei": 2,
+      "era5": 2,
+      "ecmwf_ifs": 8,
+      "gfs": 8,
+      "ecmwf": 16
+    },
+    "elapsed_s": 33.8
+  },
+  {
+    "ident": "EK235",
+    "route": "OMDB-KORD",
+    "stamp": "2026-08-26T072934Z",
+    "obs": 123,
+    "flight": "/home/ubuntu/emirates-air-path/data/live/EK235_2026-08-26T072934Z_flight.json",
+    "meta": "/home/ubuntu/emirates-air-path/data/live/EK235_2026-08-26T072934Z.json",
+    "errors": [
+      "opensky/departures: opensky departures network error: _ssl.c:983: The handshake operation timed out",
+      "opensky/states: opensky states network error: _ssl.c:983: The handshake operation timed out",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=25.453%2C55.166%2C25.053%2C55.566&format=json&limit=100",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=42.174%2C-88.107%2C41.774%2C-87.707&format=json&limit=100",
+      "era5/surface: era5 surface network error: _ssl.c:983: The handshake operation timed out"
+    ],
+    "providers": {
+      "opensky": 2,
+      "iowa": 3,
+      "awc": 3,
+      "ncei": 2,
+      "era5": 2,
+      "ecmwf_ifs": 8,
+      "gfs": 8,
+      "ecmwf": 16
+    },
+    "elapsed_s": 93.7
+  },
+  {
+    "ident": "EK225",
+    "route": "OMDB-KSFO",
+    "stamp": "2026-08-26T073109Z",
+    "obs": 97,
+    "flight": "/home/ubuntu/emirates-air-path/data/live/EK225_2026-08-26T073109Z_flight.json",
+    "meta": "/home/ubuntu/emirates-air-path/data/live/EK225_2026-08-26T073109Z.json",
+    "errors": [
+      "opensky/departures: opensky departures network error: _ssl.c:983: The handshake operation timed out",
+      "opensky/states: opensky states network error: _ssl.c:983: The handshake operation timed out",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=25.453%2C55.166%2C25.053%2C55.566&format=json&limit=100",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=37.821%2C-122.579%2C37.421%2C-122.179&format=json&limit=100",
+      "ecmwf_ifs/pressure_level: ecmwf_ifs pressure_level network error: _ssl.c:983: The handshake operation timed out"
+    ],
+    "providers": {
+      "opensky": 2,
+      "iowa": 3,
+      "awc": 3,
+      "ncei": 2,
+      "era5": 2,
+      "ecmwf_ifs": 8,
+      "gfs": 8,
+      "ecmwf": 16
+    },
+    "elapsed_s": 94.0
+  },
+  {
+    "ident": "EK091",
+    "route": "OMDB-LIMC",
+    "stamp": "2026-08-26T073246Z",
+    "obs": 112,
+    "flight": "/home/ubuntu/emirates-air-path/data/live/EK091_2026-08-26T073246Z_flight.json",
+    "meta": "/home/ubuntu/emirates-air-path/data/live/EK091_2026-08-26T073246Z.json",
+    "errors": [
+      "opensky/departures: opensky departures network error: _ssl.c:983: The handshake operation timed out",
+      "opensky/states: opensky states network error: _ssl.c:983: The handshake operation timed out",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=25.453%2C55.166%2C25.053%2C55.566&format=json&limit=100",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=45.831%2C8.528%2C45.431%2C8.928&format=json&limit=100"
+    ],
+    "providers": {
+      "opensky": 2,
+      "iowa": 3,
+      "awc": 3,
+      "ncei": 2,
+      "era5": 2,
+      "ecmwf_ifs": 8,
+      "gfs": 8,
+      "ecmwf": 16
+    },
+    "elapsed_s": 46.8
+  },
+  {
+    "ident": "EK837",
+    "route": "OMDB-OBBI",
+    "stamp": "2026-08-26T073334Z",
+    "obs": 112,
+    "flight": "/home/ubuntu/emirates-air-path/data/live/EK837_2026-08-26T073334Z_flight.json",
+    "meta": "/home/ubuntu/emirates-air-path/data/live/EK837_2026-08-26T073334Z.json",
+    "errors": [
+      "opensky/departures: opensky departures network error: _ssl.c:983: The handshake operation timed out",
+      "opensky/states: opensky states network error: _ssl.c:983: The handshake operation timed out",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=25.453%2C55.166%2C25.053%2C55.566&format=json&limit=100",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=26.471%2C50.434%2C26.071%2C50.834&format=json&limit=100"
+    ],
+    "providers": {
+      "opensky": 2,
+      "iowa": 3,
+      "awc": 3,
+      "ncei": 2,
+      "era5": 2,
+      "ecmwf_ifs": 8,
+      "gfs": 8,
+      "ecmwf": 16
+    },
+    "elapsed_s": 33.8
+  },
+  {
+    "ident": "EK811",
+    "route": "OMDB-OERK",
+    "stamp": "2026-08-26T073410Z",
+    "obs": 94,
+    "flight": "/home/ubuntu/emirates-air-path/data/live/EK811_2026-08-26T073410Z_flight.json",
+    "meta": "/home/ubuntu/emirates-air-path/data/live/EK811_2026-08-26T073410Z.json",
+    "errors": [
+      "opensky/departures: opensky departures network error: _ssl.c:983: The handshake operation timed out",
+      "opensky/states: opensky states network error: _ssl.c:983: The handshake operation timed out",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=25.453%2C55.166%2C25.053%2C55.566&format=json&limit=100",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=25.158%2C46.499%2C24.758%2C46.899&format=json&limit=100"
+    ],
+    "providers": {
+      "opensky": 2,
+      "iowa": 3,
+      "awc": 3,
+      "ncei": 2,
+      "era5": 2,
+      "ecmwf_ifs": 8,
+      "gfs": 8,
+      "ecmwf": 16
+    },
+    "elapsed_s": 33.7
+  },
+  {
+    "ident": "EK332",
+    "route": "OMDB-RPLL",
+    "stamp": "2026-08-26T073446Z",
+    "obs": 97,
+    "flight": "/home/ubuntu/emirates-air-path/data/live/EK332_2026-08-26T073446Z_flight.json",
+    "meta": "/home/ubuntu/emirates-air-path/data/live/EK332_2026-08-26T073446Z.json",
+    "errors": [
+      "opensky/departures: opensky departures network error: _ssl.c:983: The handshake operation timed out",
+      "opensky/states: opensky states network error: _ssl.c:983: The handshake operation timed out",
+      "awc/pirep: awc pirep HTTP 504: https://aviationweather.gov/api/data/pirep?bbox=12.51%2C53.37%2C27.49%2C123.02&format=json&hours=12&date=2026-08-26T07%3A34%3A46Z",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=25.453%2C55.166%2C25.053%2C55.566&format=json&limit=100",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=14.709%2C120.819%2C14.309%2C121.219&format=json&limit=100"
+    ],
+    "providers": {
+      "opensky": 2,
+      "iowa": 3,
+      "awc": 3,
+      "ncei": 2,
+      "era5": 2,
+      "ecmwf_ifs": 8,
+      "gfs": 8,
+      "ecmwf": 16
+    },
+    "elapsed_s": 54.0
+  },
+  {
+    "ident": "EK261",
+    "route": "OMDB-SBGR",
+    "stamp": "2026-08-26T073542Z",
+    "obs": 94,
+    "flight": "/home/ubuntu/emirates-air-path/data/live/EK261_2026-08-26T073542Z_flight.json",
+    "meta": "/home/ubuntu/emirates-air-path/data/live/EK261_2026-08-26T073542Z.json",
+    "errors": [
+      "opensky/departures: opensky departures network error: _ssl.c:983: The handshake operation timed out",
+      "opensky/states: opensky states network error: _ssl.c:983: The handshake operation timed out",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=25.453%2C55.166%2C25.053%2C55.566&format=json&limit=100",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=-23.236%2C-46.673%2C-23.636%2C-46.273&format=json&limit=100"
+    ],
+    "providers": {
+      "opensky": 2,
+      "iowa": 3,
+      "awc": 3,
+      "ncei": 2,
+      "era5": 2,
+      "ecmwf_ifs": 8,
+      "gfs": 8,
+      "ecmwf": 16
+    },
+    "elapsed_s": 33.7
+  },
+  {
+    "ident": "EK512",
+    "route": "OMDB-VIDP",
+    "stamp": "2026-08-26T073618Z",
+    "obs": 111,
+    "flight": "/home/ubuntu/emirates-air-path/data/live/EK512_2026-08-26T073618Z_flight.json",
+    "meta": "/home/ubuntu/emirates-air-path/data/live/EK512_2026-08-26T073618Z.json",
+    "errors": [
+      "opensky/departures: opensky departures network error: _ssl.c:983: The handshake operation timed out",
+      "opensky/states: opensky states network error: _ssl.c:983: The handshake operation timed out",
+      "iowa/metar: iowa metar HTTP 429: https://mesonet.agron.iastate.edu/cgi-bin/request/asos.py?station=VIDP&data=tmpc%2Csknt%2Cdrct&year1=2026&month1=8&day1=26&year2=2026&month2=8&day2=26&tz=UTC&format=json&latlon=no",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=25.453%2C55.166%2C25.053%2C55.566&format=json&limit=100",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=28.756%2C76.900%2C28.356%2C77.300&format=json&limit=100"
+    ],
+    "providers": {
+      "opensky": 2,
+      "iowa": 3,
+      "awc": 3,
+      "ncei": 2,
+      "era5": 2,
+      "ecmwf_ifs": 8,
+      "gfs": 8,
+      "ecmwf": 16
+    },
+    "elapsed_s": 33.7
+  },
+  {
+    "ident": "EK306",
+    "route": "OMDB-ZBAA",
+    "stamp": "2026-08-26T073653Z",
+    "obs": 103,
+    "flight": "/home/ubuntu/emirates-air-path/data/live/EK306_2026-08-26T073653Z_flight.json",
+    "meta": "/home/ubuntu/emirates-air-path/data/live/EK306_2026-08-26T073653Z.json",
+    "errors": [
+      "opensky/departures: opensky departures network error: _ssl.c:983: The handshake operation timed out",
+      "opensky/states: opensky states network error: _ssl.c:983: The handshake operation timed out",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=25.453%2C55.166%2C25.053%2C55.566&format=json&limit=100",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=40.280%2C116.403%2C39.880%2C116.803&format=json&limit=100",
+      "era5/surface: era5 surface network error: _ssl.c:983: The handshake operation timed out"
+    ],
+    "providers": {
+      "opensky": 2,
+      "iowa": 3,
+      "awc": 3,
+      "ncei": 2,
+      "era5": 2,
+      "ecmwf_ifs": 8,
+      "gfs": 8,
+      "ecmwf": 16
+    },
+    "elapsed_s": 93.6
+  },
+  {
+    "ident": "EK302",
+    "route": "OMDB-ZSPD",
+    "stamp": "2026-08-26T073829Z",
+    "obs": 112,
+    "flight": "/home/ubuntu/emirates-air-path/data/live/EK302_2026-08-26T073829Z_flight.json",
+    "meta": "/home/ubuntu/emirates-air-path/data/live/EK302_2026-08-26T073829Z.json",
+    "errors": [
+      "opensky/departures: opensky departures network error: _ssl.c:983: The handshake operation timed out",
+      "opensky/states: opensky states network error: _ssl.c:983: The handshake operation timed out",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=25.453%2C55.166%2C25.053%2C55.566&format=json&limit=100",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=31.344%2C121.608%2C30.944%2C122.008&format=json&limit=100"
+    ],
+    "providers": {
+      "opensky": 2,
+      "iowa": 3,
+      "awc": 3,
+      "ncei": 2,
+      "era5": 2,
+      "ecmwf_ifs": 8,
+      "gfs": 8,
+      "ecmwf": 16
+    },
+    "elapsed_s": 34.1
+  },
+  {
+    "ident": "EK002",
+    "route": "EGLL-OMDB",
+    "stamp": "2026-08-26T073905Z",
+    "obs": 112,
+    "flight": "/home/ubuntu/emirates-air-path/data/live/EK002_2026-08-26T073905Z_flight.json",
+    "meta": "/home/ubuntu/emirates-air-path/data/live/EK002_2026-08-26T073905Z.json",
+    "errors": [
+      "opensky/departures: opensky departures network error: _ssl.c:983: The handshake operation timed out",
+      "opensky/states: opensky states network error: _ssl.c:983: The handshake operation timed out",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=51.670%2C-0.654%2C51.270%2C-0.254&format=json&limit=100",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=25.453%2C55.166%2C25.053%2C55.566&format=json&limit=100"
+    ],
+    "providers": {
+      "opensky": 2,
+      "iowa": 3,
+      "awc": 3,
+      "ncei": 2,
+      "era5": 2,
+      "ecmwf_ifs": 8,
+      "gfs": 8,
+      "ecmwf": 16
+    },
+    "elapsed_s": 33.8
+  },
+  {
+    "ident": "EK206",
+    "route": "OMDB-KJFK",
+    "stamp": "2026-08-26T073941Z",
+    "obs": 100,
+    "flight": "/home/ubuntu/emirates-air-path/data/live/EK206_2026-08-26T073941Z_flight.json",
+    "meta": "/home/ubuntu/emirates-air-path/data/live/EK206_2026-08-26T073941Z.json",
+    "errors": [
+      "opensky/departures: opensky departures network error: _ssl.c:983: The handshake operation timed out",
+      "opensky/states: opensky states network error: _ssl.c:983: The handshake operation timed out",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=25.453%2C55.166%2C25.053%2C55.566&format=json&limit=100",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=40.841%2C-73.978%2C40.441%2C-73.578&format=json&limit=100"
+    ],
+    "providers": {
+      "opensky": 2,
+      "iowa": 3,
+      "awc": 3,
+      "ncei": 2,
+      "era5": 2,
+      "ecmwf_ifs": 8,
+      "gfs": 8,
+      "ecmwf": 16
+    },
+    "elapsed_s": 34.2
+  },
+  {
+    "ident": "EK414",
+    "route": "OMDB-WSSS",
+    "stamp": "2026-08-26T074017Z",
+    "obs": 112,
+    "flight": "/home/ubuntu/emirates-air-path/data/live/EK414_2026-08-26T074017Z_flight.json",
+    "meta": "/home/ubuntu/emirates-air-path/data/live/EK414_2026-08-26T074017Z.json",
+    "errors": [
+      "opensky/departures: opensky departures network error: _ssl.c:983: The handshake operation timed out",
+      "opensky/states: opensky states network error: _ssl.c:983: The handshake operation timed out",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=25.453%2C55.166%2C25.053%2C55.566&format=json&limit=100",
+      "ncei/global_hourly: ncei global_hourly HTTP 400: https://www.ncei.noaa.gov/access/services/data/v1?dataset=global-hourly&dataTypes=TMP%2CWND&startDate=2026-08-26T00%3A00%3A00&endDate=2026-08-26T23%3A59%3A59&boundingBox=1.564%2C103.791%2C1.164%2C104.191&format=json&limit=100",
+      "ecmwf_ifs/pressure_level: ecmwf_ifs pressure_level network error: _ssl.c:983: The handshake operation timed out"
+    ],
+    "providers": {
+      "opensky": 2,
+      "iowa": 3,
+      "awc": 3,
+      "ncei": 2,
+      "era5": 2,
+      "ecmwf_ifs": 8,
+      "gfs": 8,
+      "ecmwf": 16
+    },
+    "elapsed_s": 96.3
+  }
+]

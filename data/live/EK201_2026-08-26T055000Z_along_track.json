@@ -1,0 +1,2246 @@
+{
+  "kind": "airpath_along_track",
+  "flight_id": "EK201",
+  "origin_icao": "OMDB",
+  "dest_icao": "KMIA",
+  "departure_utc": "2026-08-26T05:50:00Z",
+  "n_waypoints": 8,
+  "n_observations": 76,
+  "n_changes": 30,
+  "change_thresholds": {
+    "wind_kt": 5.0,
+    "wind_from_deg": 15.0,
+    "temp_c": 2.0,
+    "isa_dev_k": 2.0,
+    "fuel_flow_kg_h": 150.0,
+    "ground_speed_kt": 20.0
+  },
+  "points": [
+    {
+      "seq": 0,
+      "lat": 25.2532,
+      "lon": 55.36569999999995,
+      "fl": 350.0,
+      "time_utc": "2026-08-26T05:50:00Z",
+      "weather": [
+        {
+          "source": "era5",
+          "variable": "temp_c",
+          "value": 40.5,
+          "issued_at_utc": "2026-08-26T06:00:00Z",
+          "valid_time_utc": "2026-08-26T06:00:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "era5",
+            "fl": 350.0,
+            "alt_ft": 35000.0,
+            "level_hpa": 250,
+            "valid_time": "2026-08-26T06:00:00Z",
+            "isa_dev_k": 94.84199999999998
+          }
+        },
+        {
+          "source": "era5",
+          "variable": "wind_kt",
+          "value": 5.1,
+          "issued_at_utc": "2026-08-26T06:00:00Z",
+          "valid_time_utc": "2026-08-26T06:00:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "era5",
+            "fl": 350.0,
+            "alt_ft": 35000.0,
+            "level_hpa": 250,
+            "valid_time": "2026-08-26T06:00:00Z",
+            "isa_dev_k": 94.84199999999998
+          }
+        },
+        {
+          "source": "gfs",
+          "variable": "temp_c",
+          "value": -35.0,
+          "issued_at_utc": "2026-08-26T06:00:00Z",
+          "valid_time_utc": "2026-08-26T06:00:00Z",
+          "is_forecast": true,
+          "meta": {
+            "provider": "gfs",
+            "fl": 350.0,
+            "alt_ft": 35000.0,
+            "level_hpa": 250,
+            "valid_time": "2026-08-26T06:00:00Z",
+            "isa_dev_k": 19.341999999999985
+          }
+        },
+        {
+          "source": "gfs",
+          "variable": "wind_kt",
+          "value": 11.5,
+          "issued_at_utc": "2026-08-26T06:00:00Z",
+          "valid_time_utc": "2026-08-26T06:00:00Z",
+          "is_forecast": true,
+          "meta": {
+            "provider": "gfs",
+            "fl": 350.0,
+            "alt_ft": 35000.0,
+            "level_hpa": 250,
+            "valid_time": "2026-08-26T06:00:00Z",
+            "isa_dev_k": 19.341999999999985
+          }
+        },
+        {
+          "source": "metar",
+          "variable": "temp_c",
+          "value": 36.0,
+          "issued_at_utc": "2026-08-26T00:00:00Z",
+          "valid_time_utc": "2026-08-26T00:00:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "metar",
+            "station": "OMDB",
+            "fl": 0.0
+          }
+        },
+        {
+          "source": "metar",
+          "variable": "temp_c",
+          "value": 36.0,
+          "issued_at_utc": "2026-08-26T00:30:00Z",
+          "valid_time_utc": "2026-08-26T00:30:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "metar",
+            "station": "OMDB",
+            "fl": 0.0
+          }
+        },
+        {
+          "source": "metar",
+          "variable": "temp_c",
+          "value": 36.0,
+          "issued_at_utc": "2026-08-26T01:00:00Z",
+          "valid_time_utc": "2026-08-26T01:00:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "metar",
+            "station": "OMDB",
+            "fl": 0.0
+          }
+        },
+        {
+          "source": "metar",
+          "variable": "temp_c",
+          "value": 36.0,
+          "issued_at_utc": "2026-08-26T01:30:00Z",
+          "valid_time_utc": "2026-08-26T01:30:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "metar",
+            "station": "OMDB",
+            "fl": 0.0
+          }
+        },
+        {
+          "source": "metar",
+          "variable": "temp_c",
+          "value": 36.0,
+          "issued_at_utc": "2026-08-26T02:00:00Z",
+          "valid_time_utc": "2026-08-26T02:00:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "metar",
+            "station": "OMDB",
+            "fl": 0.0
+          }
+        },
+        {
+          "source": "metar",
+          "variable": "temp_c",
+          "value": 35.0,
+          "issued_at_utc": "2026-08-26T02:30:00Z",
+          "valid_time_utc": "2026-08-26T02:30:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "metar",
+            "station": "OMDB",
+            "fl": 0.0
+          }
+        },
+        {
+          "source": "metar",
+          "variable": "temp_c",
+          "value": 35.0,
+          "issued_at_utc": "2026-08-26T03:00:00Z",
+          "valid_time_utc": "2026-08-26T03:00:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "metar",
+            "station": "OMDB",
+            "fl": 0.0
+          }
+        },
+        {
+          "source": "metar",
+          "variable": "temp_c",
+          "value": 35.0,
+          "issued_at_utc": "2026-08-26T03:30:00Z",
+          "valid_time_utc": "2026-08-26T03:30:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "metar",
+            "station": "OMDB",
+            "fl": 0.0
+          }
+        },
+        {
+          "source": "metar",
+          "variable": "temp_c",
+          "value": 36.0,
+          "issued_at_utc": "2026-08-26T04:00:00Z",
+          "valid_time_utc": "2026-08-26T04:00:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "metar",
+            "station": "OMDB",
+            "fl": 0.0
+          }
+        },
+        {
+          "source": "metar",
+          "variable": "temp_c",
+          "value": 38.0,
+          "issued_at_utc": "2026-08-26T04:30:00Z",
+          "valid_time_utc": "2026-08-26T04:30:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "metar",
+            "station": "OMDB",
+            "fl": 0.0
+          }
+        },
+        {
+          "source": "metar",
+          "variable": "temp_c",
+          "value": 38.0,
+          "issued_at_utc": "2026-08-26T05:00:00Z",
+          "valid_time_utc": "2026-08-26T05:00:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "metar",
+            "station": "OMDB",
+            "fl": 0.0
+          }
+        },
+        {
+          "source": "metar",
+          "variable": "temp_c",
+          "value": 39.0,
+          "issued_at_utc": "2026-08-26T05:30:00Z",
+          "valid_time_utc": "2026-08-26T05:30:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "metar",
+            "station": "OMDB",
+            "fl": 0.0
+          }
+        },
+        {
+          "source": "metar",
+          "variable": "wind_kt",
+          "value": 6.0,
+          "issued_at_utc": "2026-08-26T00:00:00Z",
+          "valid_time_utc": "2026-08-26T00:00:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "metar",
+            "station": "OMDB",
+            "fl": 0.0
+          }
+        },
+        {
+          "source": "metar",
+          "variable": "wind_kt",
+          "value": 5.0,
+          "issued_at_utc": "2026-08-26T00:30:00Z",
+          "valid_time_utc": "2026-08-26T00:30:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "metar",
+            "station": "OMDB",
+            "fl": 0.0
+          }
+        },
+        {
+          "source": "metar",
+          "variable": "wind_kt",
+          "value": 6.0,
+          "issued_at_utc": "2026-08-26T01:00:00Z",
+          "valid_time_utc": "2026-08-26T01:00:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "metar",
+            "station": "OMDB",
+            "fl": 0.0
+          }
+        },
+        {
+          "source": "metar",
+          "variable": "wind_kt",
+          "value": 5.0,
+          "issued_at_utc": "2026-08-26T01:30:00Z",
+          "valid_time_utc": "2026-08-26T01:30:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "metar",
+            "station": "OMDB",
+            "fl": 0.0
+          }
+        },
+        {
+          "source": "metar",
+          "variable": "wind_kt",
+          "value": 5.0,
+          "issued_at_utc": "2026-08-26T02:00:00Z",
+          "valid_time_utc": "2026-08-26T02:00:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "metar",
+            "station": "OMDB",
+            "fl": 0.0
+          }
+        },
+        {
+          "source": "metar",
+          "variable": "wind_kt",
+          "value": 3.0,
+          "issued_at_utc": "2026-08-26T02:30:00Z",
+          "valid_time_utc": "2026-08-26T02:30:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "metar",
+            "station": "OMDB",
+            "fl": 0.0
+          }
+        },
+        {
+          "source": "metar",
+          "variable": "wind_kt",
+          "value": 7.0,
+          "issued_at_utc": "2026-08-26T03:00:00Z",
+          "valid_time_utc": "2026-08-26T03:00:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "metar",
+            "station": "OMDB",
+            "fl": 0.0
+          }
+        },
+        {
+          "source": "metar",
+          "variable": "wind_kt",
+          "value": 6.0,
+          "issued_at_utc": "2026-08-26T03:30:00Z",
+          "valid_time_utc": "2026-08-26T03:30:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "metar",
+            "station": "OMDB",
+            "fl": 0.0
+          }
+        },
+        {
+          "source": "metar",
+          "variable": "wind_kt",
+          "value": 8.0,
+          "issued_at_utc": "2026-08-26T04:00:00Z",
+          "valid_time_utc": "2026-08-26T04:00:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "metar",
+            "station": "OMDB",
+            "fl": 0.0
+          }
+        },
+        {
+          "source": "metar",
+          "variable": "wind_kt",
+          "value": 9.0,
+          "issued_at_utc": "2026-08-26T04:30:00Z",
+          "valid_time_utc": "2026-08-26T04:30:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "metar",
+            "station": "OMDB",
+            "fl": 0.0
+          }
+        },
+        {
+          "source": "metar",
+          "variable": "wind_kt",
+          "value": 10.0,
+          "issued_at_utc": "2026-08-26T05:00:00Z",
+          "valid_time_utc": "2026-08-26T05:00:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "metar",
+            "station": "OMDB",
+            "fl": 0.0
+          }
+        },
+        {
+          "source": "metar",
+          "variable": "wind_kt",
+          "value": 9.0,
+          "issued_at_utc": "2026-08-26T05:30:00Z",
+          "valid_time_utc": "2026-08-26T05:30:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "metar",
+            "station": "OMDB",
+            "fl": 0.0
+          }
+        }
+      ],
+      "deltas": [
+        {
+          "source": "metar",
+          "variable": "temp_c",
+          "from_value": 36.0,
+          "to_value": 36.0,
+          "delta": 0.0,
+          "threshold": 2.0,
+          "significant": false
+        },
+        {
+          "source": "metar",
+          "variable": "temp_c",
+          "from_value": 36.0,
+          "to_value": 36.0,
+          "delta": 0.0,
+          "threshold": 2.0,
+          "significant": false
+        },
+        {
+          "source": "metar",
+          "variable": "temp_c",
+          "from_value": 36.0,
+          "to_value": 36.0,
+          "delta": 0.0,
+          "threshold": 2.0,
+          "significant": false
+        },
+        {
+          "source": "metar",
+          "variable": "temp_c",
+          "from_value": 36.0,
+          "to_value": 36.0,
+          "delta": 0.0,
+          "threshold": 2.0,
+          "significant": false
+        },
+        {
+          "source": "metar",
+          "variable": "temp_c",
+          "from_value": 36.0,
+          "to_value": 35.0,
+          "delta": -1.0,
+          "threshold": 2.0,
+          "significant": false
+        },
+        {
+          "source": "metar",
+          "variable": "temp_c",
+          "from_value": 35.0,
+          "to_value": 35.0,
+          "delta": 0.0,
+          "threshold": 2.0,
+          "significant": false
+        },
+        {
+          "source": "metar",
+          "variable": "temp_c",
+          "from_value": 35.0,
+          "to_value": 35.0,
+          "delta": 0.0,
+          "threshold": 2.0,
+          "significant": false
+        },
+        {
+          "source": "metar",
+          "variable": "temp_c",
+          "from_value": 35.0,
+          "to_value": 36.0,
+          "delta": 1.0,
+          "threshold": 2.0,
+          "significant": false
+        },
+        {
+          "source": "metar",
+          "variable": "temp_c",
+          "from_value": 36.0,
+          "to_value": 38.0,
+          "delta": 2.0,
+          "threshold": 2.0,
+          "significant": true
+        },
+        {
+          "source": "metar",
+          "variable": "temp_c",
+          "from_value": 38.0,
+          "to_value": 38.0,
+          "delta": 0.0,
+          "threshold": 2.0,
+          "significant": false
+        },
+        {
+          "source": "metar",
+          "variable": "temp_c",
+          "from_value": 38.0,
+          "to_value": 39.0,
+          "delta": 1.0,
+          "threshold": 2.0,
+          "significant": false
+        },
+        {
+          "source": "metar",
+          "variable": "wind_kt",
+          "from_value": 6.0,
+          "to_value": 5.0,
+          "delta": -1.0,
+          "threshold": 5.0,
+          "significant": false
+        },
+        {
+          "source": "metar",
+          "variable": "wind_kt",
+          "from_value": 5.0,
+          "to_value": 6.0,
+          "delta": 1.0,
+          "threshold": 5.0,
+          "significant": false
+        },
+        {
+          "source": "metar",
+          "variable": "wind_kt",
+          "from_value": 6.0,
+          "to_value": 5.0,
+          "delta": -1.0,
+          "threshold": 5.0,
+          "significant": false
+        },
+        {
+          "source": "metar",
+          "variable": "wind_kt",
+          "from_value": 5.0,
+          "to_value": 5.0,
+          "delta": 0.0,
+          "threshold": 5.0,
+          "significant": false
+        },
+        {
+          "source": "metar",
+          "variable": "wind_kt",
+          "from_value": 5.0,
+          "to_value": 3.0,
+          "delta": -2.0,
+          "threshold": 5.0,
+          "significant": false
+        },
+        {
+          "source": "metar",
+          "variable": "wind_kt",
+          "from_value": 3.0,
+          "to_value": 7.0,
+          "delta": 4.0,
+          "threshold": 5.0,
+          "significant": false
+        },
+        {
+          "source": "metar",
+          "variable": "wind_kt",
+          "from_value": 7.0,
+          "to_value": 6.0,
+          "delta": -1.0,
+          "threshold": 5.0,
+          "significant": false
+        },
+        {
+          "source": "metar",
+          "variable": "wind_kt",
+          "from_value": 6.0,
+          "to_value": 8.0,
+          "delta": 2.0,
+          "threshold": 5.0,
+          "significant": false
+        },
+        {
+          "source": "metar",
+          "variable": "wind_kt",
+          "from_value": 8.0,
+          "to_value": 9.0,
+          "delta": 1.0,
+          "threshold": 5.0,
+          "significant": false
+        },
+        {
+          "source": "metar",
+          "variable": "wind_kt",
+          "from_value": 9.0,
+          "to_value": 10.0,
+          "delta": 1.0,
+          "threshold": 5.0,
+          "significant": false
+        },
+        {
+          "source": "metar",
+          "variable": "wind_kt",
+          "from_value": 10.0,
+          "to_value": 9.0,
+          "delta": -1.0,
+          "threshold": 5.0,
+          "significant": false
+        }
+      ]
+    },
+    {
+      "seq": 1,
+      "lat": 36.39383654773745,
+      "lon": 41.62308138323965,
+      "fl": 350.0,
+      "time_utc": "2026-08-26T05:50:00Z",
+      "weather": [
+        {
+          "source": "gfs",
+          "variable": "temp_c",
+          "value": -36.5,
+          "issued_at_utc": "2026-08-26T06:00:00Z",
+          "valid_time_utc": "2026-08-26T06:00:00Z",
+          "is_forecast": true,
+          "meta": {
+            "provider": "gfs",
+            "fl": 350.0,
+            "alt_ft": 35000.0,
+            "level_hpa": 250,
+            "valid_time": "2026-08-26T06:00:00Z",
+            "isa_dev_k": 17.841999999999985
+          }
+        },
+        {
+          "source": "gfs",
+          "variable": "wind_kt",
+          "value": 46.8,
+          "issued_at_utc": "2026-08-26T06:00:00Z",
+          "valid_time_utc": "2026-08-26T06:00:00Z",
+          "is_forecast": true,
+          "meta": {
+            "provider": "gfs",
+            "fl": 350.0,
+            "alt_ft": 35000.0,
+            "level_hpa": 250,
+            "valid_time": "2026-08-26T06:00:00Z",
+            "isa_dev_k": 17.841999999999985
+          }
+        }
+      ],
+      "deltas": [
+        {
+          "source": "gfs",
+          "variable": "temp_c",
+          "from_value": -35.0,
+          "to_value": -36.5,
+          "delta": -1.5,
+          "threshold": 2.0,
+          "significant": false
+        },
+        {
+          "source": "gfs",
+          "variable": "wind_kt",
+          "from_value": 11.5,
+          "to_value": 46.8,
+          "delta": 35.3,
+          "threshold": 5.0,
+          "significant": true
+        }
+      ]
+    },
+    {
+      "seq": 2,
+      "lat": 45.47559208432147,
+      "lon": 23.780180274157033,
+      "fl": 350.0,
+      "time_utc": "2026-08-26T05:50:00Z",
+      "weather": [
+        {
+          "source": "gfs",
+          "variable": "temp_c",
+          "value": -47.0,
+          "issued_at_utc": "2026-08-26T06:00:00Z",
+          "valid_time_utc": "2026-08-26T06:00:00Z",
+          "is_forecast": true,
+          "meta": {
+            "provider": "gfs",
+            "fl": 350.0,
+            "alt_ft": 35000.0,
+            "level_hpa": 250,
+            "valid_time": "2026-08-26T06:00:00Z",
+            "isa_dev_k": 7.3419999999999845
+          }
+        },
+        {
+          "source": "gfs",
+          "variable": "wind_kt",
+          "value": 32.4,
+          "issued_at_utc": "2026-08-26T06:00:00Z",
+          "valid_time_utc": "2026-08-26T06:00:00Z",
+          "is_forecast": true,
+          "meta": {
+            "provider": "gfs",
+            "fl": 350.0,
+            "alt_ft": 35000.0,
+            "level_hpa": 250,
+            "valid_time": "2026-08-26T06:00:00Z",
+            "isa_dev_k": 7.3419999999999845
+          }
+        }
+      ],
+      "deltas": [
+        {
+          "source": "gfs",
+          "variable": "temp_c",
+          "from_value": -36.5,
+          "to_value": -47.0,
+          "delta": -10.5,
+          "threshold": 2.0,
+          "significant": true
+        },
+        {
+          "source": "gfs",
+          "variable": "wind_kt",
+          "from_value": 46.8,
+          "to_value": 32.4,
+          "delta": -14.399999999999999,
+          "threshold": 5.0,
+          "significant": true
+        }
+      ]
+    },
+    {
+      "seq": 3,
+      "lat": 50.89427615945243,
+      "lon": 0.7613692759236983,
+      "fl": 350.0,
+      "time_utc": "2026-08-26T05:50:00Z",
+      "weather": [
+        {
+          "source": "gfs",
+          "variable": "temp_c",
+          "value": -52.5,
+          "issued_at_utc": "2026-08-26T06:00:00Z",
+          "valid_time_utc": "2026-08-26T06:00:00Z",
+          "is_forecast": true,
+          "meta": {
+            "provider": "gfs",
+            "fl": 350.0,
+            "alt_ft": 35000.0,
+            "level_hpa": 250,
+            "valid_time": "2026-08-26T06:00:00Z",
+            "isa_dev_k": 1.8419999999999845
+          }
+        },
+        {
+          "source": "gfs",
+          "variable": "wind_kt",
+          "value": 30.7,
+          "issued_at_utc": "2026-08-26T06:00:00Z",
+          "valid_time_utc": "2026-08-26T06:00:00Z",
+          "is_forecast": true,
+          "meta": {
+            "provider": "gfs",
+            "fl": 350.0,
+            "alt_ft": 35000.0,
+            "level_hpa": 250,
+            "valid_time": "2026-08-26T06:00:00Z",
+            "isa_dev_k": 1.8419999999999845
+          }
+        }
+      ],
+      "deltas": [
+        {
+          "source": "gfs",
+          "variable": "temp_c",
+          "from_value": -47.0,
+          "to_value": -52.5,
+          "delta": -5.5,
+          "threshold": 2.0,
+          "significant": true
+        },
+        {
+          "source": "gfs",
+          "variable": "wind_kt",
+          "from_value": 32.4,
+          "to_value": 30.7,
+          "delta": -1.6999999999999993,
+          "threshold": 5.0,
+          "significant": false
+        }
+      ]
+    },
+    {
+      "seq": 4,
+      "lat": 51.02533898079819,
+      "lon": -25.08391435416695,
+      "fl": 350.0,
+      "time_utc": "2026-08-26T05:50:00Z",
+      "weather": [
+        {
+          "source": "gfs",
+          "variable": "temp_c",
+          "value": -46.0,
+          "issued_at_utc": "2026-08-26T06:00:00Z",
+          "valid_time_utc": "2026-08-26T06:00:00Z",
+          "is_forecast": true,
+          "meta": {
+            "provider": "gfs",
+            "fl": 350.0,
+            "alt_ft": 35000.0,
+            "level_hpa": 250,
+            "valid_time": "2026-08-26T06:00:00Z",
+            "isa_dev_k": 8.341999999999985
+          }
+        },
+        {
+          "source": "gfs",
+          "variable": "wind_kt",
+          "value": 148.5,
+          "issued_at_utc": "2026-08-26T06:00:00Z",
+          "valid_time_utc": "2026-08-26T06:00:00Z",
+          "is_forecast": true,
+          "meta": {
+            "provider": "gfs",
+            "fl": 350.0,
+            "alt_ft": 35000.0,
+            "level_hpa": 250,
+            "valid_time": "2026-08-26T06:00:00Z",
+            "isa_dev_k": 8.341999999999985
+          }
+        },
+        {
+          "source": "pirep",
+          "variable": "temp_c",
+          "value": -44.0,
+          "issued_at_utc": "2026-08-26T05:29:00Z",
+          "valid_time_utc": "2026-08-26T05:29:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "pirep",
+            "fl": 390.0,
+            "raw": "ARP EIN1AW 5042N02344W 0529 F390 5058N02000W 0547 5058N01500W MS44 346/52 KT EIEIK DDL XXF 260530 J07A "
+          }
+        },
+        {
+          "source": "pirep",
+          "variable": "temp_c",
+          "value": -51.0,
+          "issued_at_utc": "2026-08-26T05:31:00Z",
+          "valid_time_utc": "2026-08-26T05:31:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "pirep",
+            "fl": 370.0,
+            "raw": "ARP ITY6KC 5128N02625W 0531 F370 5200N02000W 0601 LIMRI MS51 339/134 KT EIHJP QXT AME 260531 J47A "
+          }
+        },
+        {
+          "source": "pirep",
+          "variable": "temp_c",
+          "value": -43.0,
+          "issued_at_utc": "2026-08-26T05:31:00Z",
+          "valid_time_utc": "2026-08-26T05:31:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "pirep",
+            "fl": 370.0,
+            "raw": "ARP EIN106 5044N02348W 0531 F370 5100N02000W 0549 DINIM MS43 349/61 KT EIEIL DDL XXF 260531 J86A "
+          }
+        },
+        {
+          "source": "pirep",
+          "variable": "temp_c",
+          "value": -47.0,
+          "issued_at_utc": "2026-08-26T05:33:00Z",
+          "valid_time_utc": "2026-08-26T05:33:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "pirep",
+            "fl": 350.0,
+            "raw": "ARP WJA62 5130N02601W 0533 F350 5200N02000W 0603 LIMRI MS47 344/137 KT CGWJN QXT IGW 260533 F71A "
+          }
+        },
+        {
+          "source": "pirep",
+          "variable": "temp_c",
+          "value": -47.0,
+          "issued_at_utc": "2026-08-26T05:35:00Z",
+          "valid_time_utc": "2026-08-26T05:35:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "pirep",
+            "fl": 360.0,
+            "raw": "ARP AFR33J 5127N02620W 0535 F360 5159N02000W 0604 5159N01500W MS47 340/133 KT FGSQG QXT EUA 260535 F51A "
+          }
+        },
+        {
+          "source": "pirep",
+          "variable": "temp_c",
+          "value": -42.0,
+          "issued_at_utc": "2026-08-26T05:45:00Z",
+          "valid_time_utc": "2026-08-26T05:45:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "pirep",
+            "fl": 340.0,
+            "raw": "ARP EIN9LT 5042N02339W 0545 F340 5058N02000W 0603 DINIM MS42 351/61 KT EILRC DDL IG1 260546 J33A "
+          }
+        },
+        {
+          "source": "pirep",
+          "variable": "temp_c",
+          "value": -47.0,
+          "issued_at_utc": "2026-08-26T05:47:00Z",
+          "valid_time_utc": "2026-08-26T05:47:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "pirep",
+            "fl": 350.0,
+            "raw": "ARP QTR87Q 5017N02548W 0547 F350 4900N02000W 0613 4800N01500W MS47 342/137 KT A7ANL QXT EUA 260547 J31A "
+          }
+        },
+        {
+          "source": "pirep",
+          "variable": "wind_kt",
+          "value": 52.0,
+          "issued_at_utc": "2026-08-26T05:29:00Z",
+          "valid_time_utc": "2026-08-26T05:29:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "pirep",
+            "fl": 390.0,
+            "raw": "ARP EIN1AW 5042N02344W 0529 F390 5058N02000W 0547 5058N01500W MS44 346/52 KT EIEIK DDL XXF 260530 J07A "
+          }
+        },
+        {
+          "source": "pirep",
+          "variable": "wind_kt",
+          "value": 134.0,
+          "issued_at_utc": "2026-08-26T05:31:00Z",
+          "valid_time_utc": "2026-08-26T05:31:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "pirep",
+            "fl": 370.0,
+            "raw": "ARP ITY6KC 5128N02625W 0531 F370 5200N02000W 0601 LIMRI MS51 339/134 KT EIHJP QXT AME 260531 J47A "
+          }
+        },
+        {
+          "source": "pirep",
+          "variable": "wind_kt",
+          "value": 61.0,
+          "issued_at_utc": "2026-08-26T05:31:00Z",
+          "valid_time_utc": "2026-08-26T05:31:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "pirep",
+            "fl": 370.0,
+            "raw": "ARP EIN106 5044N02348W 0531 F370 5100N02000W 0549 DINIM MS43 349/61 KT EIEIL DDL XXF 260531 J86A "
+          }
+        },
+        {
+          "source": "pirep",
+          "variable": "wind_kt",
+          "value": 137.0,
+          "issued_at_utc": "2026-08-26T05:33:00Z",
+          "valid_time_utc": "2026-08-26T05:33:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "pirep",
+            "fl": 350.0,
+            "raw": "ARP WJA62 5130N02601W 0533 F350 5200N02000W 0603 LIMRI MS47 344/137 KT CGWJN QXT IGW 260533 F71A "
+          }
+        },
+        {
+          "source": "pirep",
+          "variable": "wind_kt",
+          "value": 133.0,
+          "issued_at_utc": "2026-08-26T05:35:00Z",
+          "valid_time_utc": "2026-08-26T05:35:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "pirep",
+            "fl": 360.0,
+            "raw": "ARP AFR33J 5127N02620W 0535 F360 5159N02000W 0604 5159N01500W MS47 340/133 KT FGSQG QXT EUA 260535 F51A "
+          }
+        },
+        {
+          "source": "pirep",
+          "variable": "wind_kt",
+          "value": 61.0,
+          "issued_at_utc": "2026-08-26T05:45:00Z",
+          "valid_time_utc": "2026-08-26T05:45:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "pirep",
+            "fl": 340.0,
+            "raw": "ARP EIN9LT 5042N02339W 0545 F340 5058N02000W 0603 DINIM MS42 351/61 KT EILRC DDL IG1 260546 J33A "
+          }
+        },
+        {
+          "source": "pirep",
+          "variable": "wind_kt",
+          "value": 137.0,
+          "issued_at_utc": "2026-08-26T05:47:00Z",
+          "valid_time_utc": "2026-08-26T05:47:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "pirep",
+            "fl": 350.0,
+            "raw": "ARP QTR87Q 5017N02548W 0547 F350 4900N02000W 0613 4800N01500W MS47 342/137 KT A7ANL QXT EUA 260547 J31A "
+          }
+        }
+      ],
+      "deltas": [
+        {
+          "source": "gfs",
+          "variable": "temp_c",
+          "from_value": -52.5,
+          "to_value": -46.0,
+          "delta": 6.5,
+          "threshold": 2.0,
+          "significant": true
+        },
+        {
+          "source": "gfs",
+          "variable": "wind_kt",
+          "from_value": 30.7,
+          "to_value": 148.5,
+          "delta": 117.8,
+          "threshold": 5.0,
+          "significant": true
+        },
+        {
+          "source": "pirep",
+          "variable": "temp_c",
+          "from_value": -44.0,
+          "to_value": -51.0,
+          "delta": -7.0,
+          "threshold": 2.0,
+          "significant": true
+        },
+        {
+          "source": "pirep",
+          "variable": "temp_c",
+          "from_value": -51.0,
+          "to_value": -43.0,
+          "delta": 8.0,
+          "threshold": 2.0,
+          "significant": true
+        },
+        {
+          "source": "pirep",
+          "variable": "temp_c",
+          "from_value": -43.0,
+          "to_value": -47.0,
+          "delta": -4.0,
+          "threshold": 2.0,
+          "significant": true
+        },
+        {
+          "source": "pirep",
+          "variable": "temp_c",
+          "from_value": -47.0,
+          "to_value": -47.0,
+          "delta": 0.0,
+          "threshold": 2.0,
+          "significant": false
+        },
+        {
+          "source": "pirep",
+          "variable": "temp_c",
+          "from_value": -47.0,
+          "to_value": -42.0,
+          "delta": 5.0,
+          "threshold": 2.0,
+          "significant": true
+        },
+        {
+          "source": "pirep",
+          "variable": "temp_c",
+          "from_value": -42.0,
+          "to_value": -47.0,
+          "delta": -5.0,
+          "threshold": 2.0,
+          "significant": true
+        },
+        {
+          "source": "pirep",
+          "variable": "wind_kt",
+          "from_value": 52.0,
+          "to_value": 134.0,
+          "delta": 82.0,
+          "threshold": 5.0,
+          "significant": true
+        },
+        {
+          "source": "pirep",
+          "variable": "wind_kt",
+          "from_value": 134.0,
+          "to_value": 61.0,
+          "delta": -73.0,
+          "threshold": 5.0,
+          "significant": true
+        },
+        {
+          "source": "pirep",
+          "variable": "wind_kt",
+          "from_value": 61.0,
+          "to_value": 137.0,
+          "delta": 76.0,
+          "threshold": 5.0,
+          "significant": true
+        },
+        {
+          "source": "pirep",
+          "variable": "wind_kt",
+          "from_value": 137.0,
+          "to_value": 133.0,
+          "delta": -4.0,
+          "threshold": 5.0,
+          "significant": false
+        },
+        {
+          "source": "pirep",
+          "variable": "wind_kt",
+          "from_value": 133.0,
+          "to_value": 61.0,
+          "delta": -72.0,
+          "threshold": 5.0,
+          "significant": true
+        },
+        {
+          "source": "pirep",
+          "variable": "wind_kt",
+          "from_value": 61.0,
+          "to_value": 137.0,
+          "delta": 76.0,
+          "threshold": 5.0,
+          "significant": true
+        }
+      ]
+    },
+    {
+      "seq": 5,
+      "lat": 45.820487331271025,
+      "lon": -48.322440720687325,
+      "fl": 350.0,
+      "time_utc": "2026-08-26T05:50:00Z",
+      "weather": [
+        {
+          "source": "gfs",
+          "variable": "temp_c",
+          "value": -41.5,
+          "issued_at_utc": "2026-08-26T06:00:00Z",
+          "valid_time_utc": "2026-08-26T06:00:00Z",
+          "is_forecast": true,
+          "meta": {
+            "provider": "gfs",
+            "fl": 350.0,
+            "alt_ft": 35000.0,
+            "level_hpa": 250,
+            "valid_time": "2026-08-26T06:00:00Z",
+            "isa_dev_k": 12.841999999999985
+          }
+        },
+        {
+          "source": "gfs",
+          "variable": "wind_kt",
+          "value": 39.0,
+          "issued_at_utc": "2026-08-26T06:00:00Z",
+          "valid_time_utc": "2026-08-26T06:00:00Z",
+          "is_forecast": true,
+          "meta": {
+            "provider": "gfs",
+            "fl": 350.0,
+            "alt_ft": 35000.0,
+            "level_hpa": 250,
+            "valid_time": "2026-08-26T06:00:00Z",
+            "isa_dev_k": 12.841999999999985
+          }
+        },
+        {
+          "source": "pirep",
+          "variable": "temp_c",
+          "value": -41.0,
+          "issued_at_utc": "2026-08-26T05:30:00Z",
+          "valid_time_utc": "2026-08-26T05:30:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "pirep",
+            "fl": 340.0,
+            "raw": "ARP GTI4326 4618N04847W 0530 F340 4800N04000W 0613 4800N03000W MS41 238/51 KT N747BC DDL YYT 260530 F54A"
+          }
+        },
+        {
+          "source": "pirep",
+          "variable": "temp_c",
+          "value": -49.0,
+          "issued_at_utc": "2026-08-26T05:32:00Z",
+          "valid_time_utc": "2026-08-26T05:32:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "pirep",
+            "fl": 370.0,
+            "raw": "ARP DAL114 4611N04845W 0532 F370 4700N04000W 0615 4600N03000W MS49 238/57 KT N179DN QXS YYT 260532 F09A"
+          }
+        },
+        {
+          "source": "pirep",
+          "variable": "temp_c",
+          "value": -55.0,
+          "issued_at_utc": "2026-08-26T05:42:00Z",
+          "valid_time_utc": "2026-08-26T05:42:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "pirep",
+            "fl": 390.0,
+            "raw": "ARP DAL124 4604N04919W 0542 F390 4658N04000W 0627 4558N03001W MS55 238/65 KT N439DX DDL YYT 260542 J58A"
+          }
+        },
+        {
+          "source": "pirep",
+          "variable": "wind_kt",
+          "value": 51.0,
+          "issued_at_utc": "2026-08-26T05:30:00Z",
+          "valid_time_utc": "2026-08-26T05:30:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "pirep",
+            "fl": 340.0,
+            "raw": "ARP GTI4326 4618N04847W 0530 F340 4800N04000W 0613 4800N03000W MS41 238/51 KT N747BC DDL YYT 260530 F54A"
+          }
+        },
+        {
+          "source": "pirep",
+          "variable": "wind_kt",
+          "value": 57.0,
+          "issued_at_utc": "2026-08-26T05:32:00Z",
+          "valid_time_utc": "2026-08-26T05:32:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "pirep",
+            "fl": 370.0,
+            "raw": "ARP DAL114 4611N04845W 0532 F370 4700N04000W 0615 4600N03000W MS49 238/57 KT N179DN QXS YYT 260532 F09A"
+          }
+        },
+        {
+          "source": "pirep",
+          "variable": "wind_kt",
+          "value": 65.0,
+          "issued_at_utc": "2026-08-26T05:42:00Z",
+          "valid_time_utc": "2026-08-26T05:42:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "pirep",
+            "fl": 390.0,
+            "raw": "ARP DAL124 4604N04919W 0542 F390 4658N04000W 0627 4558N03001W MS55 238/65 KT N439DX DDL YYT 260542 J58A"
+          }
+        }
+      ],
+      "deltas": [
+        {
+          "source": "gfs",
+          "variable": "temp_c",
+          "from_value": -46.0,
+          "to_value": -41.5,
+          "delta": 4.5,
+          "threshold": 2.0,
+          "significant": true
+        },
+        {
+          "source": "gfs",
+          "variable": "wind_kt",
+          "from_value": 148.5,
+          "to_value": 39.0,
+          "delta": -109.5,
+          "threshold": 5.0,
+          "significant": true
+        },
+        {
+          "source": "pirep",
+          "variable": "temp_c",
+          "from_value": -47.0,
+          "to_value": -41.0,
+          "delta": 6.0,
+          "threshold": 2.0,
+          "significant": true
+        },
+        {
+          "source": "pirep",
+          "variable": "temp_c",
+          "from_value": -41.0,
+          "to_value": -49.0,
+          "delta": -8.0,
+          "threshold": 2.0,
+          "significant": true
+        },
+        {
+          "source": "pirep",
+          "variable": "temp_c",
+          "from_value": -49.0,
+          "to_value": -55.0,
+          "delta": -6.0,
+          "threshold": 2.0,
+          "significant": true
+        },
+        {
+          "source": "pirep",
+          "variable": "wind_kt",
+          "from_value": 137.0,
+          "to_value": 51.0,
+          "delta": -86.0,
+          "threshold": 5.0,
+          "significant": true
+        },
+        {
+          "source": "pirep",
+          "variable": "wind_kt",
+          "from_value": 51.0,
+          "to_value": 57.0,
+          "delta": 6.0,
+          "threshold": 5.0,
+          "significant": true
+        },
+        {
+          "source": "pirep",
+          "variable": "wind_kt",
+          "from_value": 57.0,
+          "to_value": 65.0,
+          "delta": 8.0,
+          "threshold": 5.0,
+          "significant": true
+        }
+      ]
+    },
+    {
+      "seq": 6,
+      "lat": 36.868006730260454,
+      "lon": -66.3939347767274,
+      "fl": 350.0,
+      "time_utc": "2026-08-26T05:50:00Z",
+      "weather": [
+        {
+          "source": "gfs",
+          "variable": "temp_c",
+          "value": -44.0,
+          "issued_at_utc": "2026-08-26T06:00:00Z",
+          "valid_time_utc": "2026-08-26T06:00:00Z",
+          "is_forecast": true,
+          "meta": {
+            "provider": "gfs",
+            "fl": 350.0,
+            "alt_ft": 35000.0,
+            "level_hpa": 250,
+            "valid_time": "2026-08-26T06:00:00Z",
+            "isa_dev_k": 10.341999999999985
+          }
+        },
+        {
+          "source": "gfs",
+          "variable": "wind_kt",
+          "value": 40.6,
+          "issued_at_utc": "2026-08-26T06:00:00Z",
+          "valid_time_utc": "2026-08-26T06:00:00Z",
+          "is_forecast": true,
+          "meta": {
+            "provider": "gfs",
+            "fl": 350.0,
+            "alt_ft": 35000.0,
+            "level_hpa": 250,
+            "valid_time": "2026-08-26T06:00:00Z",
+            "isa_dev_k": 10.341999999999985
+          }
+        }
+      ],
+      "deltas": [
+        {
+          "source": "gfs",
+          "variable": "temp_c",
+          "from_value": -41.5,
+          "to_value": -44.0,
+          "delta": -2.5,
+          "threshold": 2.0,
+          "significant": true
+        },
+        {
+          "source": "gfs",
+          "variable": "wind_kt",
+          "from_value": 39.0,
+          "to_value": 40.6,
+          "delta": 1.6000000000000014,
+          "threshold": 5.0,
+          "significant": false
+        }
+      ]
+    },
+    {
+      "seq": 7,
+      "lat": 25.795899999999996,
+      "lon": -80.28700000000003,
+      "fl": 350.0,
+      "time_utc": "2026-08-26T05:50:00Z",
+      "weather": [
+        {
+          "source": "era5",
+          "variable": "temp_c",
+          "value": 27.3,
+          "issued_at_utc": "2026-08-26T06:00:00Z",
+          "valid_time_utc": "2026-08-26T06:00:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "era5",
+            "fl": 350.0,
+            "alt_ft": 35000.0,
+            "level_hpa": 250,
+            "valid_time": "2026-08-26T06:00:00Z",
+            "isa_dev_k": 81.642
+          }
+        },
+        {
+          "source": "era5",
+          "variable": "wind_kt",
+          "value": 4.9,
+          "issued_at_utc": "2026-08-26T06:00:00Z",
+          "valid_time_utc": "2026-08-26T06:00:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "era5",
+            "fl": 350.0,
+            "alt_ft": 35000.0,
+            "level_hpa": 250,
+            "valid_time": "2026-08-26T06:00:00Z",
+            "isa_dev_k": 81.642
+          }
+        },
+        {
+          "source": "gfs",
+          "variable": "temp_c",
+          "value": -42.5,
+          "issued_at_utc": "2026-08-26T06:00:00Z",
+          "valid_time_utc": "2026-08-26T06:00:00Z",
+          "is_forecast": true,
+          "meta": {
+            "provider": "gfs",
+            "fl": 350.0,
+            "alt_ft": 35000.0,
+            "level_hpa": 250,
+            "valid_time": "2026-08-26T06:00:00Z",
+            "isa_dev_k": 11.841999999999985
+          }
+        },
+        {
+          "source": "gfs",
+          "variable": "wind_kt",
+          "value": 3.3,
+          "issued_at_utc": "2026-08-26T06:00:00Z",
+          "valid_time_utc": "2026-08-26T06:00:00Z",
+          "is_forecast": true,
+          "meta": {
+            "provider": "gfs",
+            "fl": 350.0,
+            "alt_ft": 35000.0,
+            "level_hpa": 250,
+            "valid_time": "2026-08-26T06:00:00Z",
+            "isa_dev_k": 11.841999999999985
+          }
+        },
+        {
+          "source": "metar",
+          "variable": "temp_c",
+          "value": 30.0,
+          "issued_at_utc": "2026-08-25T23:53:00Z",
+          "valid_time_utc": "2026-08-25T23:53:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "metar",
+            "station": "KMIA",
+            "fl": 0.0
+          }
+        },
+        {
+          "source": "metar",
+          "variable": "temp_c",
+          "value": 29.4,
+          "issued_at_utc": "2026-08-26T00:53:00Z",
+          "valid_time_utc": "2026-08-26T00:53:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "metar",
+            "station": "KMIA",
+            "fl": 0.0
+          }
+        },
+        {
+          "source": "metar",
+          "variable": "temp_c",
+          "value": 28.9,
+          "issued_at_utc": "2026-08-26T01:53:00Z",
+          "valid_time_utc": "2026-08-26T01:53:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "metar",
+            "station": "KMIA",
+            "fl": 0.0
+          }
+        },
+        {
+          "source": "metar",
+          "variable": "temp_c",
+          "value": 29.4,
+          "issued_at_utc": "2026-08-26T02:53:00Z",
+          "valid_time_utc": "2026-08-26T02:53:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "metar",
+            "station": "KMIA",
+            "fl": 0.0
+          }
+        },
+        {
+          "source": "metar",
+          "variable": "temp_c",
+          "value": 28.9,
+          "issued_at_utc": "2026-08-26T03:53:00Z",
+          "valid_time_utc": "2026-08-26T03:53:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "metar",
+            "station": "KMIA",
+            "fl": 0.0
+          }
+        },
+        {
+          "source": "metar",
+          "variable": "temp_c",
+          "value": 28.9,
+          "issued_at_utc": "2026-08-26T04:53:00Z",
+          "valid_time_utc": "2026-08-26T04:53:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "metar",
+            "station": "KMIA",
+            "fl": 0.0
+          }
+        },
+        {
+          "source": "metar",
+          "variable": "wind_kt",
+          "value": 4.0,
+          "issued_at_utc": "2026-08-25T23:53:00Z",
+          "valid_time_utc": "2026-08-25T23:53:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "metar",
+            "station": "KMIA",
+            "fl": 0.0
+          }
+        },
+        {
+          "source": "metar",
+          "variable": "wind_kt",
+          "value": 6.0,
+          "issued_at_utc": "2026-08-26T00:53:00Z",
+          "valid_time_utc": "2026-08-26T00:53:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "metar",
+            "station": "KMIA",
+            "fl": 0.0
+          }
+        },
+        {
+          "source": "metar",
+          "variable": "wind_kt",
+          "value": 5.0,
+          "issued_at_utc": "2026-08-26T01:53:00Z",
+          "valid_time_utc": "2026-08-26T01:53:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "metar",
+            "station": "KMIA",
+            "fl": 0.0
+          }
+        },
+        {
+          "source": "metar",
+          "variable": "wind_kt",
+          "value": 6.0,
+          "issued_at_utc": "2026-08-26T02:53:00Z",
+          "valid_time_utc": "2026-08-26T02:53:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "metar",
+            "station": "KMIA",
+            "fl": 0.0
+          }
+        },
+        {
+          "source": "metar",
+          "variable": "wind_kt",
+          "value": 6.0,
+          "issued_at_utc": "2026-08-26T03:53:00Z",
+          "valid_time_utc": "2026-08-26T03:53:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "metar",
+            "station": "KMIA",
+            "fl": 0.0
+          }
+        },
+        {
+          "source": "metar",
+          "variable": "wind_kt",
+          "value": 6.0,
+          "issued_at_utc": "2026-08-26T04:53:00Z",
+          "valid_time_utc": "2026-08-26T04:53:00Z",
+          "is_forecast": false,
+          "meta": {
+            "provider": "awc",
+            "product": "metar",
+            "station": "KMIA",
+            "fl": 0.0
+          }
+        }
+      ],
+      "deltas": [
+        {
+          "source": "era5",
+          "variable": "temp_c",
+          "from_value": 40.5,
+          "to_value": 27.3,
+          "delta": -13.2,
+          "threshold": 2.0,
+          "significant": true
+        },
+        {
+          "source": "era5",
+          "variable": "wind_kt",
+          "from_value": 5.1,
+          "to_value": 4.9,
+          "delta": -0.1999999999999993,
+          "threshold": 5.0,
+          "significant": false
+        },
+        {
+          "source": "gfs",
+          "variable": "temp_c",
+          "from_value": -44.0,
+          "to_value": -42.5,
+          "delta": 1.5,
+          "threshold": 2.0,
+          "significant": false
+        },
+        {
+          "source": "gfs",
+          "variable": "wind_kt",
+          "from_value": 40.6,
+          "to_value": 3.3,
+          "delta": -37.300000000000004,
+          "threshold": 5.0,
+          "significant": true
+        },
+        {
+          "source": "metar",
+          "variable": "temp_c",
+          "from_value": 39.0,
+          "to_value": 30.0,
+          "delta": -9.0,
+          "threshold": 2.0,
+          "significant": true
+        },
+        {
+          "source": "metar",
+          "variable": "temp_c",
+          "from_value": 30.0,
+          "to_value": 29.4,
+          "delta": -0.6000000000000014,
+          "threshold": 2.0,
+          "significant": false
+        },
+        {
+          "source": "metar",
+          "variable": "temp_c",
+          "from_value": 29.4,
+          "to_value": 28.9,
+          "delta": -0.5,
+          "threshold": 2.0,
+          "significant": false
+        },
+        {
+          "source": "metar",
+          "variable": "temp_c",
+          "from_value": 28.9,
+          "to_value": 29.4,
+          "delta": 0.5,
+          "threshold": 2.0,
+          "significant": false
+        },
+        {
+          "source": "metar",
+          "variable": "temp_c",
+          "from_value": 29.4,
+          "to_value": 28.9,
+          "delta": -0.5,
+          "threshold": 2.0,
+          "significant": false
+        },
+        {
+          "source": "metar",
+          "variable": "temp_c",
+          "from_value": 28.9,
+          "to_value": 28.9,
+          "delta": 0.0,
+          "threshold": 2.0,
+          "significant": false
+        },
+        {
+          "source": "metar",
+          "variable": "wind_kt",
+          "from_value": 9.0,
+          "to_value": 4.0,
+          "delta": -5.0,
+          "threshold": 5.0,
+          "significant": true
+        },
+        {
+          "source": "metar",
+          "variable": "wind_kt",
+          "from_value": 4.0,
+          "to_value": 6.0,
+          "delta": 2.0,
+          "threshold": 5.0,
+          "significant": false
+        },
+        {
+          "source": "metar",
+          "variable": "wind_kt",
+          "from_value": 6.0,
+          "to_value": 5.0,
+          "delta": -1.0,
+          "threshold": 5.0,
+          "significant": false
+        },
+        {
+          "source": "metar",
+          "variable": "wind_kt",
+          "from_value": 5.0,
+          "to_value": 6.0,
+          "delta": 1.0,
+          "threshold": 5.0,
+          "significant": false
+        },
+        {
+          "source": "metar",
+          "variable": "wind_kt",
+          "from_value": 6.0,
+          "to_value": 6.0,
+          "delta": 0.0,
+          "threshold": 5.0,
+          "significant": false
+        },
+        {
+          "source": "metar",
+          "variable": "wind_kt",
+          "from_value": 6.0,
+          "to_value": 6.0,
+          "delta": 0.0,
+          "threshold": 5.0,
+          "significant": false
+        }
+      ]
+    }
+  ],
+  "changes": [
+    {
+      "seq": 0,
+      "lat": 25.2532,
+      "lon": 55.36569999999995,
+      "fl": 350.0,
+      "time_utc": "2026-08-26T05:50:00Z",
+      "source": "metar",
+      "variable": "temp_c",
+      "from_value": 36.0,
+      "to_value": 38.0,
+      "delta": 2.0,
+      "threshold": 2.0,
+      "significant": true
+    },
+    {
+      "seq": 1,
+      "lat": 36.39383654773745,
+      "lon": 41.62308138323965,
+      "fl": 350.0,
+      "time_utc": "2026-08-26T05:50:00Z",
+      "source": "gfs",
+      "variable": "wind_kt",
+      "from_value": 11.5,
+      "to_value": 46.8,
+      "delta": 35.3,
+      "threshold": 5.0,
+      "significant": true
+    },
+    {
+      "seq": 2,
+      "lat": 45.47559208432147,
+      "lon": 23.780180274157033,
+      "fl": 350.0,
+      "time_utc": "2026-08-26T05:50:00Z",
+      "source": "gfs",
+      "variable": "temp_c",
+      "from_value": -36.5,
+      "to_value": -47.0,
+      "delta": -10.5,
+      "threshold": 2.0,
+      "significant": true
+    },
+    {
+      "seq": 2,
+      "lat": 45.47559208432147,
+      "lon": 23.780180274157033,
+      "fl": 350.0,
+      "time_utc": "2026-08-26T05:50:00Z",
+      "source": "gfs",
+      "variable": "wind_kt",
+      "from_value": 46.8,
+      "to_value": 32.4,
+      "delta": -14.399999999999999,
+      "threshold": 5.0,
+      "significant": true
+    },
+    {
+      "seq": 3,
+      "lat": 50.89427615945243,
+      "lon": 0.7613692759236983,
+      "fl": 350.0,
+      "time_utc": "2026-08-26T05:50:00Z",
+      "source": "gfs",
+      "variable": "temp_c",
+      "from_value": -47.0,
+      "to_value": -52.5,
+      "delta": -5.5,
+      "threshold": 2.0,
+      "significant": true
+    },
+    {
+      "seq": 4,
+      "lat": 51.02533898079819,
+      "lon": -25.08391435416695,
+      "fl": 350.0,
+      "time_utc": "2026-08-26T05:50:00Z",
+      "source": "gfs",
+      "variable": "temp_c",
+      "from_value": -52.5,
+      "to_value": -46.0,
+      "delta": 6.5,
+      "threshold": 2.0,
+      "significant": true
+    },
+    {
+      "seq": 4,
+      "lat": 51.02533898079819,
+      "lon": -25.08391435416695,
+      "fl": 350.0,
+      "time_utc": "2026-08-26T05:50:00Z",
+      "source": "gfs",
+      "variable": "wind_kt",
+      "from_value": 30.7,
+      "to_value": 148.5,
+      "delta": 117.8,
+      "threshold": 5.0,
+      "significant": true
+    },
+    {
+      "seq": 4,
+      "lat": 51.02533898079819,
+      "lon": -25.08391435416695,
+      "fl": 350.0,
+      "time_utc": "2026-08-26T05:50:00Z",
+      "source": "pirep",
+      "variable": "temp_c",
+      "from_value": -44.0,
+      "to_value": -51.0,
+      "delta": -7.0,
+      "threshold": 2.0,
+      "significant": true
+    },
+    {
+      "seq": 4,
+      "lat": 51.02533898079819,
+      "lon": -25.08391435416695,
+      "fl": 350.0,
+      "time_utc": "2026-08-26T05:50:00Z",
+      "source": "pirep",
+      "variable": "temp_c",
+      "from_value": -51.0,
+      "to_value": -43.0,
+      "delta": 8.0,
+      "threshold": 2.0,
+      "significant": true
+    },
+    {
+      "seq": 4,
+      "lat": 51.02533898079819,
+      "lon": -25.08391435416695,
+      "fl": 350.0,
+      "time_utc": "2026-08-26T05:50:00Z",
+      "source": "pirep",
+      "variable": "temp_c",
+      "from_value": -43.0,
+      "to_value": -47.0,
+      "delta": -4.0,
+      "threshold": 2.0,
+      "significant": true
+    },
+    {
+      "seq": 4,
+      "lat": 51.02533898079819,
+      "lon": -25.08391435416695,
+      "fl": 350.0,
+      "time_utc": "2026-08-26T05:50:00Z",
+      "source": "pirep",
+      "variable": "temp_c",
+      "from_value": -47.0,
+      "to_value": -42.0,
+      "delta": 5.0,
+      "threshold": 2.0,
+      "significant": true
+    },
+    {
+      "seq": 4,
+      "lat": 51.02533898079819,
+      "lon": -25.08391435416695,
+      "fl": 350.0,
+      "time_utc": "2026-08-26T05:50:00Z",
+      "source": "pirep",
+      "variable": "temp_c",
+      "from_value": -42.0,
+      "to_value": -47.0,
+      "delta": -5.0,
+      "threshold": 2.0,
+      "significant": true
+    },
+    {
+      "seq": 4,
+      "lat": 51.02533898079819,
+      "lon": -25.08391435416695,
+      "fl": 350.0,
+      "time_utc": "2026-08-26T05:50:00Z",
+      "source": "pirep",
+      "variable": "wind_kt",
+      "from_value": 52.0,
+      "to_value": 134.0,
+      "delta": 82.0,
+      "threshold": 5.0,
+      "significant": true
+    },
+    {
+      "seq": 4,
+      "lat": 51.02533898079819,
+      "lon": -25.08391435416695,
+      "fl": 350.0,
+      "time_utc": "2026-08-26T05:50:00Z",
+      "source": "pirep",
+      "variable": "wind_kt",
+      "from_value": 134.0,
+      "to_value": 61.0,
+      "delta": -73.0,
+      "threshold": 5.0,
+      "significant": true
+    },
+    {
+      "seq": 4,
+      "lat": 51.02533898079819,
+      "lon": -25.08391435416695,
+      "fl": 350.0,
+      "time_utc": "2026-08-26T05:50:00Z",
+      "source": "pirep",
+      "variable": "wind_kt",
+      "from_value": 61.0,
+      "to_value": 137.0,
+      "delta": 76.0,
+      "threshold": 5.0,
+      "significant": true
+    },
+    {
+      "seq": 4,
+      "lat": 51.02533898079819,
+      "lon": -25.08391435416695,
+      "fl": 350.0,
+      "time_utc": "2026-08-26T05:50:00Z",
+      "source": "pirep",
+      "variable": "wind_kt",
+      "from_value": 133.0,
+      "to_value": 61.0,
+      "delta": -72.0,
+      "threshold": 5.0,
+      "significant": true
+    },
+    {
+      "seq": 4,
+      "lat": 51.02533898079819,
+      "lon": -25.08391435416695,
+      "fl": 350.0,
+      "time_utc": "2026-08-26T05:50:00Z",
+      "source": "pirep",
+      "variable": "wind_kt",
+      "from_value": 61.0,
+      "to_value": 137.0,
+      "delta": 76.0,
+      "threshold": 5.0,
+      "significant": true
+    },
+    {
+      "seq": 5,
+      "lat": 45.820487331271025,
+      "lon": -48.322440720687325,
+      "fl": 350.0,
+      "time_utc": "2026-08-26T05:50:00Z",
+      "source": "gfs",
+      "variable": "temp_c",
+      "from_value": -46.0,
+      "to_value": -41.5,
+      "delta": 4.5,
+      "threshold": 2.0,
+      "significant": true
+    },
+    {
+      "seq": 5,
+      "lat": 45.820487331271025,
+      "lon": -48.322440720687325,
+      "fl": 350.0,
+      "time_utc": "2026-08-26T05:50:00Z",
+      "source": "gfs",
+      "variable": "wind_kt",
+      "from_value": 148.5,
+      "to_value": 39.0,
+      "delta": -109.5,
+      "threshold": 5.0,
+      "significant": true
+    },
+    {
+      "seq": 5,
+      "lat": 45.820487331271025,
+      "lon": -48.322440720687325,
+      "fl": 350.0,
+      "time_utc": "2026-08-26T05:50:00Z",
+      "source": "pirep",
+      "variable": "temp_c",
+      "from_value": -47.0,
+      "to_value": -41.0,
+      "delta": 6.0,
+      "threshold": 2.0,
+      "significant": true
+    },
+    {
+      "seq": 5,
+      "lat": 45.820487331271025,
+      "lon": -48.322440720687325,
+      "fl": 350.0,
+      "time_utc": "2026-08-26T05:50:00Z",
+      "source": "pirep",
+      "variable": "temp_c",
+      "from_value": -41.0,
+      "to_value": -49.0,
+      "delta": -8.0,
+      "threshold": 2.0,
+      "significant": true
+    },
+    {
+      "seq": 5,
+      "lat": 45.820487331271025,
+      "lon": -48.322440720687325,
+      "fl": 350.0,
+      "time_utc": "2026-08-26T05:50:00Z",
+      "source": "pirep",
+      "variable": "temp_c",
+      "from_value": -49.0,
+      "to_value": -55.0,
+      "delta": -6.0,
+      "threshold": 2.0,
+      "significant": true
+    },
+    {
+      "seq": 5,
+      "lat": 45.820487331271025,
+      "lon": -48.322440720687325,
+      "fl": 350.0,
+      "time_utc": "2026-08-26T05:50:00Z",
+      "source": "pirep",
+      "variable": "wind_kt",
+      "from_value": 137.0,
+      "to_value": 51.0,
+      "delta": -86.0,
+      "threshold": 5.0,
+      "significant": true
+    },
+    {
+      "seq": 5,
+      "lat": 45.820487331271025,
+      "lon": -48.322440720687325,
+      "fl": 350.0,
+      "time_utc": "2026-08-26T05:50:00Z",
+      "source": "pirep",
+      "variable": "wind_kt",
+      "from_value": 51.0,
+      "to_value": 57.0,
+      "delta": 6.0,
+      "threshold": 5.0,
+      "significant": true
+    },
+    {
+      "seq": 5,
+      "lat": 45.820487331271025,
+      "lon": -48.322440720687325,
+      "fl": 350.0,
+      "time_utc": "2026-08-26T05:50:00Z",
+      "source": "pirep",
+      "variable": "wind_kt",
+      "from_value": 57.0,
+      "to_value": 65.0,
+      "delta": 8.0,
+      "threshold": 5.0,
+      "significant": true
+    },
+    {
+      "seq": 6,
+      "lat": 36.868006730260454,
+      "lon": -66.3939347767274,
+      "fl": 350.0,
+      "time_utc": "2026-08-26T05:50:00Z",
+      "source": "gfs",
+      "variable": "temp_c",
+      "from_value": -41.5,
+      "to_value": -44.0,
+      "delta": -2.5,
+      "threshold": 2.0,
+      "significant": true
+    },
+    {
+      "seq": 7,
+      "lat": 25.795899999999996,
+      "lon": -80.28700000000003,
+      "fl": 350.0,
+      "time_utc": "2026-08-26T05:50:00Z",
+      "source": "era5",
+      "variable": "temp_c",
+      "from_value": 40.5,
+      "to_value": 27.3,
+      "delta": -13.2,
+      "threshold": 2.0,
+      "significant": true
+    },
+    {
+      "seq": 7,
+      "lat": 25.795899999999996,
+      "lon": -80.28700000000003,
+      "fl": 350.0,
+      "time_utc": "2026-08-26T05:50:00Z",
+      "source": "gfs",
+      "variable": "wind_kt",
+      "from_value": 40.6,
+      "to_value": 3.3,
+      "delta": -37.300000000000004,
+      "threshold": 5.0,
+      "significant": true
+    },
+    {
+      "seq": 7,
+      "lat": 25.795899999999996,
+      "lon": -80.28700000000003,
+      "fl": 350.0,
+      "time_utc": "2026-08-26T05:50:00Z",
+      "source": "metar",
+      "variable": "temp_c",
+      "from_value": 39.0,
+      "to_value": 30.0,
+      "delta": -9.0,
+      "threshold": 2.0,
+      "significant": true
+    },
+    {
+      "seq": 7,
+      "lat": 25.795899999999996,
+      "lon": -80.28700000000003,
+      "fl": 350.0,
+      "time_utc": "2026-08-26T05:50:00Z",
+      "source": "metar",
+      "variable": "wind_kt",
+      "from_value": 9.0,
+      "to_value": 4.0,
+      "delta": -5.0,
+      "threshold": 5.0,
+      "significant": true
+    }
+  ]
+}

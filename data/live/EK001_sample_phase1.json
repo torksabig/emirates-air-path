@@ -1,0 +1,5184 @@
+{
+  "flight_id": "EK001",
+  "phase1": {
+    "phase1_ready": true,
+    "suitable_count": 8,
+    "sources": [
+      {
+        "source": "aircraft_sensor",
+        "truth_source": "aircraft_sensor",
+        "variable": "fuel_flow_kg_h",
+        "n": 16,
+        "mae": 220.0,
+        "rmse": 220.0,
+        "bias": -220.0,
+        "hit_rate": 0.0,
+        "mild": 0,
+        "moderate": 16,
+        "severe": 0,
+        "suitability": 1.0,
+        "suitable_for_phase2": true,
+        "rmse_corrected": 0.0,
+        "equation": {
+          "variable": "fuel_flow_kg_h",
+          "source": "aircraft_sensor",
+          "intercept": -220.0,
+          "coefficients": {
+            "forecast": 1.0
+          },
+          "n_samples": 16,
+          "rmse_raw": 220.0,
+          "rmse_corrected": 0.0,
+          "form": "corrected = -220.0000 + 1.0000*forecast"
+        }
+      },
+      {
+        "source": "aircraft_sensor",
+        "truth_source": "aircraft_sensor",
+        "variable": "temp_c",
+        "n": 16,
+        "mae": 0.7999999999999972,
+        "rmse": 0.7999999999999972,
+        "bias": 0.7999999999999972,
+        "hit_rate": 1.0,
+        "mild": 16,
+        "moderate": 0,
+        "severe": 0,
+        "suitability": 1.0,
+        "suitable_for_phase2": true,
+        "rmse_corrected": 0.0,
+        "equation": {
+          "variable": "temp_c",
+          "source": "aircraft_sensor",
+          "intercept": 0.7999999999999972,
+          "coefficients": {
+            "forecast": 1.0
+          },
+          "n_samples": 16,
+          "rmse_raw": 0.7999999999999972,
+          "rmse_corrected": 0.0,
+          "form": "corrected = 0.8000 + 1.0000*forecast"
+        }
+      },
+      {
+        "source": "aircraft_sensor",
+        "truth_source": "aircraft_sensor",
+        "variable": "wind_kt",
+        "n": 16,
+        "mae": 4.0,
+        "rmse": 4.0,
+        "bias": -4.0,
+        "hit_rate": 1.0,
+        "mild": 16,
+        "moderate": 0,
+        "severe": 0,
+        "suitability": 0.9999999999999997,
+        "suitable_for_phase2": true,
+        "rmse_corrected": 2.5121479338940403e-15,
+        "equation": {
+          "variable": "wind_kt",
+          "source": "aircraft_sensor",
+          "intercept": -4.0,
+          "coefficients": {
+            "forecast": 1.0
+          },
+          "n_samples": 16,
+          "rmse_raw": 4.0,
+          "rmse_corrected": 2.5121479338940403e-15,
+          "form": "corrected = -4.0000 + 1.0000*forecast"
+        }
+      },
+      {
+        "source": "metar",
+        "truth_source": "metar",
+        "variable": "temp_c",
+        "n": 4,
+        "mae": 3.749999999999999,
+        "rmse": 4.330127018922193,
+        "bias": 1.2500000000000009,
+        "hit_rate": 0.0,
+        "mild": 0,
+        "moderate": 3,
+        "severe": 1,
+        "suitability": 0.12729201538381282,
+        "suitable_for_phase2": false,
+        "rmse_corrected": 3.9246552436775755,
+        "equation": {
+          "variable": "temp_c",
+          "source": "metar",
+          "intercept": 4.3000115366866645,
+          "coefficients": {
+            "forecast": 0.8702122750346101
+          },
+          "n_samples": 4,
+          "rmse_raw": 4.330127018922193,
+          "rmse_corrected": 3.9246552436775755,
+          "form": "corrected = 4.3000 + 0.8702*forecast"
+        }
+      },
+      {
+        "source": "metar",
+        "truth_source": "metar",
+        "variable": "wind_kt",
+        "n": 4,
+        "mae": 14.0,
+        "rmse": 24.63736998950984,
+        "bias": -14.0,
+        "hit_rate": 0.75,
+        "mild": 2,
+        "moderate": 1,
+        "severe": 1,
+        "suitability": 0.22021802095798365,
+        "suitable_for_phase2": false,
+        "rmse_corrected": 16.516719724474736,
+        "equation": {
+          "variable": "wind_kt",
+          "source": "metar",
+          "intercept": 5.263959390862944,
+          "coefficients": {
+            "forecast": 0.4416243654822335
+          },
+          "n_samples": 4,
+          "rmse_raw": 24.63736998950984,
+          "rmse_corrected": 16.516719724474736,
+          "form": "corrected = 5.2640 + 0.4416*forecast"
+        }
+      },
+      {
+        "source": "simulation",
+        "truth_source": "simulation",
+        "variable": "fuel_flow_kg_h",
+        "n": 16,
+        "mae": 98.58255272194526,
+        "rmse": 138.90226112965368,
+        "bias": 53.49862205110469,
+        "hit_rate": 0.8125,
+        "mild": 13,
+        "moderate": 3,
+        "severe": 0,
+        "suitability": 0.6277550590129939,
+        "suitable_for_phase2": true,
+        "rmse_corrected": 128.1863315083303,
+        "equation": {
+          "variable": "fuel_flow_kg_h",
+          "source": "simulation",
+          "intercept": 53.498622051104576,
+          "coefficients": {
+            "forecast": 1.0
+          },
+          "n_samples": 16,
+          "rmse_raw": 138.90226112965368,
+          "rmse_corrected": 128.1863315083303,
+          "form": "corrected = 53.4986 + 1.0000*forecast"
+        }
+      },
+      {
+        "source": "simulation",
+        "truth_source": "simulation",
+        "variable": "isa_dev_k",
+        "n": 16,
+        "mae": 2.6999999999999993,
+        "rmse": 3.298147628257074,
+        "bias": 2.5,
+        "hit_rate": 0.4375,
+        "mild": 7,
+        "moderate": 4,
+        "severe": 5,
+        "suitability": 0.4875986345840496,
+        "suitable_for_phase2": false,
+        "rmse_corrected": 2.1512270400350038,
+        "equation": {
+          "variable": "isa_dev_k",
+          "source": "simulation",
+          "intercept": 2.5,
+          "coefficients": {
+            "forecast": 1.0
+          },
+          "n_samples": 16,
+          "rmse_raw": 3.298147628257074,
+          "rmse_corrected": 2.1512270400350038,
+          "form": "corrected = 2.5000 + 1.0000*forecast"
+        }
+      },
+      {
+        "source": "weather_model",
+        "truth_source": "weather_model",
+        "variable": "isa_dev_k",
+        "n": 16,
+        "mae": 1.5,
+        "rmse": 1.5,
+        "bias": 1.5,
+        "hit_rate": 1.0,
+        "mild": 16,
+        "moderate": 0,
+        "severe": 0,
+        "suitability": 1.0,
+        "suitable_for_phase2": true,
+        "rmse_corrected": 0.0,
+        "equation": {
+          "variable": "isa_dev_k",
+          "source": "weather_model",
+          "intercept": 1.5,
+          "coefficients": {
+            "forecast": 1.0
+          },
+          "n_samples": 16,
+          "rmse_raw": 1.5,
+          "rmse_corrected": 0.0,
+          "form": "corrected = 1.5000 + 1.0000*forecast"
+        }
+      },
+      {
+        "source": "weather_model",
+        "truth_source": "weather_model",
+        "variable": "temp_c",
+        "n": 16,
+        "mae": 4.798425531914894,
+        "rmse": 4.800389804037869,
+        "bias": 4.798425531914894,
+        "hit_rate": 0.0,
+        "mild": 0,
+        "moderate": 0,
+        "severe": 16,
+        "suitability": 0.999999999999999,
+        "suitable_for_phase2": true,
+        "rmse_corrected": 3.552713678800501e-15,
+        "equation": {
+          "variable": "temp_c",
+          "source": "weather_model",
+          "intercept": 1.40000000000002,
+          "coefficients": {
+            "forecast": 0.9400000000000003
+          },
+          "n_samples": 16,
+          "rmse_raw": 4.800389804037869,
+          "rmse_corrected": 3.552713678800501e-15,
+          "form": "corrected = 1.4000 + 0.9400*forecast"
+        }
+      },
+      {
+        "source": "weather_model",
+        "truth_source": "weather_model",
+        "variable": "wind_from_deg",
+        "n": 16,
+        "mae": 8.0,
+        "rmse": 8.0,
+        "bias": -8.0,
+        "hit_rate": 1.0,
+        "mild": 16,
+        "moderate": 0,
+        "severe": 0,
+        "suitability": 1.0,
+        "suitable_for_phase2": true,
+        "rmse_corrected": 0.0,
+        "equation": {
+          "variable": "wind_from_deg",
+          "source": "weather_model",
+          "intercept": -8.0,
+          "coefficients": {
+            "forecast": 1.0
+          },
+          "n_samples": 16,
+          "rmse_raw": 8.0,
+          "rmse_corrected": 0.0,
+          "form": "corrected = -8.0000 + 1.0000*forecast"
+        }
+      },
+      {
+        "source": "weather_model",
+        "truth_source": "weather_model",
+        "variable": "wind_kt",
+        "n": 16,
+        "mae": 1.4100119588167725,
+        "rmse": 1.60607408067124,
+        "bias": 0.9799291689584244,
+        "hit_rate": 1.0,
+        "mild": 16,
+        "moderate": 0,
+        "severe": 0,
+        "suitability": 0.9999999999999997,
+        "suitable_for_phase2": true,
+        "rmse_corrected": 3.552713678800501e-15,
+        "equation": {
+          "variable": "wind_kt",
+          "source": "weather_model",
+          "intercept": -8.0,
+          "coefficients": {
+            "forecast": 1.12
+          },
+          "n_samples": 16,
+          "rmse_raw": 1.60607408067124,
+          "rmse_corrected": 3.552713678800501e-15,
+          "form": "corrected = -8.0000 + 1.1200*forecast"
+        }
+      }
+    ]
+  },
+  "phase1_ready": true,
+  "verifications": [
+    {
+      "waypoint_seq": 0,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "wind_kt",
+      "forecast": 56.24999999999999,
+      "actual": 55.0,
+      "error": -1.249999999999993,
+      "abs_error": 1.249999999999993,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 55.0,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 56.24999999999999,
+        "isa_dev_k": 6.0,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "wind_kt",
+        "source": "weather_model",
+        "intercept": -8.0,
+        "coefficients": {
+          "forecast": 1.12
+        },
+        "n_samples": 16,
+        "rmse_raw": 1.60607408067124,
+        "rmse_corrected": 3.552713678800501e-15,
+        "form": "corrected = -8.0000 + 1.1200*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "wind_from_deg",
+      "forecast": 273.0,
+      "actual": 265.0,
+      "error": -8.0,
+      "abs_error": 8.0,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 265.0,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 273.0,
+        "isa_dev_k": 6.0,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "wind_from_deg",
+        "source": "weather_model",
+        "intercept": -8.0,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 8.0,
+        "rmse_corrected": 0.0,
+        "form": "corrected = -8.0000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "temp_c",
+      "forecast": -52.91702127659573,
+      "actual": -48.341999999999985,
+      "error": 4.5750212765957485,
+      "abs_error": 4.5750212765957485,
+      "holds_true": false,
+      "severity": "severe",
+      "corrected": -48.341999999999985,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": -52.91702127659573,
+        "isa_dev_k": 6.0,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "temp_c",
+        "source": "weather_model",
+        "intercept": 1.40000000000002,
+        "coefficients": {
+          "forecast": 0.9400000000000003
+        },
+        "n_samples": 16,
+        "rmse_raw": 4.800389804037869,
+        "rmse_corrected": 3.552713678800501e-15,
+        "form": "corrected = 1.4000 + 0.9400*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "isa_dev_k",
+      "forecast": 4.5,
+      "actual": 6.0,
+      "error": 1.5,
+      "abs_error": 1.5,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 6.0,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 4.5,
+        "isa_dev_k": 6.0,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "isa_dev_k",
+        "source": "weather_model",
+        "intercept": 1.5,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 1.5,
+        "rmse_corrected": 0.0,
+        "form": "corrected = 1.5000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "aircraft_sensor",
+      "truth_source": "aircraft_sensor",
+      "variable": "wind_kt",
+      "forecast": 59.0,
+      "actual": 55.0,
+      "error": -4.0,
+      "abs_error": 4.0,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 55.0,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 59.0,
+        "isa_dev_k": 6.0,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "wind_kt",
+        "source": "aircraft_sensor",
+        "intercept": -4.0,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 4.0,
+        "rmse_corrected": 2.5121479338940403e-15,
+        "form": "corrected = -4.0000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "aircraft_sensor",
+      "truth_source": "aircraft_sensor",
+      "variable": "temp_c",
+      "forecast": -48.841999999999985,
+      "actual": -48.04199999999999,
+      "error": 0.7999999999999972,
+      "abs_error": 0.7999999999999972,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": -48.04199999999999,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": -48.841999999999985,
+        "isa_dev_k": 6.0,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "temp_c",
+        "source": "aircraft_sensor",
+        "intercept": 0.7999999999999972,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 0.7999999999999972,
+        "rmse_corrected": 0.0,
+        "form": "corrected = 0.8000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "aircraft_sensor",
+      "truth_source": "aircraft_sensor",
+      "variable": "fuel_flow_kg_h",
+      "forecast": 7380.0,
+      "actual": 7160.0,
+      "error": -220.0,
+      "abs_error": 220.0,
+      "holds_true": false,
+      "severity": "moderate",
+      "corrected": 7160.0,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 7380.0,
+        "isa_dev_k": 6.0,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "fuel_flow_kg_h",
+        "source": "aircraft_sensor",
+        "intercept": -220.0,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 220.0,
+        "rmse_corrected": 0.0,
+        "form": "corrected = -220.0000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "simulation",
+      "truth_source": "simulation",
+      "variable": "fuel_flow_kg_h",
+      "forecast": 6800.0,
+      "actual": 7160.0,
+      "error": 360.0,
+      "abs_error": 360.0,
+      "holds_true": false,
+      "severity": "moderate",
+      "corrected": 6853.498622051105,
+      "corrected_error": 306.5013779488954,
+      "features": {
+        "forecast": 6800.0,
+        "isa_dev_k": 6.0,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "fuel_flow_kg_h",
+        "source": "simulation",
+        "intercept": 53.498622051104576,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 138.90226112965368,
+        "rmse_corrected": 128.1863315083303,
+        "form": "corrected = 53.4986 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "simulation",
+      "truth_source": "simulation",
+      "variable": "isa_dev_k",
+      "forecast": 0.0,
+      "actual": 6.0,
+      "error": 6.0,
+      "abs_error": 6.0,
+      "holds_true": false,
+      "severity": "severe",
+      "corrected": 2.5,
+      "corrected_error": 3.5,
+      "features": {
+        "forecast": 0.0,
+        "isa_dev_k": 6.0,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "isa_dev_k",
+        "source": "simulation",
+        "intercept": 2.5,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 3.298147628257074,
+        "rmse_corrected": 2.1512270400350038,
+        "form": "corrected = 2.5000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "metar",
+      "truth_source": "metar",
+      "variable": "temp_c",
+      "forecast": 34.5,
+      "actual": 37.0,
+      "error": 2.5,
+      "abs_error": 2.5,
+      "holds_true": false,
+      "severity": "moderate",
+      "corrected": 34.32233502538071,
+      "corrected_error": 2.67766497461929,
+      "features": {
+        "forecast": 34.5,
+        "isa_dev_k": 6.0,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "temp_c",
+        "source": "metar",
+        "intercept": 4.3000115366866645,
+        "coefficients": {
+          "forecast": 0.8702122750346101
+        },
+        "n_samples": 4,
+        "rmse_raw": 4.330127018922193,
+        "rmse_corrected": 3.9246552436775755,
+        "form": "corrected = 4.3000 + 0.8702*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 0,
+      "source": "metar",
+      "truth_source": "metar",
+      "variable": "wind_kt",
+      "forecast": 12.0,
+      "actual": 7.0,
+      "error": -5.0,
+      "abs_error": 5.0,
+      "holds_true": true,
+      "severity": "moderate",
+      "corrected": 10.563451776649746,
+      "corrected_error": -3.563451776649746,
+      "features": {
+        "forecast": 12.0,
+        "isa_dev_k": 6.0,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "wind_kt",
+        "source": "metar",
+        "intercept": 5.263959390862944,
+        "coefficients": {
+          "forecast": 0.4416243654822335
+        },
+        "n_samples": 4,
+        "rmse_raw": 24.63736998950984,
+        "rmse_corrected": 16.516719724474736,
+        "form": "corrected = 5.2640 + 0.4416*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 1,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "wind_kt",
+      "forecast": 62.74724033805498,
+      "actual": 62.27690917862158,
+      "error": -0.47033115943339965,
+      "abs_error": 0.47033115943339965,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 62.27690917862158,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 62.74724033805498,
+        "isa_dev_k": 5.533333333333331,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "wind_kt",
+        "source": "weather_model",
+        "intercept": -8.0,
+        "coefficients": {
+          "forecast": 1.12
+        },
+        "n_samples": 16,
+        "rmse_raw": 1.60607408067124,
+        "rmse_corrected": 3.552713678800501e-15,
+        "form": "corrected = -8.0000 + 1.1200*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 1,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "wind_from_deg",
+      "forecast": 273.8,
+      "actual": 265.8,
+      "error": -8.0,
+      "abs_error": 8.0,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 265.8,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 273.8,
+        "isa_dev_k": 5.533333333333331,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "wind_from_deg",
+        "source": "weather_model",
+        "intercept": -8.0,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 8.0,
+        "rmse_corrected": 0.0,
+        "form": "corrected = -8.0000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 1,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "temp_c",
+      "forecast": -53.41347517730495,
+      "actual": -48.80866666666665,
+      "error": 4.6048085106383,
+      "abs_error": 4.6048085106383,
+      "holds_true": false,
+      "severity": "severe",
+      "corrected": -48.80866666666665,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": -53.41347517730495,
+        "isa_dev_k": 5.533333333333331,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "temp_c",
+        "source": "weather_model",
+        "intercept": 1.40000000000002,
+        "coefficients": {
+          "forecast": 0.9400000000000003
+        },
+        "n_samples": 16,
+        "rmse_raw": 4.800389804037869,
+        "rmse_corrected": 3.552713678800501e-15,
+        "form": "corrected = 1.4000 + 0.9400*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 1,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "isa_dev_k",
+      "forecast": 4.033333333333331,
+      "actual": 5.533333333333331,
+      "error": 1.5,
+      "abs_error": 1.5,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 5.533333333333331,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 4.033333333333331,
+        "isa_dev_k": 5.533333333333331,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "isa_dev_k",
+        "source": "weather_model",
+        "intercept": 1.5,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 1.5,
+        "rmse_corrected": 0.0,
+        "form": "corrected = 1.5000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 1,
+      "source": "aircraft_sensor",
+      "truth_source": "aircraft_sensor",
+      "variable": "wind_kt",
+      "forecast": 67.28667436039106,
+      "actual": 63.28667436039105,
+      "error": -4.000000000000007,
+      "abs_error": 4.000000000000007,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 63.28667436039106,
+      "corrected_error": -7.105427357601002e-15,
+      "features": {
+        "forecast": 67.28667436039106,
+        "isa_dev_k": 5.533333333333331,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "wind_kt",
+        "source": "aircraft_sensor",
+        "intercept": -4.0,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 4.0,
+        "rmse_corrected": 2.5121479338940403e-15,
+        "form": "corrected = -4.0000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 1,
+      "source": "aircraft_sensor",
+      "truth_source": "aircraft_sensor",
+      "variable": "temp_c",
+      "forecast": -49.44657597490621,
+      "actual": -48.64657597490621,
+      "error": 0.7999999999999972,
+      "abs_error": 0.7999999999999972,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": -48.64657597490621,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": -49.44657597490621,
+        "isa_dev_k": 5.533333333333331,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "temp_c",
+        "source": "aircraft_sensor",
+        "intercept": 0.7999999999999972,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 0.7999999999999972,
+        "rmse_corrected": 0.0,
+        "form": "corrected = 0.8000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 1,
+      "source": "aircraft_sensor",
+      "truth_source": "aircraft_sensor",
+      "variable": "fuel_flow_kg_h",
+      "forecast": 7303.11805990436,
+      "actual": 7083.11805990436,
+      "error": -220.0,
+      "abs_error": 220.0,
+      "holds_true": false,
+      "severity": "moderate",
+      "corrected": 7083.11805990436,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 7303.11805990436,
+        "isa_dev_k": 5.533333333333331,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "fuel_flow_kg_h",
+        "source": "aircraft_sensor",
+        "intercept": -220.0,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 220.0,
+        "rmse_corrected": 0.0,
+        "form": "corrected = -220.0000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 1,
+      "source": "simulation",
+      "truth_source": "simulation",
+      "variable": "fuel_flow_kg_h",
+      "forecast": 6800.0,
+      "actual": 7083.11805990436,
+      "error": 283.11805990436005,
+      "abs_error": 283.11805990436005,
+      "holds_true": false,
+      "severity": "moderate",
+      "corrected": 6853.498622051105,
+      "corrected_error": 229.61943785325548,
+      "features": {
+        "forecast": 6800.0,
+        "isa_dev_k": 5.533333333333331,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "fuel_flow_kg_h",
+        "source": "simulation",
+        "intercept": 53.498622051104576,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 138.90226112965368,
+        "rmse_corrected": 128.1863315083303,
+        "form": "corrected = 53.4986 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 1,
+      "source": "simulation",
+      "truth_source": "simulation",
+      "variable": "isa_dev_k",
+      "forecast": 0.0,
+      "actual": 5.533333333333331,
+      "error": 5.533333333333331,
+      "abs_error": 5.533333333333331,
+      "holds_true": false,
+      "severity": "severe",
+      "corrected": 2.5,
+      "corrected_error": 3.0333333333333314,
+      "features": {
+        "forecast": 0.0,
+        "isa_dev_k": 5.533333333333331,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "isa_dev_k",
+        "source": "simulation",
+        "intercept": 2.5,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 3.298147628257074,
+        "rmse_corrected": 2.1512270400350038,
+        "form": "corrected = 2.5000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 1,
+      "source": "metar",
+      "truth_source": "metar",
+      "variable": "temp_c",
+      "forecast": 33.03333333333333,
+      "actual": 30.533333333333335,
+      "error": -2.4999999999999964,
+      "abs_error": 2.4999999999999964,
+      "holds_true": false,
+      "severity": "moderate",
+      "corrected": 33.04602368866328,
+      "corrected_error": -2.5126903553299478,
+      "features": {
+        "forecast": 33.03333333333333,
+        "isa_dev_k": 5.533333333333331,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "temp_c",
+        "source": "metar",
+        "intercept": 4.3000115366866645,
+        "coefficients": {
+          "forecast": 0.8702122750346101
+        },
+        "n_samples": 4,
+        "rmse_raw": 4.330127018922193,
+        "rmse_corrected": 3.9246552436775755,
+        "form": "corrected = 4.3000 + 0.8702*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 1,
+      "source": "metar",
+      "truth_source": "metar",
+      "variable": "wind_kt",
+      "forecast": 15.0,
+      "actual": 14.0,
+      "error": -1.0,
+      "abs_error": 1.0,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 11.888324873096446,
+      "corrected_error": 2.1116751269035543,
+      "features": {
+        "forecast": 15.0,
+        "isa_dev_k": 5.533333333333331,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "wind_kt",
+        "source": "metar",
+        "intercept": 5.263959390862944,
+        "coefficients": {
+          "forecast": 0.4416243654822335
+        },
+        "n_samples": 4,
+        "rmse_raw": 24.63736998950984,
+        "rmse_corrected": 16.516719724474736,
+        "form": "corrected = 5.2640 + 0.4416*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 2,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "wind_kt",
+      "forecast": 68.96052009611874,
+      "actual": 69.235782507653,
+      "error": 0.275262411534257,
+      "abs_error": 0.275262411534257,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 69.235782507653,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 68.96052009611874,
+        "isa_dev_k": 5.066666666666663,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "wind_kt",
+        "source": "weather_model",
+        "intercept": -8.0,
+        "coefficients": {
+          "forecast": 1.12
+        },
+        "n_samples": 16,
+        "rmse_raw": 1.60607408067124,
+        "rmse_corrected": 3.552713678800501e-15,
+        "form": "corrected = -8.0000 + 1.1200*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 2,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "wind_from_deg",
+      "forecast": 274.6,
+      "actual": 266.6,
+      "error": -8.0,
+      "abs_error": 8.0,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 266.6,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 274.6,
+        "isa_dev_k": 5.066666666666663,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "wind_from_deg",
+        "source": "weather_model",
+        "intercept": -8.0,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 8.0,
+        "rmse_corrected": 0.0,
+        "form": "corrected = -8.0000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 2,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "temp_c",
+      "forecast": -53.909929078014166,
+      "actual": -49.275333333333315,
+      "error": 4.634595744680851,
+      "abs_error": 4.634595744680851,
+      "holds_true": false,
+      "severity": "severe",
+      "corrected": -49.275333333333315,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": -53.909929078014166,
+        "isa_dev_k": 5.066666666666663,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "temp_c",
+        "source": "weather_model",
+        "intercept": 1.40000000000002,
+        "coefficients": {
+          "forecast": 0.9400000000000003
+        },
+        "n_samples": 16,
+        "rmse_raw": 4.800389804037869,
+        "rmse_corrected": 3.552713678800501e-15,
+        "form": "corrected = 1.4000 + 0.9400*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 2,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "isa_dev_k",
+      "forecast": 3.566666666666663,
+      "actual": 5.066666666666663,
+      "error": 1.5,
+      "abs_error": 1.5,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 5.066666666666663,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 3.566666666666663,
+        "isa_dev_k": 5.066666666666663,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "isa_dev_k",
+        "source": "weather_model",
+        "intercept": 1.5,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 1.5,
+        "rmse_corrected": 0.0,
+        "form": "corrected = 1.5000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 2,
+      "source": "aircraft_sensor",
+      "truth_source": "aircraft_sensor",
+      "variable": "wind_kt",
+      "forecast": 74.32693941984381,
+      "actual": 70.32693941984381,
+      "error": -4.0,
+      "abs_error": 4.0,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 70.32693941984381,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 74.32693941984381,
+        "isa_dev_k": 5.066666666666663,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "wind_kt",
+        "source": "aircraft_sensor",
+        "intercept": -4.0,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 4.0,
+        "rmse_corrected": 2.5121479338940403e-15,
+        "form": "corrected = -4.0000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 2,
+      "source": "aircraft_sensor",
+      "truth_source": "aircraft_sensor",
+      "variable": "temp_c",
+      "forecast": -50.200177384297454,
+      "actual": -49.40017738429746,
+      "error": 0.7999999999999972,
+      "abs_error": 0.7999999999999972,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": -49.40017738429746,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": -50.200177384297454,
+        "isa_dev_k": 5.066666666666663,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "temp_c",
+        "source": "aircraft_sensor",
+        "intercept": 0.7999999999999972,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 0.7999999999999972,
+        "rmse_corrected": 0.0,
+        "form": "corrected = 0.8000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 2,
+      "source": "aircraft_sensor",
+      "truth_source": "aircraft_sensor",
+      "variable": "fuel_flow_kg_h",
+      "forecast": 7228.780406605442,
+      "actual": 7008.780406605442,
+      "error": -220.0,
+      "abs_error": 220.0,
+      "holds_true": false,
+      "severity": "moderate",
+      "corrected": 7008.780406605442,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 7228.780406605442,
+        "isa_dev_k": 5.066666666666663,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "fuel_flow_kg_h",
+        "source": "aircraft_sensor",
+        "intercept": -220.0,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 220.0,
+        "rmse_corrected": 0.0,
+        "form": "corrected = -220.0000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 2,
+      "source": "simulation",
+      "truth_source": "simulation",
+      "variable": "fuel_flow_kg_h",
+      "forecast": 6800.0,
+      "actual": 7008.780406605442,
+      "error": 208.7804066054423,
+      "abs_error": 208.7804066054423,
+      "holds_true": false,
+      "severity": "moderate",
+      "corrected": 6853.498622051105,
+      "corrected_error": 155.28178455433772,
+      "features": {
+        "forecast": 6800.0,
+        "isa_dev_k": 5.066666666666663,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "fuel_flow_kg_h",
+        "source": "simulation",
+        "intercept": 53.498622051104576,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 138.90226112965368,
+        "rmse_corrected": 128.1863315083303,
+        "form": "corrected = 53.4986 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 2,
+      "source": "simulation",
+      "truth_source": "simulation",
+      "variable": "isa_dev_k",
+      "forecast": 0.0,
+      "actual": 5.066666666666663,
+      "error": 5.066666666666663,
+      "abs_error": 5.066666666666663,
+      "holds_true": false,
+      "severity": "severe",
+      "corrected": 2.5,
+      "corrected_error": 2.566666666666663,
+      "features": {
+        "forecast": 0.0,
+        "isa_dev_k": 5.066666666666663,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "isa_dev_k",
+        "source": "simulation",
+        "intercept": 2.5,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 3.298147628257074,
+        "rmse_corrected": 2.1512270400350038,
+        "form": "corrected = 2.5000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 3,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "wind_kt",
+      "forecast": 74.61828913413979,
+      "actual": 75.57248383023656,
+      "error": 0.9541946960967778,
+      "abs_error": 0.9541946960967778,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 75.57248383023656,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 74.61828913413979,
+        "isa_dev_k": 4.599999999999994,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "wind_kt",
+        "source": "weather_model",
+        "intercept": -8.0,
+        "coefficients": {
+          "forecast": 1.12
+        },
+        "n_samples": 16,
+        "rmse_raw": 1.60607408067124,
+        "rmse_corrected": 3.552713678800501e-15,
+        "form": "corrected = -8.0000 + 1.1200*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 3,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "wind_from_deg",
+      "forecast": 275.4,
+      "actual": 267.4,
+      "error": -8.0,
+      "abs_error": 8.0,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 267.4,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 275.4,
+        "isa_dev_k": 4.599999999999994,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "wind_from_deg",
+        "source": "weather_model",
+        "intercept": -8.0,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 8.0,
+        "rmse_corrected": 0.0,
+        "form": "corrected = -8.0000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 3,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "temp_c",
+      "forecast": -54.406382978723386,
+      "actual": -49.74199999999998,
+      "error": 4.664382978723403,
+      "abs_error": 4.664382978723403,
+      "holds_true": false,
+      "severity": "severe",
+      "corrected": -49.741999999999976,
+      "corrected_error": -7.105427357601002e-15,
+      "features": {
+        "forecast": -54.406382978723386,
+        "isa_dev_k": 4.599999999999994,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "temp_c",
+        "source": "weather_model",
+        "intercept": 1.40000000000002,
+        "coefficients": {
+          "forecast": 0.9400000000000003
+        },
+        "n_samples": 16,
+        "rmse_raw": 4.800389804037869,
+        "rmse_corrected": 3.552713678800501e-15,
+        "form": "corrected = 1.4000 + 0.9400*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 3,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "isa_dev_k",
+      "forecast": 3.0999999999999943,
+      "actual": 4.599999999999994,
+      "error": 1.5,
+      "abs_error": 1.5,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 4.599999999999994,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 3.0999999999999943,
+        "isa_dev_k": 4.599999999999994,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "isa_dev_k",
+        "source": "weather_model",
+        "intercept": 1.5,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 1.5,
+        "rmse_corrected": 0.0,
+        "form": "corrected = 1.5000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 3,
+      "source": "aircraft_sensor",
+      "truth_source": "aircraft_sensor",
+      "variable": "wind_kt",
+      "forecast": 79.74182783990841,
+      "actual": 75.74182783990841,
+      "error": -4.0,
+      "abs_error": 4.0,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 75.74182783990841,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 79.74182783990841,
+        "isa_dev_k": 4.599999999999994,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "wind_kt",
+        "source": "aircraft_sensor",
+        "intercept": -4.0,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 4.0,
+        "rmse_corrected": 2.5121479338940403e-15,
+        "form": "corrected = -4.0000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 3,
+      "source": "aircraft_sensor",
+      "truth_source": "aircraft_sensor",
+      "variable": "temp_c",
+      "forecast": -50.83899774898011,
+      "actual": -50.038997748980115,
+      "error": 0.7999999999999972,
+      "abs_error": 0.7999999999999972,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": -50.038997748980115,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": -50.83899774898011,
+        "isa_dev_k": 4.599999999999994,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "temp_c",
+        "source": "aircraft_sensor",
+        "intercept": 0.7999999999999972,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 0.7999999999999972,
+        "rmse_corrected": 0.0,
+        "form": "corrected = 0.8000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 3,
+      "source": "aircraft_sensor",
+      "truth_source": "aircraft_sensor",
+      "variable": "fuel_flow_kg_h",
+      "forecast": 7159.420129358107,
+      "actual": 6939.420129358107,
+      "error": -220.0,
+      "abs_error": 220.0,
+      "holds_true": false,
+      "severity": "moderate",
+      "corrected": 6939.420129358107,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 7159.420129358107,
+        "isa_dev_k": 4.599999999999994,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "fuel_flow_kg_h",
+        "source": "aircraft_sensor",
+        "intercept": -220.0,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 220.0,
+        "rmse_corrected": 0.0,
+        "form": "corrected = -220.0000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 3,
+      "source": "simulation",
+      "truth_source": "simulation",
+      "variable": "fuel_flow_kg_h",
+      "forecast": 6800.0,
+      "actual": 6939.420129358107,
+      "error": 139.42012935810726,
+      "abs_error": 139.42012935810726,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 6853.498622051105,
+      "corrected_error": 85.92150730700268,
+      "features": {
+        "forecast": 6800.0,
+        "isa_dev_k": 4.599999999999994,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "fuel_flow_kg_h",
+        "source": "simulation",
+        "intercept": 53.498622051104576,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 138.90226112965368,
+        "rmse_corrected": 128.1863315083303,
+        "form": "corrected = 53.4986 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 3,
+      "source": "simulation",
+      "truth_source": "simulation",
+      "variable": "isa_dev_k",
+      "forecast": 0.0,
+      "actual": 4.599999999999994,
+      "error": 4.599999999999994,
+      "abs_error": 4.599999999999994,
+      "holds_true": false,
+      "severity": "severe",
+      "corrected": 2.5,
+      "corrected_error": 2.0999999999999943,
+      "features": {
+        "forecast": 0.0,
+        "isa_dev_k": 4.599999999999994,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "isa_dev_k",
+        "source": "simulation",
+        "intercept": 2.5,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 3.298147628257074,
+        "rmse_corrected": 2.1512270400350038,
+        "form": "corrected = 2.5000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 4,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "wind_kt",
+      "forecast": 79.47327579616856,
+      "actual": 81.0100688917088,
+      "error": 1.536793095540233,
+      "abs_error": 1.536793095540233,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 81.0100688917088,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 79.47327579616856,
+        "isa_dev_k": 4.133333333333326,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "wind_kt",
+        "source": "weather_model",
+        "intercept": -8.0,
+        "coefficients": {
+          "forecast": 1.12
+        },
+        "n_samples": 16,
+        "rmse_raw": 1.60607408067124,
+        "rmse_corrected": 3.552713678800501e-15,
+        "form": "corrected = -8.0000 + 1.1200*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 4,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "wind_from_deg",
+      "forecast": 276.2,
+      "actual": 268.2,
+      "error": -8.0,
+      "abs_error": 8.0,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 268.2,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 276.2,
+        "isa_dev_k": 4.133333333333326,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "wind_from_deg",
+        "source": "weather_model",
+        "intercept": -8.0,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 8.0,
+        "rmse_corrected": 0.0,
+        "form": "corrected = -8.0000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 4,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "temp_c",
+      "forecast": -54.90283687943261,
+      "actual": -50.20866666666665,
+      "error": 4.694170212765961,
+      "abs_error": 4.694170212765961,
+      "holds_true": false,
+      "severity": "severe",
+      "corrected": -50.20866666666665,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": -54.90283687943261,
+        "isa_dev_k": 4.133333333333326,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "temp_c",
+        "source": "weather_model",
+        "intercept": 1.40000000000002,
+        "coefficients": {
+          "forecast": 0.9400000000000003
+        },
+        "n_samples": 16,
+        "rmse_raw": 4.800389804037869,
+        "rmse_corrected": 3.552713678800501e-15,
+        "form": "corrected = 1.4000 + 0.9400*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 4,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "isa_dev_k",
+      "forecast": 2.6333333333333258,
+      "actual": 4.133333333333326,
+      "error": 1.5,
+      "abs_error": 1.5,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 4.133333333333326,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 2.6333333333333258,
+        "isa_dev_k": 4.133333333333326,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "isa_dev_k",
+        "source": "weather_model",
+        "intercept": 1.5,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 1.5,
+        "rmse_corrected": 0.0,
+        "form": "corrected = 1.5000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 4,
+      "source": "aircraft_sensor",
+      "truth_source": "aircraft_sensor",
+      "variable": "wind_kt",
+      "forecast": 84.10190589733928,
+      "actual": 80.10190589733928,
+      "error": -4.0,
+      "abs_error": 4.0,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 80.10190589733928,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 84.10190589733928,
+        "isa_dev_k": 4.133333333333326,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "wind_kt",
+        "source": "aircraft_sensor",
+        "intercept": -4.0,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 4.0,
+        "rmse_corrected": 2.5121479338940403e-15,
+        "form": "corrected = -4.0000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 4,
+      "source": "aircraft_sensor",
+      "truth_source": "aircraft_sensor",
+      "variable": "temp_c",
+      "forecast": -51.20475975292573,
+      "actual": -50.404759752925735,
+      "error": 0.7999999999999972,
+      "abs_error": 0.7999999999999972,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": -50.404759752925735,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": -51.20475975292573,
+        "isa_dev_k": 4.133333333333326,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "temp_c",
+        "source": "aircraft_sensor",
+        "intercept": 0.7999999999999972,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 0.7999999999999972,
+        "rmse_corrected": 0.0,
+        "form": "corrected = 0.8000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 4,
+      "source": "aircraft_sensor",
+      "truth_source": "aircraft_sensor",
+      "variable": "fuel_flow_kg_h",
+      "forecast": 7097.252782199663,
+      "actual": 6877.252782199663,
+      "error": -220.0,
+      "abs_error": 220.0,
+      "holds_true": false,
+      "severity": "moderate",
+      "corrected": 6877.252782199663,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 7097.252782199663,
+        "isa_dev_k": 4.133333333333326,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "fuel_flow_kg_h",
+        "source": "aircraft_sensor",
+        "intercept": -220.0,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 220.0,
+        "rmse_corrected": 0.0,
+        "form": "corrected = -220.0000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 4,
+      "source": "simulation",
+      "truth_source": "simulation",
+      "variable": "fuel_flow_kg_h",
+      "forecast": 6800.0,
+      "actual": 6877.252782199663,
+      "error": 77.25278219966276,
+      "abs_error": 77.25278219966276,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 6853.498622051105,
+      "corrected_error": 23.754160148558185,
+      "features": {
+        "forecast": 6800.0,
+        "isa_dev_k": 4.133333333333326,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "fuel_flow_kg_h",
+        "source": "simulation",
+        "intercept": 53.498622051104576,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 138.90226112965368,
+        "rmse_corrected": 128.1863315083303,
+        "form": "corrected = 53.4986 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 4,
+      "source": "simulation",
+      "truth_source": "simulation",
+      "variable": "isa_dev_k",
+      "forecast": 0.0,
+      "actual": 4.133333333333326,
+      "error": 4.133333333333326,
+      "abs_error": 4.133333333333326,
+      "holds_true": false,
+      "severity": "severe",
+      "corrected": 2.5,
+      "corrected_error": 1.6333333333333258,
+      "features": {
+        "forecast": 0.0,
+        "isa_dev_k": 4.133333333333326,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "isa_dev_k",
+        "source": "simulation",
+        "intercept": 2.5,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 3.298147628257074,
+        "rmse_corrected": 2.1512270400350038,
+        "form": "corrected = 2.5000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 5,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "wind_kt",
+      "forecast": 83.3132938682637,
+      "actual": 85.31088913245534,
+      "error": 1.997595264191645,
+      "abs_error": 1.997595264191645,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 85.31088913245536,
+      "corrected_error": -1.4210854715202004e-14,
+      "features": {
+        "forecast": 83.3132938682637,
+        "isa_dev_k": 3.666666666666657,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "wind_kt",
+        "source": "weather_model",
+        "intercept": -8.0,
+        "coefficients": {
+          "forecast": 1.12
+        },
+        "n_samples": 16,
+        "rmse_raw": 1.60607408067124,
+        "rmse_corrected": 3.552713678800501e-15,
+        "form": "corrected = -8.0000 + 1.1200*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 5,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "wind_from_deg",
+      "forecast": 277.0,
+      "actual": 269.0,
+      "error": -8.0,
+      "abs_error": 8.0,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 269.0,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 277.0,
+        "isa_dev_k": 3.666666666666657,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "wind_from_deg",
+        "source": "weather_model",
+        "intercept": -8.0,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 8.0,
+        "rmse_corrected": 0.0,
+        "form": "corrected = -8.0000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 5,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "temp_c",
+      "forecast": -55.39929078014183,
+      "actual": -50.67533333333332,
+      "error": 4.723957446808512,
+      "abs_error": 4.723957446808512,
+      "holds_true": false,
+      "severity": "severe",
+      "corrected": -50.67533333333332,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": -55.39929078014183,
+        "isa_dev_k": 3.666666666666657,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "temp_c",
+        "source": "weather_model",
+        "intercept": 1.40000000000002,
+        "coefficients": {
+          "forecast": 0.9400000000000003
+        },
+        "n_samples": 16,
+        "rmse_raw": 4.800389804037869,
+        "rmse_corrected": 3.552713678800501e-15,
+        "form": "corrected = 1.4000 + 0.9400*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 5,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "isa_dev_k",
+      "forecast": 2.166666666666657,
+      "actual": 3.666666666666657,
+      "error": 1.5,
+      "abs_error": 1.5,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 3.666666666666657,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 2.166666666666657,
+        "isa_dev_k": 3.666666666666657,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "isa_dev_k",
+        "source": "weather_model",
+        "intercept": 1.5,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 1.5,
+        "rmse_corrected": 0.0,
+        "form": "corrected = 1.5000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 5,
+      "source": "aircraft_sensor",
+      "truth_source": "aircraft_sensor",
+      "variable": "wind_kt",
+      "forecast": 88.16018000285958,
+      "actual": 84.16018000285958,
+      "error": -4.0,
+      "abs_error": 4.0,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 84.16018000285958,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 88.16018000285958,
+        "isa_dev_k": 3.666666666666657,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "wind_kt",
+        "source": "aircraft_sensor",
+        "intercept": -4.0,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 4.0,
+        "rmse_corrected": 2.5121479338940403e-15,
+        "form": "corrected = -4.0000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 5,
+      "source": "aircraft_sensor",
+      "truth_source": "aircraft_sensor",
+      "variable": "temp_c",
+      "forecast": -51.39023467769435,
+      "actual": -50.590234677694355,
+      "error": 0.7999999999999972,
+      "abs_error": 0.7999999999999972,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": -50.590234677694355,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": -51.39023467769435,
+        "isa_dev_k": 3.666666666666657,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "temp_c",
+        "source": "aircraft_sensor",
+        "intercept": 0.7999999999999972,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 0.7999999999999972,
+        "rmse_corrected": 0.0,
+        "form": "corrected = 0.8000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 5,
+      "source": "aircraft_sensor",
+      "truth_source": "aircraft_sensor",
+      "variable": "fuel_flow_kg_h",
+      "forecast": 7044.179553607023,
+      "actual": 6824.179553607023,
+      "error": -220.0,
+      "abs_error": 220.0,
+      "holds_true": false,
+      "severity": "moderate",
+      "corrected": 6824.179553607023,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 7044.179553607023,
+        "isa_dev_k": 3.666666666666657,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "fuel_flow_kg_h",
+        "source": "aircraft_sensor",
+        "intercept": -220.0,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 220.0,
+        "rmse_corrected": 0.0,
+        "form": "corrected = -220.0000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 5,
+      "source": "simulation",
+      "truth_source": "simulation",
+      "variable": "fuel_flow_kg_h",
+      "forecast": 6800.0,
+      "actual": 6824.179553607023,
+      "error": 24.17955360702308,
+      "abs_error": 24.17955360702308,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 6853.498622051105,
+      "corrected_error": -29.319068444081495,
+      "features": {
+        "forecast": 6800.0,
+        "isa_dev_k": 3.666666666666657,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "fuel_flow_kg_h",
+        "source": "simulation",
+        "intercept": 53.498622051104576,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 138.90226112965368,
+        "rmse_corrected": 128.1863315083303,
+        "form": "corrected = 53.4986 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 5,
+      "source": "simulation",
+      "truth_source": "simulation",
+      "variable": "isa_dev_k",
+      "forecast": 0.0,
+      "actual": 3.666666666666657,
+      "error": 3.666666666666657,
+      "abs_error": 3.666666666666657,
+      "holds_true": false,
+      "severity": "moderate",
+      "corrected": 2.5,
+      "corrected_error": 1.1666666666666572,
+      "features": {
+        "forecast": 0.0,
+        "isa_dev_k": 3.666666666666657,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "isa_dev_k",
+        "source": "simulation",
+        "intercept": 2.5,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 3.298147628257074,
+        "rmse_corrected": 2.1512270400350038,
+        "form": "corrected = 2.5000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 6,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "wind_kt",
+      "forecast": 85.97051613422354,
+      "actual": 88.28697807033038,
+      "error": 2.3164619361068333,
+      "abs_error": 2.3164619361068333,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 88.28697807033038,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 85.97051613422354,
+        "isa_dev_k": 3.1999999999999886,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "wind_kt",
+        "source": "weather_model",
+        "intercept": -8.0,
+        "coefficients": {
+          "forecast": 1.12
+        },
+        "n_samples": 16,
+        "rmse_raw": 1.60607408067124,
+        "rmse_corrected": 3.552713678800501e-15,
+        "form": "corrected = -8.0000 + 1.1200*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 6,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "wind_from_deg",
+      "forecast": 277.8,
+      "actual": 269.8,
+      "error": -8.0,
+      "abs_error": 8.0,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 269.8,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 277.8,
+        "isa_dev_k": 3.1999999999999886,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "wind_from_deg",
+        "source": "weather_model",
+        "intercept": -8.0,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 8.0,
+        "rmse_corrected": 0.0,
+        "form": "corrected = -8.0000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 6,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "temp_c",
+      "forecast": -55.895744680851045,
+      "actual": -51.14199999999998,
+      "error": 4.753744680851064,
+      "abs_error": 4.753744680851064,
+      "holds_true": false,
+      "severity": "severe",
+      "corrected": -51.14199999999998,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": -55.895744680851045,
+        "isa_dev_k": 3.1999999999999886,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "temp_c",
+        "source": "weather_model",
+        "intercept": 1.40000000000002,
+        "coefficients": {
+          "forecast": 0.9400000000000003
+        },
+        "n_samples": 16,
+        "rmse_raw": 4.800389804037869,
+        "rmse_corrected": 3.552713678800501e-15,
+        "form": "corrected = 1.4000 + 0.9400*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 6,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "isa_dev_k",
+      "forecast": 1.6999999999999886,
+      "actual": 3.1999999999999886,
+      "error": 1.5,
+      "abs_error": 1.5,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 3.1999999999999886,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 1.6999999999999886,
+        "isa_dev_k": 3.1999999999999886,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "isa_dev_k",
+        "source": "weather_model",
+        "intercept": 1.5,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 1.5,
+        "rmse_corrected": 0.0,
+        "form": "corrected = 1.5000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 6,
+      "source": "aircraft_sensor",
+      "truth_source": "aircraft_sensor",
+      "variable": "wind_kt",
+      "forecast": 91.95167947249166,
+      "actual": 87.95167947249166,
+      "error": -4.0,
+      "abs_error": 4.0,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 87.95167947249166,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 91.95167947249166,
+        "isa_dev_k": 3.1999999999999886,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "wind_kt",
+        "source": "aircraft_sensor",
+        "intercept": -4.0,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 4.0,
+        "rmse_corrected": 2.5121479338940403e-15,
+        "form": "corrected = -4.0000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 6,
+      "source": "aircraft_sensor",
+      "truth_source": "aircraft_sensor",
+      "variable": "temp_c",
+      "forecast": -51.65394891400487,
+      "actual": -50.853948914004874,
+      "error": 0.7999999999999972,
+      "abs_error": 0.7999999999999972,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": -50.853948914004874,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": -51.65394891400487,
+        "isa_dev_k": 3.1999999999999886,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "temp_c",
+        "source": "aircraft_sensor",
+        "intercept": 0.7999999999999972,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 0.7999999999999972,
+        "rmse_corrected": 0.0,
+        "form": "corrected = 0.8000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 6,
+      "source": "aircraft_sensor",
+      "truth_source": "aircraft_sensor",
+      "variable": "fuel_flow_kg_h",
+      "forecast": 7001.704175437357,
+      "actual": 6781.704175437357,
+      "error": -220.0,
+      "abs_error": 220.0,
+      "holds_true": false,
+      "severity": "moderate",
+      "corrected": 6781.704175437357,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 7001.704175437357,
+        "isa_dev_k": 3.1999999999999886,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "fuel_flow_kg_h",
+        "source": "aircraft_sensor",
+        "intercept": -220.0,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 220.0,
+        "rmse_corrected": 0.0,
+        "form": "corrected = -220.0000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 6,
+      "source": "simulation",
+      "truth_source": "simulation",
+      "variable": "fuel_flow_kg_h",
+      "forecast": 6800.0,
+      "actual": 6781.704175437357,
+      "error": -18.295824562643247,
+      "abs_error": 18.295824562643247,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 6853.498622051105,
+      "corrected_error": -71.79444661374782,
+      "features": {
+        "forecast": 6800.0,
+        "isa_dev_k": 3.1999999999999886,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "fuel_flow_kg_h",
+        "source": "simulation",
+        "intercept": 53.498622051104576,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 138.90226112965368,
+        "rmse_corrected": 128.1863315083303,
+        "form": "corrected = 53.4986 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 6,
+      "source": "simulation",
+      "truth_source": "simulation",
+      "variable": "isa_dev_k",
+      "forecast": 0.0,
+      "actual": 3.1999999999999886,
+      "error": 3.1999999999999886,
+      "abs_error": 3.1999999999999886,
+      "holds_true": false,
+      "severity": "moderate",
+      "corrected": 2.5,
+      "corrected_error": 0.6999999999999886,
+      "features": {
+        "forecast": 0.0,
+        "isa_dev_k": 3.1999999999999886,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "isa_dev_k",
+        "source": "simulation",
+        "intercept": 2.5,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 3.298147628257074,
+        "rmse_corrected": 2.1512270400350038,
+        "form": "corrected = 2.5000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 7,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "wind_kt",
+      "forecast": 87.32880923025853,
+      "actual": 89.80826633788956,
+      "error": 2.4794571076310348,
+      "abs_error": 2.4794571076310348,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 89.80826633788956,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 87.32880923025853,
+        "isa_dev_k": 2.7333333333333485,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "wind_kt",
+        "source": "weather_model",
+        "intercept": -8.0,
+        "coefficients": {
+          "forecast": 1.12
+        },
+        "n_samples": 16,
+        "rmse_raw": 1.60607408067124,
+        "rmse_corrected": 3.552713678800501e-15,
+        "form": "corrected = -8.0000 + 1.1200*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 7,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "wind_from_deg",
+      "forecast": 278.6,
+      "actual": 270.6,
+      "error": -8.0,
+      "abs_error": 8.0,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 270.6,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 278.6,
+        "isa_dev_k": 2.7333333333333485,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "wind_from_deg",
+        "source": "weather_model",
+        "intercept": -8.0,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 8.0,
+        "rmse_corrected": 0.0,
+        "form": "corrected = -8.0000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 7,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "temp_c",
+      "forecast": -56.392198581560265,
+      "actual": -51.60866666666665,
+      "error": 4.783531914893615,
+      "abs_error": 4.783531914893615,
+      "holds_true": false,
+      "severity": "severe",
+      "corrected": -51.60866666666664,
+      "corrected_error": -7.105427357601002e-15,
+      "features": {
+        "forecast": -56.392198581560265,
+        "isa_dev_k": 2.7333333333333485,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "temp_c",
+        "source": "weather_model",
+        "intercept": 1.40000000000002,
+        "coefficients": {
+          "forecast": 0.9400000000000003
+        },
+        "n_samples": 16,
+        "rmse_raw": 4.800389804037869,
+        "rmse_corrected": 3.552713678800501e-15,
+        "form": "corrected = 1.4000 + 0.9400*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 7,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "isa_dev_k",
+      "forecast": 1.2333333333333485,
+      "actual": 2.7333333333333485,
+      "error": 1.5,
+      "abs_error": 1.5,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 2.7333333333333485,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 1.2333333333333485,
+        "isa_dev_k": 2.7333333333333485,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "isa_dev_k",
+        "source": "weather_model",
+        "intercept": 1.5,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 1.5,
+        "rmse_corrected": 0.0,
+        "form": "corrected = 1.5000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 7,
+      "source": "aircraft_sensor",
+      "truth_source": "aircraft_sensor",
+      "variable": "wind_kt",
+      "forecast": 94.5966502563521,
+      "actual": 90.5966502563521,
+      "error": -4.0,
+      "abs_error": 4.0,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 90.5966502563521,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 94.5966502563521,
+        "isa_dev_k": 2.7333333333333485,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "wind_kt",
+        "source": "aircraft_sensor",
+        "intercept": -4.0,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 4.0,
+        "rmse_corrected": 2.5121479338940403e-15,
+        "form": "corrected = -4.0000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 7,
+      "source": "aircraft_sensor",
+      "truth_source": "aircraft_sensor",
+      "variable": "temp_c",
+      "forecast": -52.182495990363655,
+      "actual": -51.38249599036366,
+      "error": 0.7999999999999972,
+      "abs_error": 0.7999999999999972,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": -51.38249599036366,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": -52.182495990363655,
+        "isa_dev_k": 2.7333333333333485,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "temp_c",
+        "source": "aircraft_sensor",
+        "intercept": 0.7999999999999972,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 0.7999999999999972,
+        "rmse_corrected": 0.0,
+        "form": "corrected = 0.8000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 7,
+      "source": "aircraft_sensor",
+      "truth_source": "aircraft_sensor",
+      "variable": "fuel_flow_kg_h",
+      "forecast": 6970.867202630217,
+      "actual": 6750.867202630217,
+      "error": -220.0,
+      "abs_error": 220.0,
+      "holds_true": false,
+      "severity": "moderate",
+      "corrected": 6750.867202630217,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 6970.867202630217,
+        "isa_dev_k": 2.7333333333333485,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "fuel_flow_kg_h",
+        "source": "aircraft_sensor",
+        "intercept": -220.0,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 220.0,
+        "rmse_corrected": 0.0,
+        "form": "corrected = -220.0000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 7,
+      "source": "simulation",
+      "truth_source": "simulation",
+      "variable": "fuel_flow_kg_h",
+      "forecast": 6800.0,
+      "actual": 6750.867202630217,
+      "error": -49.132797369782566,
+      "abs_error": 49.132797369782566,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 6853.498622051105,
+      "corrected_error": -102.63141942088714,
+      "features": {
+        "forecast": 6800.0,
+        "isa_dev_k": 2.7333333333333485,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "fuel_flow_kg_h",
+        "source": "simulation",
+        "intercept": 53.498622051104576,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 138.90226112965368,
+        "rmse_corrected": 128.1863315083303,
+        "form": "corrected = 53.4986 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 7,
+      "source": "simulation",
+      "truth_source": "simulation",
+      "variable": "isa_dev_k",
+      "forecast": 0.0,
+      "actual": 2.7333333333333485,
+      "error": 2.7333333333333485,
+      "abs_error": 2.7333333333333485,
+      "holds_true": false,
+      "severity": "moderate",
+      "corrected": 2.5,
+      "corrected_error": 0.2333333333333485,
+      "features": {
+        "forecast": 0.0,
+        "isa_dev_k": 2.7333333333333485,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "isa_dev_k",
+        "source": "simulation",
+        "intercept": 2.5,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 3.298147628257074,
+        "rmse_corrected": 2.1512270400350038,
+        "form": "corrected = 2.5000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 8,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "wind_kt",
+      "forecast": 87.32880923025853,
+      "actual": 89.80826633788956,
+      "error": 2.4794571076310348,
+      "abs_error": 2.4794571076310348,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 89.80826633788956,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 87.32880923025853,
+        "isa_dev_k": 2.2666666666666515,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "wind_kt",
+        "source": "weather_model",
+        "intercept": -8.0,
+        "coefficients": {
+          "forecast": 1.12
+        },
+        "n_samples": 16,
+        "rmse_raw": 1.60607408067124,
+        "rmse_corrected": 3.552713678800501e-15,
+        "form": "corrected = -8.0000 + 1.1200*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 8,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "wind_from_deg",
+      "forecast": 279.4,
+      "actual": 271.4,
+      "error": -8.0,
+      "abs_error": 8.0,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 271.4,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 279.4,
+        "isa_dev_k": 2.2666666666666515,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "wind_from_deg",
+        "source": "weather_model",
+        "intercept": -8.0,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 8.0,
+        "rmse_corrected": 0.0,
+        "form": "corrected = -8.0000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 8,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "temp_c",
+      "forecast": -56.88865248226949,
+      "actual": -52.07533333333332,
+      "error": 4.8133191489361735,
+      "abs_error": 4.8133191489361735,
+      "holds_true": false,
+      "severity": "severe",
+      "corrected": -52.07533333333332,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": -56.88865248226949,
+        "isa_dev_k": 2.2666666666666515,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "temp_c",
+        "source": "weather_model",
+        "intercept": 1.40000000000002,
+        "coefficients": {
+          "forecast": 0.9400000000000003
+        },
+        "n_samples": 16,
+        "rmse_raw": 4.800389804037869,
+        "rmse_corrected": 3.552713678800501e-15,
+        "form": "corrected = 1.4000 + 0.9400*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 8,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "isa_dev_k",
+      "forecast": 0.7666666666666515,
+      "actual": 2.2666666666666515,
+      "error": 1.5,
+      "abs_error": 1.5,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 2.2666666666666515,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 0.7666666666666515,
+        "isa_dev_k": 2.2666666666666515,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "isa_dev_k",
+        "source": "weather_model",
+        "intercept": 1.5,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 1.5,
+        "rmse_corrected": 0.0,
+        "form": "corrected = 1.5000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 8,
+      "source": "aircraft_sensor",
+      "truth_source": "aircraft_sensor",
+      "variable": "wind_kt",
+      "forecast": 94.99549623383763,
+      "actual": 90.99549623383763,
+      "error": -4.0,
+      "abs_error": 4.0,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 90.99549623383763,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 94.99549623383763,
+        "isa_dev_k": 2.2666666666666515,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "wind_kt",
+        "source": "aircraft_sensor",
+        "intercept": -4.0,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 4.0,
+        "rmse_corrected": 2.5121479338940403e-15,
+        "form": "corrected = -4.0000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 8,
+      "source": "aircraft_sensor",
+      "truth_source": "aircraft_sensor",
+      "variable": "temp_c",
+      "forecast": -52.9189833434759,
+      "actual": -52.118983343475904,
+      "error": 0.7999999999999972,
+      "abs_error": 0.7999999999999972,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": -52.118983343475904,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": -52.9189833434759,
+        "isa_dev_k": 2.2666666666666515,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "temp_c",
+        "source": "aircraft_sensor",
+        "intercept": 0.7999999999999972,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 0.7999999999999972,
+        "rmse_corrected": 0.0,
+        "form": "corrected = 0.8000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 8,
+      "source": "aircraft_sensor",
+      "truth_source": "aircraft_sensor",
+      "variable": "fuel_flow_kg_h",
+      "forecast": 6952.20053596355,
+      "actual": 6732.20053596355,
+      "error": -220.0,
+      "abs_error": 220.0,
+      "holds_true": false,
+      "severity": "moderate",
+      "corrected": 6732.20053596355,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 6952.20053596355,
+        "isa_dev_k": 2.2666666666666515,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "fuel_flow_kg_h",
+        "source": "aircraft_sensor",
+        "intercept": -220.0,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 220.0,
+        "rmse_corrected": 0.0,
+        "form": "corrected = -220.0000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 8,
+      "source": "simulation",
+      "truth_source": "simulation",
+      "variable": "fuel_flow_kg_h",
+      "forecast": 6800.0,
+      "actual": 6732.20053596355,
+      "error": -67.79946403645044,
+      "abs_error": 67.79946403645044,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 6853.498622051105,
+      "corrected_error": -121.29808608755502,
+      "features": {
+        "forecast": 6800.0,
+        "isa_dev_k": 2.2666666666666515,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "fuel_flow_kg_h",
+        "source": "simulation",
+        "intercept": 53.498622051104576,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 138.90226112965368,
+        "rmse_corrected": 128.1863315083303,
+        "form": "corrected = 53.4986 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 8,
+      "source": "simulation",
+      "truth_source": "simulation",
+      "variable": "isa_dev_k",
+      "forecast": 0.0,
+      "actual": 2.2666666666666515,
+      "error": 2.2666666666666515,
+      "abs_error": 2.2666666666666515,
+      "holds_true": false,
+      "severity": "moderate",
+      "corrected": 2.5,
+      "corrected_error": -0.2333333333333485,
+      "features": {
+        "forecast": 0.0,
+        "isa_dev_k": 2.2666666666666515,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "isa_dev_k",
+        "source": "simulation",
+        "intercept": 2.5,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 3.298147628257074,
+        "rmse_corrected": 2.1512270400350038,
+        "form": "corrected = 2.5000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 9,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "wind_kt",
+      "forecast": 85.97051613422354,
+      "actual": 88.28697807033038,
+      "error": 2.3164619361068333,
+      "abs_error": 2.3164619361068333,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 88.28697807033038,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 85.97051613422354,
+        "isa_dev_k": 1.8000000000000114,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "wind_kt",
+        "source": "weather_model",
+        "intercept": -8.0,
+        "coefficients": {
+          "forecast": 1.12
+        },
+        "n_samples": 16,
+        "rmse_raw": 1.60607408067124,
+        "rmse_corrected": 3.552713678800501e-15,
+        "form": "corrected = -8.0000 + 1.1200*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 9,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "wind_from_deg",
+      "forecast": 280.2,
+      "actual": 272.2,
+      "error": -8.0,
+      "abs_error": 8.0,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 272.2,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 280.2,
+        "isa_dev_k": 1.8000000000000114,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "wind_from_deg",
+        "source": "weather_model",
+        "intercept": -8.0,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 8.0,
+        "rmse_corrected": 0.0,
+        "form": "corrected = -8.0000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 9,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "temp_c",
+      "forecast": -57.38510638297871,
+      "actual": -52.54199999999999,
+      "error": 4.843106382978725,
+      "abs_error": 4.843106382978725,
+      "holds_true": false,
+      "severity": "severe",
+      "corrected": -52.54199999999999,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": -57.38510638297871,
+        "isa_dev_k": 1.8000000000000114,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "temp_c",
+        "source": "weather_model",
+        "intercept": 1.40000000000002,
+        "coefficients": {
+          "forecast": 0.9400000000000003
+        },
+        "n_samples": 16,
+        "rmse_raw": 4.800389804037869,
+        "rmse_corrected": 3.552713678800501e-15,
+        "form": "corrected = 1.4000 + 0.9400*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 9,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "isa_dev_k",
+      "forecast": 0.30000000000001137,
+      "actual": 1.8000000000000114,
+      "error": 1.5,
+      "abs_error": 1.5,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 1.8000000000000114,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 0.30000000000001137,
+        "isa_dev_k": 1.8000000000000114,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "isa_dev_k",
+        "source": "weather_model",
+        "intercept": 1.5,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 1.5,
+        "rmse_corrected": 0.0,
+        "form": "corrected = 1.5000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 9,
+      "source": "aircraft_sensor",
+      "truth_source": "aircraft_sensor",
+      "variable": "wind_kt",
+      "forecast": 92.78152025262048,
+      "actual": 88.78152025262048,
+      "error": -4.0,
+      "abs_error": 4.0,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 88.78152025262048,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 92.78152025262048,
+        "isa_dev_k": 1.8000000000000114,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "wind_kt",
+        "source": "aircraft_sensor",
+        "intercept": -4.0,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 4.0,
+        "rmse_corrected": 2.5121479338940403e-15,
+        "form": "corrected = -4.0000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 9,
+      "source": "aircraft_sensor",
+      "truth_source": "aircraft_sensor",
+      "variable": "temp_c",
+      "forecast": -53.615339078565384,
+      "actual": -52.81533907856539,
+      "error": 0.7999999999999972,
+      "abs_error": 0.7999999999999972,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": -52.81533907856539,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": -53.615339078565384,
+        "isa_dev_k": 1.8000000000000114,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "temp_c",
+        "source": "aircraft_sensor",
+        "intercept": 0.7999999999999972,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 0.7999999999999972,
+        "rmse_corrected": 0.0,
+        "form": "corrected = 0.8000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 9,
+      "source": "aircraft_sensor",
+      "truth_source": "aircraft_sensor",
+      "variable": "fuel_flow_kg_h",
+      "forecast": 6945.704175437357,
+      "actual": 6725.704175437357,
+      "error": -220.0,
+      "abs_error": 220.0,
+      "holds_true": false,
+      "severity": "moderate",
+      "corrected": 6725.704175437357,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 6945.704175437357,
+        "isa_dev_k": 1.8000000000000114,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "fuel_flow_kg_h",
+        "source": "aircraft_sensor",
+        "intercept": -220.0,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 220.0,
+        "rmse_corrected": 0.0,
+        "form": "corrected = -220.0000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 9,
+      "source": "simulation",
+      "truth_source": "simulation",
+      "variable": "fuel_flow_kg_h",
+      "forecast": 6800.0,
+      "actual": 6725.704175437357,
+      "error": -74.29582456264325,
+      "abs_error": 74.29582456264325,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 6853.498622051105,
+      "corrected_error": -127.79444661374782,
+      "features": {
+        "forecast": 6800.0,
+        "isa_dev_k": 1.8000000000000114,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "fuel_flow_kg_h",
+        "source": "simulation",
+        "intercept": 53.498622051104576,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 138.90226112965368,
+        "rmse_corrected": 128.1863315083303,
+        "form": "corrected = 53.4986 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 9,
+      "source": "simulation",
+      "truth_source": "simulation",
+      "variable": "isa_dev_k",
+      "forecast": 0.0,
+      "actual": 1.8000000000000114,
+      "error": 1.8000000000000114,
+      "abs_error": 1.8000000000000114,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 2.5,
+      "corrected_error": -0.6999999999999886,
+      "features": {
+        "forecast": 0.0,
+        "isa_dev_k": 1.8000000000000114,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "isa_dev_k",
+        "source": "simulation",
+        "intercept": 2.5,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 3.298147628257074,
+        "rmse_corrected": 2.1512270400350038,
+        "form": "corrected = 2.5000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 10,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "wind_kt",
+      "forecast": 83.3132938682637,
+      "actual": 85.31088913245536,
+      "error": 1.9975952641916592,
+      "abs_error": 1.9975952641916592,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 85.31088913245536,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 83.3132938682637,
+        "isa_dev_k": 1.3333333333333428,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "wind_kt",
+        "source": "weather_model",
+        "intercept": -8.0,
+        "coefficients": {
+          "forecast": 1.12
+        },
+        "n_samples": 16,
+        "rmse_raw": 1.60607408067124,
+        "rmse_corrected": 3.552713678800501e-15,
+        "form": "corrected = -8.0000 + 1.1200*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 10,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "wind_from_deg",
+      "forecast": 281.0,
+      "actual": 273.0,
+      "error": -8.0,
+      "abs_error": 8.0,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 273.0,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 281.0,
+        "isa_dev_k": 1.3333333333333428,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "wind_from_deg",
+        "source": "weather_model",
+        "intercept": -8.0,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 8.0,
+        "rmse_corrected": 0.0,
+        "form": "corrected = -8.0000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 10,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "temp_c",
+      "forecast": -57.881560283687925,
+      "actual": -53.00866666666665,
+      "error": 4.872893617021276,
+      "abs_error": 4.872893617021276,
+      "holds_true": false,
+      "severity": "severe",
+      "corrected": -53.00866666666665,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": -57.881560283687925,
+        "isa_dev_k": 1.3333333333333428,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "temp_c",
+        "source": "weather_model",
+        "intercept": 1.40000000000002,
+        "coefficients": {
+          "forecast": 0.9400000000000003
+        },
+        "n_samples": 16,
+        "rmse_raw": 4.800389804037869,
+        "rmse_corrected": 3.552713678800501e-15,
+        "form": "corrected = 1.4000 + 0.9400*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 10,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "isa_dev_k",
+      "forecast": -0.1666666666666572,
+      "actual": 1.3333333333333428,
+      "error": 1.5,
+      "abs_error": 1.5,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 1.3333333333333428,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": -0.1666666666666572,
+        "isa_dev_k": 1.3333333333333428,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "isa_dev_k",
+        "source": "weather_model",
+        "intercept": 1.5,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 1.5,
+        "rmse_corrected": 0.0,
+        "form": "corrected = 1.5000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 10,
+      "source": "aircraft_sensor",
+      "truth_source": "aircraft_sensor",
+      "variable": "wind_kt",
+      "forecast": 88.65806379938812,
+      "actual": 84.65806379938812,
+      "error": -4.0,
+      "abs_error": 4.0,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 84.65806379938812,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 88.65806379938812,
+        "isa_dev_k": 1.3333333333333428,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "wind_kt",
+        "source": "aircraft_sensor",
+        "intercept": -4.0,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 4.0,
+        "rmse_corrected": 2.5121479338940403e-15,
+        "form": "corrected = -4.0000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 10,
+      "source": "aircraft_sensor",
+      "truth_source": "aircraft_sensor",
+      "variable": "temp_c",
+      "forecast": -54.06038812538958,
+      "actual": -53.26038812538958,
+      "error": 0.7999999999999972,
+      "abs_error": 0.7999999999999972,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": -53.26038812538958,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": -54.06038812538958,
+        "isa_dev_k": 1.3333333333333428,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "temp_c",
+        "source": "aircraft_sensor",
+        "intercept": 0.7999999999999972,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 0.7999999999999972,
+        "rmse_corrected": 0.0,
+        "form": "corrected = 0.8000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 10,
+      "source": "aircraft_sensor",
+      "truth_source": "aircraft_sensor",
+      "variable": "fuel_flow_kg_h",
+      "forecast": 6950.846220273691,
+      "actual": 6730.846220273691,
+      "error": -220.0,
+      "abs_error": 220.0,
+      "holds_true": false,
+      "severity": "moderate",
+      "corrected": 6730.846220273691,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 6950.846220273691,
+        "isa_dev_k": 1.3333333333333428,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "fuel_flow_kg_h",
+        "source": "aircraft_sensor",
+        "intercept": -220.0,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 220.0,
+        "rmse_corrected": 0.0,
+        "form": "corrected = -220.0000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 10,
+      "source": "simulation",
+      "truth_source": "simulation",
+      "variable": "fuel_flow_kg_h",
+      "forecast": 6800.0,
+      "actual": 6730.846220273691,
+      "error": -69.15377972630904,
+      "abs_error": 69.15377972630904,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 6853.498622051105,
+      "corrected_error": -122.65240177741362,
+      "features": {
+        "forecast": 6800.0,
+        "isa_dev_k": 1.3333333333333428,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "fuel_flow_kg_h",
+        "source": "simulation",
+        "intercept": 53.498622051104576,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 138.90226112965368,
+        "rmse_corrected": 128.1863315083303,
+        "form": "corrected = 53.4986 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 10,
+      "source": "simulation",
+      "truth_source": "simulation",
+      "variable": "isa_dev_k",
+      "forecast": 0.0,
+      "actual": 1.3333333333333428,
+      "error": 1.3333333333333428,
+      "abs_error": 1.3333333333333428,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 2.5,
+      "corrected_error": -1.1666666666666572,
+      "features": {
+        "forecast": 0.0,
+        "isa_dev_k": 1.3333333333333428,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "isa_dev_k",
+        "source": "simulation",
+        "intercept": 2.5,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 3.298147628257074,
+        "rmse_corrected": 2.1512270400350038,
+        "form": "corrected = 2.5000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 11,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "wind_kt",
+      "forecast": 79.47327579616858,
+      "actual": 81.01006889170881,
+      "error": 1.536793095540233,
+      "abs_error": 1.536793095540233,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 81.01006889170881,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 79.47327579616858,
+        "isa_dev_k": 0.8666666666666742,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "wind_kt",
+        "source": "weather_model",
+        "intercept": -8.0,
+        "coefficients": {
+          "forecast": 1.12
+        },
+        "n_samples": 16,
+        "rmse_raw": 1.60607408067124,
+        "rmse_corrected": 3.552713678800501e-15,
+        "form": "corrected = -8.0000 + 1.1200*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 11,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "wind_from_deg",
+      "forecast": 281.8,
+      "actual": 273.8,
+      "error": -8.0,
+      "abs_error": 8.0,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 273.8,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 281.8,
+        "isa_dev_k": 0.8666666666666742,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "wind_from_deg",
+        "source": "weather_model",
+        "intercept": -8.0,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 8.0,
+        "rmse_corrected": 0.0,
+        "form": "corrected = -8.0000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 11,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "temp_c",
+      "forecast": -58.378014184397145,
+      "actual": -53.47533333333332,
+      "error": 4.902680851063828,
+      "abs_error": 4.902680851063828,
+      "holds_true": false,
+      "severity": "severe",
+      "corrected": -53.47533333333331,
+      "corrected_error": -7.105427357601002e-15,
+      "features": {
+        "forecast": -58.378014184397145,
+        "isa_dev_k": 0.8666666666666742,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "temp_c",
+        "source": "weather_model",
+        "intercept": 1.40000000000002,
+        "coefficients": {
+          "forecast": 0.9400000000000003
+        },
+        "n_samples": 16,
+        "rmse_raw": 4.800389804037869,
+        "rmse_corrected": 3.552713678800501e-15,
+        "form": "corrected = 1.4000 + 0.9400*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 11,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "isa_dev_k",
+      "forecast": -0.6333333333333258,
+      "actual": 0.8666666666666742,
+      "error": 1.5,
+      "abs_error": 1.5,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 0.8666666666666742,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": -0.6333333333333258,
+        "isa_dev_k": 0.8666666666666742,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "isa_dev_k",
+        "source": "weather_model",
+        "intercept": 1.5,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 1.5,
+        "rmse_corrected": 0.0,
+        "form": "corrected = 1.5000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 11,
+      "source": "aircraft_sensor",
+      "truth_source": "aircraft_sensor",
+      "variable": "wind_kt",
+      "forecast": 83.81008064384797,
+      "actual": 79.81008064384797,
+      "error": -4.0,
+      "abs_error": 4.0,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 79.81008064384797,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 83.81008064384797,
+        "isa_dev_k": 0.8666666666666742,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "wind_kt",
+        "source": "aircraft_sensor",
+        "intercept": -4.0,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 4.0,
+        "rmse_corrected": 2.5121479338940403e-15,
+        "form": "corrected = -4.0000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 11,
+      "source": "aircraft_sensor",
+      "truth_source": "aircraft_sensor",
+      "variable": "temp_c",
+      "forecast": -54.2740056239369,
+      "actual": -53.474005623936904,
+      "error": 0.7999999999999972,
+      "abs_error": 0.7999999999999972,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": -53.474005623936904,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": -54.2740056239369,
+        "isa_dev_k": 0.8666666666666742,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "temp_c",
+        "source": "aircraft_sensor",
+        "intercept": 0.7999999999999972,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 0.7999999999999972,
+        "rmse_corrected": 0.0,
+        "form": "corrected = 0.8000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 11,
+      "source": "aircraft_sensor",
+      "truth_source": "aircraft_sensor",
+      "variable": "fuel_flow_kg_h",
+      "forecast": 6966.586115532997,
+      "actual": 6746.586115532997,
+      "error": -220.0,
+      "abs_error": 220.0,
+      "holds_true": false,
+      "severity": "moderate",
+      "corrected": 6746.586115532997,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 6966.586115532997,
+        "isa_dev_k": 0.8666666666666742,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "fuel_flow_kg_h",
+        "source": "aircraft_sensor",
+        "intercept": -220.0,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 220.0,
+        "rmse_corrected": 0.0,
+        "form": "corrected = -220.0000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 11,
+      "source": "simulation",
+      "truth_source": "simulation",
+      "variable": "fuel_flow_kg_h",
+      "forecast": 6800.0,
+      "actual": 6746.586115532997,
+      "error": -53.4138844670033,
+      "abs_error": 53.4138844670033,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 6853.498622051105,
+      "corrected_error": -106.91250651810788,
+      "features": {
+        "forecast": 6800.0,
+        "isa_dev_k": 0.8666666666666742,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "fuel_flow_kg_h",
+        "source": "simulation",
+        "intercept": 53.498622051104576,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 138.90226112965368,
+        "rmse_corrected": 128.1863315083303,
+        "form": "corrected = 53.4986 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 11,
+      "source": "simulation",
+      "truth_source": "simulation",
+      "variable": "isa_dev_k",
+      "forecast": 0.0,
+      "actual": 0.8666666666666742,
+      "error": 0.8666666666666742,
+      "abs_error": 0.8666666666666742,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 2.5,
+      "corrected_error": -1.6333333333333258,
+      "features": {
+        "forecast": 0.0,
+        "isa_dev_k": 0.8666666666666742,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "isa_dev_k",
+        "source": "simulation",
+        "intercept": 2.5,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 3.298147628257074,
+        "rmse_corrected": 2.1512270400350038,
+        "form": "corrected = 2.5000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 12,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "wind_kt",
+      "forecast": 74.61828913413979,
+      "actual": 75.57248383023656,
+      "error": 0.9541946960967778,
+      "abs_error": 0.9541946960967778,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 75.57248383023656,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 74.61828913413979,
+        "isa_dev_k": 0.4000000000000057,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "wind_kt",
+        "source": "weather_model",
+        "intercept": -8.0,
+        "coefficients": {
+          "forecast": 1.12
+        },
+        "n_samples": 16,
+        "rmse_raw": 1.60607408067124,
+        "rmse_corrected": 3.552713678800501e-15,
+        "form": "corrected = -8.0000 + 1.1200*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 12,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "wind_from_deg",
+      "forecast": 282.6,
+      "actual": 274.6,
+      "error": -8.0,
+      "abs_error": 8.0,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 274.6,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 282.6,
+        "isa_dev_k": 0.4000000000000057,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "wind_from_deg",
+        "source": "weather_model",
+        "intercept": -8.0,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 8.0,
+        "rmse_corrected": 0.0,
+        "form": "corrected = -8.0000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 12,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "temp_c",
+      "forecast": -58.87446808510637,
+      "actual": -53.941999999999986,
+      "error": 4.932468085106386,
+      "abs_error": 4.932468085106386,
+      "holds_true": false,
+      "severity": "severe",
+      "corrected": -53.941999999999986,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": -58.87446808510637,
+        "isa_dev_k": 0.4000000000000057,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "temp_c",
+        "source": "weather_model",
+        "intercept": 1.40000000000002,
+        "coefficients": {
+          "forecast": 0.9400000000000003
+        },
+        "n_samples": 16,
+        "rmse_raw": 4.800389804037869,
+        "rmse_corrected": 3.552713678800501e-15,
+        "form": "corrected = 1.4000 + 0.9400*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 12,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "isa_dev_k",
+      "forecast": -1.0999999999999943,
+      "actual": 0.4000000000000057,
+      "error": 1.5,
+      "abs_error": 1.5,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 0.4000000000000057,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": -1.0999999999999943,
+        "isa_dev_k": 0.4000000000000057,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "isa_dev_k",
+        "source": "weather_model",
+        "intercept": 1.5,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 1.5,
+        "rmse_corrected": 0.0,
+        "form": "corrected = 1.5000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 12,
+      "source": "aircraft_sensor",
+      "truth_source": "aircraft_sensor",
+      "variable": "wind_kt",
+      "forecast": 78.92859632863605,
+      "actual": 74.92859632863605,
+      "error": -4.0,
+      "abs_error": 4.0,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 74.92859632863605,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 78.92859632863605,
+        "isa_dev_k": 0.4000000000000057,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "wind_kt",
+        "source": "aircraft_sensor",
+        "intercept": -4.0,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 4.0,
+        "rmse_corrected": 2.5121479338940403e-15,
+        "form": "corrected = -4.0000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 12,
+      "source": "aircraft_sensor",
+      "truth_source": "aircraft_sensor",
+      "variable": "temp_c",
+      "forecast": -54.48884381238024,
+      "actual": -53.68884381238024,
+      "error": 0.7999999999999972,
+      "abs_error": 0.7999999999999972,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": -53.68884381238024,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": -54.48884381238024,
+        "isa_dev_k": 0.4000000000000057,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "temp_c",
+        "source": "aircraft_sensor",
+        "intercept": 0.7999999999999972,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 0.7999999999999972,
+        "rmse_corrected": 0.0,
+        "form": "corrected = 0.8000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 12,
+      "source": "aircraft_sensor",
+      "truth_source": "aircraft_sensor",
+      "variable": "fuel_flow_kg_h",
+      "forecast": 6991.420129358107,
+      "actual": 6771.420129358107,
+      "error": -220.0,
+      "abs_error": 220.0,
+      "holds_true": false,
+      "severity": "moderate",
+      "corrected": 6771.420129358107,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 6991.420129358107,
+        "isa_dev_k": 0.4000000000000057,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "fuel_flow_kg_h",
+        "source": "aircraft_sensor",
+        "intercept": -220.0,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 220.0,
+        "rmse_corrected": 0.0,
+        "form": "corrected = -220.0000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 12,
+      "source": "simulation",
+      "truth_source": "simulation",
+      "variable": "fuel_flow_kg_h",
+      "forecast": 6800.0,
+      "actual": 6771.420129358107,
+      "error": -28.57987064189274,
+      "abs_error": 28.57987064189274,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 6853.498622051105,
+      "corrected_error": -82.07849269299732,
+      "features": {
+        "forecast": 6800.0,
+        "isa_dev_k": 0.4000000000000057,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "fuel_flow_kg_h",
+        "source": "simulation",
+        "intercept": 53.498622051104576,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 138.90226112965368,
+        "rmse_corrected": 128.1863315083303,
+        "form": "corrected = 53.4986 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 12,
+      "source": "simulation",
+      "truth_source": "simulation",
+      "variable": "isa_dev_k",
+      "forecast": 0.0,
+      "actual": 0.4000000000000057,
+      "error": 0.4000000000000057,
+      "abs_error": 0.4000000000000057,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 2.5,
+      "corrected_error": -2.0999999999999943,
+      "features": {
+        "forecast": 0.0,
+        "isa_dev_k": 0.4000000000000057,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "isa_dev_k",
+        "source": "simulation",
+        "intercept": 2.5,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 3.298147628257074,
+        "rmse_corrected": 2.1512270400350038,
+        "form": "corrected = 2.5000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 13,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "wind_kt",
+      "forecast": 68.96052009611874,
+      "actual": 69.235782507653,
+      "error": 0.275262411534257,
+      "abs_error": 0.275262411534257,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 69.235782507653,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 68.96052009611874,
+        "isa_dev_k": -0.06666666666666288,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "wind_kt",
+        "source": "weather_model",
+        "intercept": -8.0,
+        "coefficients": {
+          "forecast": 1.12
+        },
+        "n_samples": 16,
+        "rmse_raw": 1.60607408067124,
+        "rmse_corrected": 3.552713678800501e-15,
+        "form": "corrected = -8.0000 + 1.1200*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 13,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "wind_from_deg",
+      "forecast": 283.4,
+      "actual": 275.4,
+      "error": -8.0,
+      "abs_error": 8.0,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 275.4,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 283.4,
+        "isa_dev_k": -0.06666666666666288,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "wind_from_deg",
+        "source": "weather_model",
+        "intercept": -8.0,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 8.0,
+        "rmse_corrected": 0.0,
+        "form": "corrected = -8.0000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 13,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "temp_c",
+      "forecast": -59.370921985815585,
+      "actual": -54.40866666666665,
+      "error": 4.962255319148937,
+      "abs_error": 4.962255319148937,
+      "holds_true": false,
+      "severity": "severe",
+      "corrected": -54.40866666666665,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": -59.370921985815585,
+        "isa_dev_k": -0.06666666666666288,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "temp_c",
+        "source": "weather_model",
+        "intercept": 1.40000000000002,
+        "coefficients": {
+          "forecast": 0.9400000000000003
+        },
+        "n_samples": 16,
+        "rmse_raw": 4.800389804037869,
+        "rmse_corrected": 3.552713678800501e-15,
+        "form": "corrected = 1.4000 + 0.9400*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 13,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "isa_dev_k",
+      "forecast": -1.5666666666666629,
+      "actual": -0.06666666666666288,
+      "error": 1.5,
+      "abs_error": 1.5,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": -0.06666666666666288,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": -1.5666666666666629,
+        "isa_dev_k": -0.06666666666666288,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "isa_dev_k",
+        "source": "weather_model",
+        "intercept": 1.5,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 1.5,
+        "rmse_corrected": 0.0,
+        "form": "corrected = 1.5000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 13,
+      "source": "aircraft_sensor",
+      "truth_source": "aircraft_sensor",
+      "variable": "wind_kt",
+      "forecast": 73.73998295184496,
+      "actual": 69.73998295184496,
+      "error": -4.0,
+      "abs_error": 4.0,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 69.73998295184496,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 73.73998295184496,
+        "isa_dev_k": -0.06666666666666288,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "wind_kt",
+        "source": "aircraft_sensor",
+        "intercept": -4.0,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 4.0,
+        "rmse_corrected": 2.5121479338940403e-15,
+        "form": "corrected = -4.0000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 13,
+      "source": "aircraft_sensor",
+      "truth_source": "aircraft_sensor",
+      "variable": "temp_c",
+      "forecast": -54.936432632231586,
+      "actual": -54.13643263223159,
+      "error": 0.7999999999999972,
+      "abs_error": 0.7999999999999972,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": -54.13643263223159,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": -54.936432632231586,
+        "isa_dev_k": -0.06666666666666288,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "temp_c",
+        "source": "aircraft_sensor",
+        "intercept": 0.7999999999999972,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 0.7999999999999972,
+        "rmse_corrected": 0.0,
+        "form": "corrected = 0.8000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 13,
+      "source": "aircraft_sensor",
+      "truth_source": "aircraft_sensor",
+      "variable": "fuel_flow_kg_h",
+      "forecast": 7023.44707327211,
+      "actual": 6803.44707327211,
+      "error": -220.0,
+      "abs_error": 220.0,
+      "holds_true": false,
+      "severity": "moderate",
+      "corrected": 6803.44707327211,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 7023.44707327211,
+        "isa_dev_k": -0.06666666666666288,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "fuel_flow_kg_h",
+        "source": "aircraft_sensor",
+        "intercept": -220.0,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 220.0,
+        "rmse_corrected": 0.0,
+        "form": "corrected = -220.0000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 13,
+      "source": "simulation",
+      "truth_source": "simulation",
+      "variable": "fuel_flow_kg_h",
+      "forecast": 6800.0,
+      "actual": 6803.44707327211,
+      "error": 3.447073272110174,
+      "abs_error": 3.447073272110174,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 6853.498622051105,
+      "corrected_error": -50.0515487789944,
+      "features": {
+        "forecast": 6800.0,
+        "isa_dev_k": -0.06666666666666288,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "fuel_flow_kg_h",
+        "source": "simulation",
+        "intercept": 53.498622051104576,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 138.90226112965368,
+        "rmse_corrected": 128.1863315083303,
+        "form": "corrected = 53.4986 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 13,
+      "source": "simulation",
+      "truth_source": "simulation",
+      "variable": "isa_dev_k",
+      "forecast": 0.0,
+      "actual": -0.06666666666666288,
+      "error": -0.06666666666666288,
+      "abs_error": 0.06666666666666288,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 2.5,
+      "corrected_error": -2.566666666666663,
+      "features": {
+        "forecast": 0.0,
+        "isa_dev_k": -0.06666666666666288,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "isa_dev_k",
+        "source": "simulation",
+        "intercept": 2.5,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 3.298147628257074,
+        "rmse_corrected": 2.1512270400350038,
+        "form": "corrected = 2.5000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 14,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "wind_kt",
+      "forecast": 62.74724033805498,
+      "actual": 62.27690917862158,
+      "error": -0.47033115943339965,
+      "abs_error": 0.47033115943339965,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 62.27690917862158,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 62.74724033805498,
+        "isa_dev_k": -0.5333333333333314,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "wind_kt",
+        "source": "weather_model",
+        "intercept": -8.0,
+        "coefficients": {
+          "forecast": 1.12
+        },
+        "n_samples": 16,
+        "rmse_raw": 1.60607408067124,
+        "rmse_corrected": 3.552713678800501e-15,
+        "form": "corrected = -8.0000 + 1.1200*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 14,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "wind_from_deg",
+      "forecast": 284.2,
+      "actual": 276.2,
+      "error": -8.0,
+      "abs_error": 8.0,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 276.2,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 284.2,
+        "isa_dev_k": -0.5333333333333314,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "wind_from_deg",
+        "source": "weather_model",
+        "intercept": -8.0,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 8.0,
+        "rmse_corrected": 0.0,
+        "form": "corrected = -8.0000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 14,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "temp_c",
+      "forecast": -59.867375886524805,
+      "actual": -54.875333333333316,
+      "error": 4.992042553191489,
+      "abs_error": 4.992042553191489,
+      "holds_true": false,
+      "severity": "severe",
+      "corrected": -54.875333333333316,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": -59.867375886524805,
+        "isa_dev_k": -0.5333333333333314,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "temp_c",
+        "source": "weather_model",
+        "intercept": 1.40000000000002,
+        "coefficients": {
+          "forecast": 0.9400000000000003
+        },
+        "n_samples": 16,
+        "rmse_raw": 4.800389804037869,
+        "rmse_corrected": 3.552713678800501e-15,
+        "form": "corrected = 1.4000 + 0.9400*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 14,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "isa_dev_k",
+      "forecast": -2.0333333333333314,
+      "actual": -0.5333333333333314,
+      "error": 1.5,
+      "abs_error": 1.5,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": -0.5333333333333314,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": -2.0333333333333314,
+        "isa_dev_k": -0.5333333333333314,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "isa_dev_k",
+        "source": "weather_model",
+        "intercept": 1.5,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 1.5,
+        "rmse_corrected": 0.0,
+        "form": "corrected = 1.5000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 14,
+      "source": "aircraft_sensor",
+      "truth_source": "aircraft_sensor",
+      "variable": "wind_kt",
+      "forecast": 67.46563800545542,
+      "actual": 63.465638005455425,
+      "error": -3.999999999999993,
+      "abs_error": 3.999999999999993,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 63.46563800545542,
+      "corrected_error": 7.105427357601002e-15,
+      "features": {
+        "forecast": 67.46563800545542,
+        "isa_dev_k": -0.5333333333333314,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "wind_kt",
+        "source": "aircraft_sensor",
+        "intercept": -4.0,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 4.0,
+        "rmse_corrected": 2.5121479338940403e-15,
+        "form": "corrected = -4.0000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 14,
+      "source": "aircraft_sensor",
+      "truth_source": "aircraft_sensor",
+      "variable": "temp_c",
+      "forecast": -55.63431216787097,
+      "actual": -54.83431216787097,
+      "error": 0.7999999999999972,
+      "abs_error": 0.7999999999999972,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": -54.83431216787097,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": -55.63431216787097,
+        "isa_dev_k": -0.5333333333333314,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "temp_c",
+        "source": "aircraft_sensor",
+        "intercept": 0.7999999999999972,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 0.7999999999999972,
+        "rmse_corrected": 0.0,
+        "form": "corrected = 0.8000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 14,
+      "source": "aircraft_sensor",
+      "truth_source": "aircraft_sensor",
+      "variable": "fuel_flow_kg_h",
+      "forecast": 7060.451393237694,
+      "actual": 6840.451393237694,
+      "error": -220.0,
+      "abs_error": 220.0,
+      "holds_true": false,
+      "severity": "moderate",
+      "corrected": 6840.451393237694,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 7060.451393237694,
+        "isa_dev_k": -0.5333333333333314,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "fuel_flow_kg_h",
+        "source": "aircraft_sensor",
+        "intercept": -220.0,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 220.0,
+        "rmse_corrected": 0.0,
+        "form": "corrected = -220.0000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 14,
+      "source": "simulation",
+      "truth_source": "simulation",
+      "variable": "fuel_flow_kg_h",
+      "forecast": 6800.0,
+      "actual": 6840.451393237694,
+      "error": 40.45139323769399,
+      "abs_error": 40.45139323769399,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 6853.498622051105,
+      "corrected_error": -13.047228813410584,
+      "features": {
+        "forecast": 6800.0,
+        "isa_dev_k": -0.5333333333333314,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "fuel_flow_kg_h",
+        "source": "simulation",
+        "intercept": 53.498622051104576,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 138.90226112965368,
+        "rmse_corrected": 128.1863315083303,
+        "form": "corrected = 53.4986 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 14,
+      "source": "simulation",
+      "truth_source": "simulation",
+      "variable": "isa_dev_k",
+      "forecast": 0.0,
+      "actual": -0.5333333333333314,
+      "error": -0.5333333333333314,
+      "abs_error": 0.5333333333333314,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 2.5,
+      "corrected_error": -3.0333333333333314,
+      "features": {
+        "forecast": 0.0,
+        "isa_dev_k": -0.5333333333333314,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "isa_dev_k",
+        "source": "simulation",
+        "intercept": 2.5,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 3.298147628257074,
+        "rmse_corrected": 2.1512270400350038,
+        "form": "corrected = 2.5000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 14,
+      "source": "metar",
+      "truth_source": "metar",
+      "variable": "temp_c",
+      "forecast": 13.966666666666665,
+      "actual": 11.466666666666665,
+      "error": -2.5,
+      "abs_error": 2.5,
+      "holds_true": false,
+      "severity": "moderate",
+      "corrected": 16.453976311336717,
+      "corrected_error": -4.987309644670052,
+      "features": {
+        "forecast": 13.966666666666665,
+        "isa_dev_k": -0.5333333333333314,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "temp_c",
+        "source": "metar",
+        "intercept": 4.3000115366866645,
+        "coefficients": {
+          "forecast": 0.8702122750346101
+        },
+        "n_samples": 4,
+        "rmse_raw": 4.330127018922193,
+        "rmse_corrected": 3.9246552436775755,
+        "form": "corrected = 4.3000 + 0.8702*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 14,
+      "source": "metar",
+      "truth_source": "metar",
+      "variable": "wind_kt",
+      "forecast": 54.0,
+      "actual": 53.0,
+      "error": -1.0,
+      "abs_error": 1.0,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 29.111675126903553,
+      "corrected_error": 23.888324873096447,
+      "features": {
+        "forecast": 54.0,
+        "isa_dev_k": -0.5333333333333314,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "wind_kt",
+        "source": "metar",
+        "intercept": 5.263959390862944,
+        "coefficients": {
+          "forecast": 0.4416243654822335
+        },
+        "n_samples": 4,
+        "rmse_raw": 24.63736998950984,
+        "rmse_corrected": 16.516719724474736,
+        "form": "corrected = 5.2640 + 0.4416*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 15,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "wind_kt",
+      "forecast": 56.25,
+      "actual": 55.00000000000001,
+      "error": -1.249999999999993,
+      "abs_error": 1.249999999999993,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 55.00000000000001,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 56.25,
+        "isa_dev_k": -1.0,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "wind_kt",
+        "source": "weather_model",
+        "intercept": -8.0,
+        "coefficients": {
+          "forecast": 1.12
+        },
+        "n_samples": 16,
+        "rmse_raw": 1.60607408067124,
+        "rmse_corrected": 3.552713678800501e-15,
+        "form": "corrected = -8.0000 + 1.1200*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 15,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "wind_from_deg",
+      "forecast": 285.0,
+      "actual": 277.0,
+      "error": -8.0,
+      "abs_error": 8.0,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 277.0,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 285.0,
+        "isa_dev_k": -1.0,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "wind_from_deg",
+        "source": "weather_model",
+        "intercept": -8.0,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 8.0,
+        "rmse_corrected": 0.0,
+        "form": "corrected = -8.0000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 15,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "temp_c",
+      "forecast": -60.363829787234025,
+      "actual": -55.341999999999985,
+      "error": 5.02182978723404,
+      "abs_error": 5.02182978723404,
+      "holds_true": false,
+      "severity": "severe",
+      "corrected": -55.34199999999998,
+      "corrected_error": -7.105427357601002e-15,
+      "features": {
+        "forecast": -60.363829787234025,
+        "isa_dev_k": -1.0,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "temp_c",
+        "source": "weather_model",
+        "intercept": 1.40000000000002,
+        "coefficients": {
+          "forecast": 0.9400000000000003
+        },
+        "n_samples": 16,
+        "rmse_raw": 4.800389804037869,
+        "rmse_corrected": 3.552713678800501e-15,
+        "form": "corrected = 1.4000 + 0.9400*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 15,
+      "source": "weather_model",
+      "truth_source": "weather_model",
+      "variable": "isa_dev_k",
+      "forecast": -2.5,
+      "actual": -1.0,
+      "error": 1.5,
+      "abs_error": 1.5,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": -1.0,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": -2.5,
+        "isa_dev_k": -1.0,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "isa_dev_k",
+        "source": "weather_model",
+        "intercept": 1.5,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 1.5,
+        "rmse_corrected": 0.0,
+        "form": "corrected = 1.5000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 15,
+      "source": "aircraft_sensor",
+      "truth_source": "aircraft_sensor",
+      "variable": "wind_kt",
+      "forecast": 59.780345408188545,
+      "actual": 55.780345408188545,
+      "error": -4.0,
+      "abs_error": 4.0,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 55.780345408188545,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 59.780345408188545,
+        "isa_dev_k": -1.0,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "wind_kt",
+        "source": "aircraft_sensor",
+        "intercept": -4.0,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 4.0,
+        "rmse_corrected": 2.5121479338940403e-15,
+        "form": "corrected = -4.0000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 15,
+      "source": "aircraft_sensor",
+      "truth_source": "aircraft_sensor",
+      "variable": "temp_c",
+      "forecast": -56.36990637385763,
+      "actual": -55.569906373857634,
+      "error": 0.7999999999999972,
+      "abs_error": 0.7999999999999972,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": -55.569906373857634,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": -56.36990637385763,
+        "isa_dev_k": -1.0,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "temp_c",
+        "source": "aircraft_sensor",
+        "intercept": 0.7999999999999972,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 0.7999999999999972,
+        "rmse_corrected": 0.0,
+        "form": "corrected = 0.8000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 15,
+      "source": "aircraft_sensor",
+      "truth_source": "aircraft_sensor",
+      "variable": "fuel_flow_kg_h",
+      "forecast": 7100.0,
+      "actual": 6880.0,
+      "error": -220.0,
+      "abs_error": 220.0,
+      "holds_true": false,
+      "severity": "moderate",
+      "corrected": 6880.0,
+      "corrected_error": 0.0,
+      "features": {
+        "forecast": 7100.0,
+        "isa_dev_k": -1.0,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "fuel_flow_kg_h",
+        "source": "aircraft_sensor",
+        "intercept": -220.0,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 220.0,
+        "rmse_corrected": 0.0,
+        "form": "corrected = -220.0000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 15,
+      "source": "simulation",
+      "truth_source": "simulation",
+      "variable": "fuel_flow_kg_h",
+      "forecast": 6800.0,
+      "actual": 6880.0,
+      "error": 80.0,
+      "abs_error": 80.0,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 6853.498622051105,
+      "corrected_error": 26.501377948895424,
+      "features": {
+        "forecast": 6800.0,
+        "isa_dev_k": -1.0,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "fuel_flow_kg_h",
+        "source": "simulation",
+        "intercept": 53.498622051104576,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 138.90226112965368,
+        "rmse_corrected": 128.1863315083303,
+        "form": "corrected = 53.4986 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 15,
+      "source": "simulation",
+      "truth_source": "simulation",
+      "variable": "isa_dev_k",
+      "forecast": 0.0,
+      "actual": -1.0,
+      "error": -1.0,
+      "abs_error": 1.0,
+      "holds_true": true,
+      "severity": "mild",
+      "corrected": 2.5,
+      "corrected_error": -3.5,
+      "features": {
+        "forecast": 0.0,
+        "isa_dev_k": -1.0,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "isa_dev_k",
+        "source": "simulation",
+        "intercept": 2.5,
+        "coefficients": {
+          "forecast": 1.0
+        },
+        "n_samples": 16,
+        "rmse_raw": 3.298147628257074,
+        "rmse_corrected": 2.1512270400350038,
+        "form": "corrected = 2.5000 + 1.0000*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 15,
+      "source": "metar",
+      "truth_source": "metar",
+      "variable": "temp_c",
+      "forecast": 12.5,
+      "actual": 20.0,
+      "error": 7.5,
+      "abs_error": 7.5,
+      "holds_true": false,
+      "severity": "severe",
+      "corrected": 15.17766497461929,
+      "corrected_error": 4.82233502538071,
+      "features": {
+        "forecast": 12.5,
+        "isa_dev_k": -1.0,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "temp_c",
+        "source": "metar",
+        "intercept": 4.3000115366866645,
+        "coefficients": {
+          "forecast": 0.8702122750346101
+        },
+        "n_samples": 4,
+        "rmse_raw": 4.330127018922193,
+        "rmse_corrected": 3.9246552436775755,
+        "form": "corrected = 4.3000 + 0.8702*forecast"
+      }
+    },
+    {
+      "waypoint_seq": 15,
+      "source": "metar",
+      "truth_source": "metar",
+      "variable": "wind_kt",
+      "forecast": 57.0,
+      "actual": 8.0,
+      "error": -49.0,
+      "abs_error": 49.0,
+      "holds_true": false,
+      "severity": "severe",
+      "corrected": 30.436548223350254,
+      "corrected_error": -22.436548223350254,
+      "features": {
+        "forecast": 57.0,
+        "isa_dev_k": -1.0,
+        "fl": 350.0,
+        "alt_ft": 35000.0
+      },
+      "equation": {
+        "variable": "wind_kt",
+        "source": "metar",
+        "intercept": 5.263959390862944,
+        "coefficients": {
+          "forecast": 0.4416243654822335
+        },
+        "n_samples": 4,
+        "rmse_raw": 24.63736998950984,
+        "rmse_corrected": 16.516719724474736,
+        "form": "corrected = 5.2640 + 0.4416*forecast"
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.venv-pdf/
+.DS_Store
+*.log
+.env
+.env.*
+*.db
+*.csv
+logs/
+data/bulk/
+!data/live/.gitkeep
+
+# Keep free-source extract snapshots shareable
+
+# Free extracts under data/live/ are committed (weather/ADS-B JSON).
